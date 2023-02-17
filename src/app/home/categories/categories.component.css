@@ -1,0 +1,126 @@
+section{
+    display: flex;
+    margin: 20px 60px;
+}
+
+.cat{
+    width: 40%;
+    margin: 0 5px;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.para{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.image img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+.cat:hover img{
+    transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
+    transform: translateX(10px);
+    transform: translateY(10px);
+}
+
+.name a{
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+    z-index: 1;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 850px) {
+    section{
+        display: block;
+        margin: 20px 20px;
+    }
+
+    .cat{
+        width: 100%;
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .image img{
+        width: 100%;
+        height: 20vh;
+        border-radius: 5px;
+    }
+
+    .para{
+        width: 100%;
+        height: 20vh;
+        position: relative;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+    }
+
+    .name{
+        position: absolute;
+        bottom: 40%;
+        left: 40%;
+        z-index: 1;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    section{
+        display: block;
+        margin: 20px 20px;
+    }
+
+    .cat{
+        width: 100%;
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .image img{
+        width: 100%;
+        height: 20vh;
+        border-radius: 5px;
+    }
+
+    .para{
+        width: 100%;
+        height: 20vh;
+        position: relative;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+    }
+
+    .name{
+        position: absolute;
+        bottom: 30%;
+        left: 20%;
+        z-index: 1;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+}

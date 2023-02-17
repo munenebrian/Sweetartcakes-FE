@@ -1,0 +1,28 @@
+<h3 class="text-center medical" *ngIf="catproducts">{{catproducts[0].category_name | uppercase}}</h3>
+<section class="product-page">
+    <div class="products">
+        <div class="card"  *ngFor="let product of catproducts">
+            <div class="product__items ">
+                <div class="product__items--thumbnail">
+                    <a class="product__items--link" [routerLink]="['/shop/product-details/',product.id]">
+                        <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
+                        <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
+                    </a>
+                    <div class="product__badge">
+                        <span class="product__badge--items sale">Sale</span>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <p class="cat-name">{{ product.category_name }}</p>
+                <a [routerLink]="['shop/product-details',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                <div class="price-tag">
+                    <p class="new-price">Kes {{ product.new_price}}</p>
+                    <span>-</span>
+                    <p class="old-price">Kes {{ product.old_price }}</p>
+                </div>
+                <a href=""  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</a>
+            </div>
+        </div>
+    </div>
+</section>

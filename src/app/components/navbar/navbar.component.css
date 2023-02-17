@@ -1,0 +1,45 @@
+.navigation {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  padding: 20px 40px;
+}
+
+.left{
+  left: 30%;
+}
+
+.right{
+  width: 80%;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+}
+
+.navigation .logo a {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+}
+
+span {
+  color: coral;
+}
+
+.right .nav-link a {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+}

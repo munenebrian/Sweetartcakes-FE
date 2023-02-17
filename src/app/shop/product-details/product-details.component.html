@@ -1,0 +1,69 @@
+<div class="container" >
+    <h3 class="text-center medical">Product Details Page</h3>
+    <div class="row details" *ngIf="singleProduct">
+        <div class="col coll-5">
+            <div class="product__details--media">
+                <div class="product__media--preview  swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product__media--preview__items">
+                                <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="{{ singleProduct[0].image }}"><img class="product__media--preview__items--img" src="{{ singleProduct[0].image }}"></a>
+                                <div class="product__media--view__icon">
+                                    <a class="product__media--view__icon--link glightbox" href="{{ singleProduct[0].image}}" data-gallery="product-media-preview">
+                                        <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product__media--preview__items">
+                                <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="{{ singleProduct[0].image2 }}"><img class="product__media--preview__items--img" src="{{ singleProduct[0].image2}}"></a>
+                                <div class="product__media--view__icon">
+                                    <a class="product__media--view__icon--link glightbox" href="{{ singleProduct[0].image2 }}" data-gallery="product-media-preview">
+                                        <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product__media--preview__items">
+                                <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="{{ singleProduct[0].image3 }}"><img class="product__media--preview__items--img" src="{{ singleProduct[0].image3}}"></a>
+                                <div class="product__media--view__icon">
+                                    <a class="product__media--view__icon--link glightbox" href="{{ singleProduct[0].image3 }}" data-gallery="product-media-preview">
+                                        <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col coll-7">
+            <div class="product__details--info">
+                <form action="#">
+                    <h2 class="product__details--info__title mb-15">{{ singleProduct[0].name | titlecase }}</h2>
+                    <div class="product__details--info__price mb-10">
+                        <span class="current__price">Kes {{ singleProduct[0].new_price }}</span>
+                        <span class="price__divided">-</span>
+                        <span class="old__price">Kes {{ singleProduct[0].old_price }}</span>
+                    </div>
+                    <p class="product__details--info__desc mb-15">{{ singleProduct[0].description }}</p>
+                </form>
+                <div class="buttons">
+                    <button (click)="openWhatsApp()" class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
+                    <a routerLink="/shop" class="back-shop btn">Back to Shop</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="phone-repaires">
+        <p class="pay text-center">Make Your payments via</p>
+        <div class="img">
+            <img src="../../../assets/images/bpnjoe.jpg" alt="">
+        </div>
+    </div>
+</div>

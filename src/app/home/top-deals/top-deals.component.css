@@ -1,0 +1,220 @@
+.container-full{
+    margin: 20px 25px;
+    padding: 20px 0;
+    display: block;
+  }
+
+  .car {
+    display: inline-block;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 25%);
+  }
+
+  .car:hover{
+    transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
+    transform: translateX(5px);
+  }
+
+  .one{
+    width: 18%;
+    margin: 0 5px;
+    background: rgba(128,128,128, .2);
+  }
+
+  .car-body{
+    padding: 20px 20px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  img{
+    height: 30vh;
+    width: 100%;
+  }
+
+  .topper{
+    margin: 0 40px;
+    border-bottom: 1px solid #999;
+  }
+
+  .right{
+    text-align: right;
+    width: 100%;
+    padding:12px 0;
+  }
+
+  .left{
+    float: left;
+    width: 30%;
+    display: block;
+    padding: 12px 0;
+  }
+
+  .reta{
+    padding: 5px 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .reeta{
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 150%;
+    color: coral;
+    border: 0;
+    text-transform: capitalize;
+  }
+
+  .reeta:hover{
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 150%;
+    background-color: coral;
+    color: #fff;
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1440px!important;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .car-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: coral;
+  }
+
+    .price-tag{
+    display: flex;
+    margin-top: 5%;
+    }
+
+    .new-price{
+        margin-right: 10%;
+        font-size: 15px;
+    }
+
+    .old-price{
+        margin-left: 10%;
+        text-decoration: line-through;
+        font-size: 15px;
+    }
+
+    .whatsapp{
+        background-color: #25d366;
+        padding: 3% 6%;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .whatsapp:hover{
+        background-color: transparent;
+        border: 1px solid #25d366;
+        padding: 3% 6%;
+        color: #25d366;
+        font-weight: 400;
+    }
+
+  .date{
+    font-size: 13px;
+  }
+ 
+
+  @media only screen and (max-width: 850px) {
+    .topper{
+      display: flex;
+    }
+
+    .center{
+      width: 100%;
+      text-align: center;
+    }
+
+    .bottom{
+      display: block;
+      margin: 20px 20px;
+      padding: 20px 0;
+    }
+
+    .car{
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .reeta{
+      float: right;
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+
+    .whatsapp{
+        margin-left: 30%;
+        font-size: x-large;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .container-full{
+        margin: 20px 5px;
+        padding: 20px 0;
+      }
+
+    .topper{
+        border: 0;
+        display: flex;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+    .right{
+      width: 50%;
+    }
+
+    .left{
+        width: 50%;
+    }
+
+    .bottom{
+      display: block;
+      margin:  0;
+      padding: 0;
+    }
+
+    .reta{
+        padding: 5px 0;
+        font-size: 20px;
+        color: #333;
+      }
+
+    .reeta{
+        text-align: center;
+        padding: 5px 15px;
+        font-size: 20px;
+        width: 100%;
+      }
+  
+    .reeta:hover{
+        padding: 5px 15px;
+        font-size: 20px;
+        background-color: coral;
+        color: #fff;
+    }
+
+    .one{
+      width: 95%;
+      margin: 10px 10px;
+    }
+
+    .whatsapp{
+        margin-left: 0;
+        font-size: large;
+    }
+  }
+  
