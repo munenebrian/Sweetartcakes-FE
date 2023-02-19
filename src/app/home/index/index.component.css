@@ -31,3 +31,41 @@
 .top-text p{
   font-size: x-large;
 }
+.mid-background-section{
+  padding:30% 0;
+}
+.layout{
+  display: block;
+}
+
+.asseen{
+  margin: 0;
+  padding-top: 100px;
+}
+
+.brands{
+  flex-direction: row;
+  background-color: #fff;
+  padding: 100px 0px;
+  padding-left: 150px;
+}
+.brand-text{
+  text-align: center;
+  font-size: 20px;
+  background-color: #fff;
+}
+.brands img{
+  padding: 8px;
+  width: 15vw;
+  height: 15vh;
+}
+.mid-text{
+  padding-top: 140px;
+  font-size: 20px;
+  padding-left: 100px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.mid-p{
+  padding-left: 120px;
+}
