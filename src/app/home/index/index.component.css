@@ -6,14 +6,17 @@
   justify-content: center;
 }
 .top-logo-image{
-  background-color: none;
-  justify-content: center;
-  width: 20vw;
-  height: 20vh;
+  padding-left: 45%;
+
+}
+.top-logo-image img {
+  padding-bottom: 5px;
+  margin-top: 170px;
+  width: 20%;
+  height: 20%;
 }
 .top-text{
-  margin-top: 280px;
-  color: red;
+  color: #fff;
   justify-content: center;
   text-align: center;
 }
