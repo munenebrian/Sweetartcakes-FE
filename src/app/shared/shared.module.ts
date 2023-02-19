@@ -10,7 +10,6 @@ import { FooterComponent } from '../components/footer/footer.component';
 @NgModule({
   declarations: [
     BaseLayoutComponent,
-    NavbarComponent,
     FooterComponent,
   ],
   imports: [
@@ -21,7 +20,6 @@ import { FooterComponent } from '../components/footer/footer.component';
   ],
   exports: [
     BaseLayoutComponent,
-    NavbarComponent,
     FooterComponent,
   ]
 })
