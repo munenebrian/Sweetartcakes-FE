@@ -31,3 +31,157 @@
 .top-text p{
   font-size: x-large;
 }
+
+/* CAROUSEL PART  */
+
+.exquisite{
+  display: block;
+}
+
+.header-ps{
+  background-color: #fff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.ex-cakes{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #686868;
+  letter-spacing: 4px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.expect{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #686868;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel{
+  display: flex;
+  width: 100%;
+  background-color: #f5f0ef;
+  margin-top: 3%;
+  padding-bottom: 10%;
+}
+
+.images, .text{
+  width: 50%;
+}
+
+.images{
+  position: relative;
+  top: 0;
+  left: 10%;
+}
+
+.text{
+  align-items: left;
+  margin: 7% 5%;
+}
+
+.param{
+  color: #686868;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+  margin-left: 30%;
+  background-color: #a5a6a7;
+  width: 40%;
+  margin-top: 10%;
+  padding-left: 30px;
+}
+
+.btnn{
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  font-style: italic;
+  text-align: center;
+}
+
+.mySlides {display: none;}
+.fade>img {
+  vertical-align: middle;
+  height: 80vh;
+  border: 16px solid #fff;
+  margin-top: -30%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.background {
+  width: 10px;
+  font-size: 15px;
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+}
+
+.slideimg{
+    width:100%;
+    height: 100vh;
+  }
+
+.para{
+  width: 40%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-left: 10%;
+  position: relative;
+  border-radius: 15px ;
+  background: rgba(228, 224, 224, 0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  display: none;
+  height: 15px;
+  width: 15px;
+  margin: 0 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgba(166, 162, 162, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .text {font-size: 11px}
+}
+
+/* END OF CAROUSEL PART  */
