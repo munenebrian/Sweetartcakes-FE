@@ -8,6 +8,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { TopDealsComponent } from './top-deals/top-deals.component';
 import { TopSellingComponent } from './top-selling/top-selling.component';
+import { NavbarComponent } from '../components/navbar/navbar.component';
 
 
 
@@ -18,7 +19,8 @@ import { TopSellingComponent } from './top-selling/top-selling.component';
     CategoriesComponent,
     ShippingComponent,
     TopDealsComponent,
-    TopSellingComponent
+    TopSellingComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
