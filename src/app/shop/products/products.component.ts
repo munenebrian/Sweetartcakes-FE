@@ -34,7 +34,7 @@ export class ProductsComponent implements OnInit{
   }
 
   getData() {
-    this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/api_products/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/api_products/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });

@@ -11,8 +11,8 @@ export class TopdealsService {
   constructor(private http: HttpClient) {}
 
   getTopDeals() {
-    return this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/api_products/').pipe(
-      map(products => products.slice(-8, -3))
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/api_products/').pipe(
+      map(products => products.slice(0, 5)),
     );
   }
 }
