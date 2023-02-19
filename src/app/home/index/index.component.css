@@ -33,6 +33,9 @@
 }
 .mid-background-section{
   padding:30% 0;
+  /* height: 100vh; */
+  padding-top: 300px;
+  padding-bottom: 80px;
 }
 .layout{
   display: block;

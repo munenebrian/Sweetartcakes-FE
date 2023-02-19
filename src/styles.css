@@ -10,7 +10,7 @@ body,html{
     background-image: url('https://img.freepik.com/premium-photo/cake-dessert-chocolate-pie-sweets_471702-2571.jpg?w=996');
     background-repeat: no-repeat;
     background-size: cover;
-     overflow-x: hidden;
+    overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
     padding: 0;
