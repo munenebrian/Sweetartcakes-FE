@@ -12,8 +12,6 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
 import { AppModule } from "../app.module";
 import { InstagramContentComponent } from '../components/instagram-content/instagram-content.component';
 
-
-
 @NgModule({
     declarations: [
         HomeComponent,
