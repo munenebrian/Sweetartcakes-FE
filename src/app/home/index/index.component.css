@@ -1,3 +1,8 @@
+.cont{
+  margin: 0;
+  padding: 0;
+}
+
 .top-background-section{
   height: 100vh;
   background-image: url('https://img.freepik.com/premium-photo/lovely-wedding-cake-standing-among-candy-bar-sweet-table-banquet-table-holiday-food-sweet-festive-table_199683-540.jpg?w=826');
@@ -7,14 +12,14 @@
   margin-bottom: 0px;
 }
 .top-logo-image{
-  padding-left: 45%;
+  padding-left: 40%;
 
 }
 .top-logo-image img {
   padding-bottom: 5px;
   margin-top: 170px;
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
 }
 .top-text{
   color: #fff;
@@ -228,47 +233,36 @@
 }
 
 /* END OF CAROUSEL PART  */
-.more-info{
-  background-color: #e0dfdf;
-  margin-bottom: 0;
-}
+
 .more-info-images{
+  background-color: #e0dfdf;
   display: flex;
-  flex-direction: row;
-  height: 80vh;
-  width: 20vw;
-  padding: 30px 85px;
-  margin: 40px 10px;
+  gap: 80px;
+  width: 100%;
+  height: fit-content;
+  padding: 80px 12%;
+}
+
+.image1{
+  width: 30%;
 }
 .more-info-images img{
-  width: 40vh;
+  width: 100%;
   height: 50vh;
-  margin: 20px 50px;
+  margin: 20px 0;
 }
 .buttonz{
   flex-direction: row;
-  margin-left: 49px;
+  padding: 20px 0;
   background-color: #a5a6a7;
-  width: 74%;
-  height: 15%;
+  width: 100%;
+  text-align: center;
 }
 .btn-btn{
-  padding: 50px;
   text-decoration: none;
   color: #fff;
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   text-transform: capitalize;
   font-style: italic;
-  text-align: center;
-}
-.btn-btn1{
-  padding: 80px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 22px;
-  font-family: 'Times New Roman', Times, serif;
-  text-transform: capitalize;
-  font-style: italic;
-  text-align: center;
 }
