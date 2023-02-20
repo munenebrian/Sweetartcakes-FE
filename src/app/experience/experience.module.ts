@@ -4,13 +4,16 @@ import { ExperienceComponent } from './experience.component';
 import { SharedModule } from '../shared/shared.module';
 import { ExperienceRoutingModule } from './experience-routing.module';
 import { ExpehomeComponent } from './expehome/expehome.component';
+import { InstagramContentComponent } from '../components/instagram-content/instagram-content.component';
 
 
 
 @NgModule({
   declarations: [
     ExperienceComponent,
-    ExpehomeComponent
+    ExpehomeComponent,
+    // InstagramContentComponent
+
   ],
   imports: [
     CommonModule,
@@ -19,3 +22,4 @@ import { ExpehomeComponent } from './expehome/expehome.component';
   ]
 })
 export class ExperienceModule { }
+

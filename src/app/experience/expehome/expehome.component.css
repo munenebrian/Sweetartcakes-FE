@@ -1,0 +1,17 @@
+.btn-1{
+    padding: 100px 36%;
+    text-align: center;
+    color: white;
+    background-color: rgb(231, 231, 231);
+    margin-top: 10%;
+}
+
+.btn-1 button{
+    font-size: 16px;
+    border: none;
+    background-color:rgb(122, 121, 121);
+    padding: 20px 60px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
