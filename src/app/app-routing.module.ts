@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'experience', pathMatch: 'full' },
 
   {
     path: 'home',
@@ -18,6 +18,11 @@ const routes: Routes = [
     path: 'contact',
     canActivate: [],
     loadChildren: ()=> import('./contact/contact.module').then((m)=>m.ContactModule)
+  },
+  {
+    path: 'experience',
+    canActivate: [],
+    loadChildren: ()=> import('./experience/experience.module').then((m)=>m.ExperienceModule)
   },
 ];
 

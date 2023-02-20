@@ -9,7 +9,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { TopDealsComponent } from './top-deals/top-deals.component';
 import { TopSellingComponent } from './top-selling/top-selling.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
-
+import { FooterComponent } from '../components/footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
     ShippingComponent,
     TopDealsComponent,
     TopSellingComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
