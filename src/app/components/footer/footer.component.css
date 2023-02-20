@@ -3,14 +3,14 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #686868;
   position: relative;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: coral;
+  color: #373636;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -20,13 +20,13 @@ ul {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #fff;
+  color: #a5a6a7;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text .span {
-  color: #757575;
+  color: #a5a6a7;
   font-size: 15px;
   text-decoration: none;
 }
@@ -49,24 +49,24 @@ ul {
     font-size: 30px;
     font-weight: 800;
     font-style: italic;
-    color: coral;
+    color: #fff;
     text-decoration: none;
 }
 .footer-logo a span{
     font-size: 30px;
     font-weight: 800;
     font-style: normal;
-    color: #243A73;
+    color: #000;
     text-decoration: none;
 }
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #a5a6a7;
   line-height: 28px;
 }
 .footer-social-icon span {
-  color: #fff;
+  color: #a5a6a7;
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -95,7 +95,7 @@ ul {
   background: #DD4B39;
 }
 .footer-widget-heading h3 {
-  color: #fff;
+  color: #a5a6a7;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
@@ -108,7 +108,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: coral;
+  background: #373636;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -117,10 +117,10 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: coral;
+  color: #373636;
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: #a5a6a7;
   font-size: 14px;
   text-decoration: none;
   text-transform: capitalize;
@@ -132,16 +132,16 @@ ul {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2E2E2E;
-  border: 1px solid #2E2E2E;
+  background: #c1c1c0;
+  border: 1px solid #c1c1c0;
   color: #fff;
 }
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: coral;
+    background: #373636;
     padding: 13px 20px;
-    border: 1px solid coral;
+    border: 1px solid #373636;
     top: 0;
 }
 .subscribe-form button i {
@@ -150,16 +150,16 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
+  background: #a5a6a7;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #000;
 }
 .copyright-text p a{
-  color: coral;
+  color: #000;
   text-decoration: none;
 }
 .footer-menu li {
@@ -167,9 +167,10 @@ ul {
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: coral;
+  color: #fff;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: #000;
+  text-decoration: none;
 }
