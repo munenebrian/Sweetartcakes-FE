@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { InstagramContentComponent } from 'src/app/components/instagram-content/instagram-content.component';
 
 import { IndexComponent } from './index.component';
 

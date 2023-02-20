@@ -41,7 +41,7 @@
   padding:30% 0;
   /* height: 100vh; */
   padding-top: 300px;
-  padding-bottom: 80px;
+  padding-bottom: 0;
 }
 .layout{
   display: block;
@@ -69,11 +69,12 @@
   height: 15vh;
 }
 .mid-text{
-  padding-top: 140px;
+  padding-top: 160px;
   font-size: 20px;
   padding-left: 100px;
   font-style: italic;
   text-transform: uppercase;
+  padding-bottom: 120px;
 }
 .mid-p{
   padding-left: 120px;
@@ -251,6 +252,7 @@
   height: 50vh;
   margin: 20px 0;
 }
+
 .buttonz{
   flex-direction: row;
   padding: 20px 0;

@@ -10,6 +10,7 @@ import { TopDealsComponent } from './top-deals/top-deals.component';
 import { TopSellingComponent } from './top-selling/top-selling.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { InstagramContentComponent } from '../components/instagram-content/instagram-content.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FooterComponent } from '../components/footer/footer.component';
     TopDealsComponent,
     TopSellingComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    InstagramContentComponent
   ],
   imports: [
     CommonModule,
