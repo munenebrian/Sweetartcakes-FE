@@ -41,7 +41,7 @@
   padding:30% 0;
   /* height: 100vh; */
   padding-top: 300px;
-  padding-bottom: 80px;
+  padding-bottom: 0;
 }
 .layout{
   display: block;
@@ -266,4 +266,25 @@
   font-family: 'Times New Roman', Times, serif;
   text-transform: capitalize;
   font-style: italic;
+}
+.instagram-images{
+  background-color: #f5f0ef;
+  /* background-color: red; */
+}
+.insta{
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 30px 30px;
+}
+.insta-images{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  margin: 0 0;
+}
+.insta-images img{
+  width: 25vw;
+  height: 30vh;
+  padding: 4px;
 }
