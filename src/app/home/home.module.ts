@@ -10,8 +10,6 @@ import { TopDealsComponent } from './top-deals/top-deals.component';
 import { TopSellingComponent } from './top-selling/top-selling.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 
-
-
 @NgModule({
   declarations: [
     HomeComponent,
