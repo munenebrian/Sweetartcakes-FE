@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { InstagramContentComponent } from './instagram-content/instagram-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { EnquiryButtonComponent } from './enquiry-button/enquiry-button.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { EnquiryButtonComponent } from './enquiry-button/enquiry-button.componen
     NavbarComponent,
     InstagramContentComponent,
     FooterComponent,
-    EnquiryButtonComponent
+    EnquiryButtonComponent,
+    Navbar2Component
   ],
   imports: [
     CommonModule,
@@ -28,7 +30,8 @@ import { EnquiryButtonComponent } from './enquiry-button/enquiry-button.componen
     NavbarComponent,
     InstagramContentComponent,
     FooterComponent,
-    EnquiryButtonComponent
+    EnquiryButtonComponent,
+    Navbar2Component
   ]
 })
 export class SharedModule { }

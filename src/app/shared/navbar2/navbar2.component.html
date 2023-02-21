@@ -1,0 +1,30 @@
+<header>
+    <div class="container">
+      <div class="flexa text-center">
+        <div class="menu-icon" [class.menu-icon-Class]="menu_icon_var" (click)="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu" [class.menuClass]="menuVar">
+          <ul>
+            <div class="left">
+                <li><a class="nav-link active" routerLink="/home" routerLinkActive="active-link" ariaCurrentWhenActive="page">home</a></li>
+                <li><a class="nav-link" routerLink="/experience" routerLinkActive="active-link" ariaCurrentWhenActive="page">the experience</a></li>
+                <li><a class="nav-link" routerLink="/flavours" routerLinkActive="active-link" ariaCurrentWhenActive="page">flavours</a></li>
+                <li><a class="nav-link" routerLink="/about" routerLinkActive="active-link" ariaCurrentWhenActive="page">about</a></li>
+            </div>
+            <div class="logo">
+                <img src="https://ucarecdn.com/92a9b78a-163c-40d9-a295-5b8b826c9ab8/sweetartlogoremovebgpreview.png" alt="">
+            </div>
+            <div class="right">
+                <li><a class="nav-link" routerLink="/gallery" routerLinkActive="active-link" ariaCurrentWhenActive="page">gallery</a></li>
+                <li><a class="nav-link" routerLink="#" routerLinkActive="active-link" ariaCurrentWhenActive="page">shop</a></li>
+                <li><a class="nav-link" routerLink="#" routerLinkActive="active-link" ariaCurrentWhenActive="page">blogs</a></li>
+                <li><a class="nav-link" routerLink="#" routerLinkActive="active-link" ariaCurrentWhenActive="page">enquire</a></li>
+            </div>
+          </ul>
+        </div>
+      </div> 
+    </div>
+  </header>
