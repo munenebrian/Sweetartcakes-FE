@@ -1,3 +1,48 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    /* background-color: ; */
+}
+
+.overlay{
+    background-color: #fff;
+    display: inline-flex;
+    width: 100%;
+    padding: 50px 20% ;
+}
+
+.left{
+    width: 35%;
+    margin-right: 5%;
+}
+
+.left img{
+ float: center;   
+ width:100%;
+}
+
+.right{
+    width: 65%;
+    background-color: #f7f6f4;
+    padding: 20px 40px ;
+    /* margin: 20px 0; */
+}
+
+.h1{
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #686868;
+}
+
+.right p{
+    font-size: 15px;
+    color: #686868;
+    font-family: 'Times New Roman', Times, serif;
+}
 .cont{
     /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
     background-repeat: no-repeat;
@@ -62,20 +107,4 @@
     margin-top: 10%;
     margin-bottom: -50%;
 }
-.btn-1{
-    padding: 100px 36%;
-    text-align: center;
-    color: white;
-    background-color: rgb(231, 231, 231);
-    margin-top: 10%;
-}
 
-.btn-1 button{
-    font-size: 16px;
-    border: none;
-    background-color:rgb(122, 121, 121);
-    padding: 20px 60px;
-    display: inline-block;
-    text-decoration: none;
-    letter-spacing: 3px;
-}

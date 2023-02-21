@@ -1,0 +1,42 @@
+.gal{
+    border: 25px solid #fff;
+    background-color: none;
+}
+.gal-text{
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-left: 90px;
+    padding-top: 350px;
+    padding-bottom: 40px;
+    height: 65vh;
+    border: 20px;
+}
+.gal-text p{
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: 'Add light italic';
+    letter-spacing: 4px;
+    line-height: 6px;
+}
+.gal-text p .p{
+    text-transform: capitalize;
+    font-family: 'Add light italic';
+    letter-spacing: 4px;
+    line-height: 6px;
+}
+.about-gallery{
+    text-align:left;
+    background-color: rgb(235, 231, 231);
+    height: 40vh;
+}
+.about-gallery p{
+    font-size: 14px;
+    padding: 80px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    padding-top: 100px;
+    line-height: 25.2px;
+    font-family: 'Add light';
+    padding-bottom: 0px;
+}

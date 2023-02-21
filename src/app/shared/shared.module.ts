@@ -3,13 +3,19 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BaseLayoutComponent } from '../components/base-layout/base-layout.component';
-import { NavbarComponent } from '../components/navbar/navbar.component';
-import { FooterComponent } from '../components/footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { InstagramContentComponent } from './instagram-content/instagram-content.component';
+import { FooterComponent } from './footer/footer.component';
+import { EnquiryButtonComponent } from './enquiry-button/enquiry-button.component';
 
 
 @NgModule({
   declarations: [
     BaseLayoutComponent,
+    NavbarComponent,
+    InstagramContentComponent,
+    FooterComponent,
+    EnquiryButtonComponent
   ],
   imports: [
     CommonModule,
@@ -19,6 +25,10 @@ import { FooterComponent } from '../components/footer/footer.component';
   ],
   exports: [
     BaseLayoutComponent,
+    NavbarComponent,
+    InstagramContentComponent,
+    FooterComponent,
+    EnquiryButtonComponent
   ]
 })
 export class SharedModule { }
