@@ -5,9 +5,9 @@ import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { CategoriesComponent } from './categories/categories.component';
-import { FooterComponent } from './footer/footer.component';
-import { InstagramContentComponent } from '../components/instagram-content/instagram-content.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from '../shared/footer/footer.component';
+import { InstagramContentComponent } from '../shared/instagram-content/instagram-content.component';
+import { NavbarComponent } from '../shared/navbar/navbar.component';
 
 
 @NgModule({
@@ -15,9 +15,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     IndexComponent,
     CategoriesComponent,
-    FooterComponent,
-    InstagramContentComponent,
-    NavbarComponent
   ],
   imports: [
     CommonModule,
@@ -25,10 +22,5 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeRoutingModule,
   ],
 
-  exports: [
-    FooterComponent,
-    InstagramContentComponent,
-    NavbarComponent
-  ]
 })
 export class HomeModule { }

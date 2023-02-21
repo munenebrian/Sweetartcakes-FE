@@ -9,7 +9,6 @@ const routes: Routes = [
     component: ExperienceComponent,
     children: [
         {path:"",component:ExpehomeComponent},
-        // { path: 'blog-details/:id', component: BlogDetailsComponent },
       ],
   }
 ];
