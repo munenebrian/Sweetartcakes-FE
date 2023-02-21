@@ -1,4 +1,4 @@
-.flav{
+.flavv{
     border: 25px solid #fff;
     background-color: none;
 }
@@ -19,18 +19,62 @@
     letter-spacing: 4px;
     line-height: 24px;
 }
-.about-flavours{
-    text-align:left;
+
+.bod{
     background-color: rgb(235, 231, 231);
+}
+
+.about-flavours{
     height: 40vh;
+    margin: 0 12%;
 }
 .about-flavours p{
     font-size: 14px;
-    padding: 80px;
     text-align: justify;
     letter-spacing: 1.12px;
     padding-top: 100px;
     line-height: 25.2px;
-    font-family: 'Add light';
+    font-family: 'Times New Roman', Times, serif;
     padding-bottom: 0px;
+}
+
+.rows{
+    background-color: #fff;
+    margin: 0 5%;
+    display: flex;
+    padding: 40px 20px;
+}
+
+.row{
+    margin-right: 10px;
+}
+
+.one, .two{
+    border-right: 1px solid #d8c5c2;
+}
+
+.flav{
+    /* background-color: blue; */
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.h3{
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 32.4px;
+    letter-spacing: 3.6px;
+    font-size: 18px;
+    font-family: "Addington Thin";
+    color: #686868;
+}
+
+.desc{
+    line-height: 21px;
+    letter-spacing: 1.12px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #686868;
 }
