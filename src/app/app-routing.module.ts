@@ -39,6 +39,11 @@ const routes: Routes = [
     canActivate: [],
     loadChildren: ()=> import('./about/about.module').then((m)=>m.AboutModule)
   },
+  {
+    path: 'blogs',
+    canActivate: [],
+    loadChildren: ()=> import('./blogs/blogs.module').then((m)=>m.BlogsModule)
+  },
 ];
 
 @NgModule({
