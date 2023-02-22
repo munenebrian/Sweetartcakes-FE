@@ -41,7 +41,7 @@
     padding-bottom: 0px;
 }
 .gal-categories{
-    background-color: #c4c0c0;
+    background-color: #ffffff;
 }
 .gal-text-cat{
     display: flex;
@@ -68,7 +68,7 @@
 .gal-image-cat img{
     width: 40vh;
     height: 60vh;
-    border: 1px solid red;
+    border: 1px solid #c1c1c0;
     padding: 8px;
-    padding-inline: 10px;
+    margin-left: 10px;
 }

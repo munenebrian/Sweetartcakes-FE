@@ -23,8 +23,8 @@
 .sec2-image img{
     width: 28vw;
     height: 80vh;
-    border: 15px #fff solid;
-    padding-bottom: -50%;
+    border: 12px solid #fff ;
+    margin-bottom: -50%;
 }
 .sec2-texts{
     text-align: justify;
@@ -78,20 +78,19 @@
     line-height: 25.2px;
 }
 .story-image{
-    padding-left: -30%;
     padding-right: 100px;
     padding-top: 90px;
 }
 .story-image img{
     width: 30vw;
     height: 70vh;
+    margin-left: -20%;
 }
 .fourth{
     display: flex;
     width: 100%;
     padding: 0 10%;
     background-color: #f5f0ef;
-    margin-top: 5%;
 }
 
 .east{
