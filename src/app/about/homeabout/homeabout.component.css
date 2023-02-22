@@ -36,6 +36,56 @@
     padding-right: 120px;
     padding-bottom: 30px;
 }
+.story{
+    background-color: #fff;
+    margin-bottom: 0;
+    display: flex;
+}
+.story-text{
+    background-color: rgb(228, 215, 218);
+    padding-left: 80px;
+    height: 50%;
+    width: 130%;
+    padding-right: 120px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.story-text h1{
+    font-family: 'add';
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.story-text h5{
+    font-family: 'add light italic';
+    font-size: 16px;
+    padding-top: 25px;
+    line-height: 28.8px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3.2px;
+}
+.story-text p{
+    padding-top: 20px;
+    font-family: 'add light';
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 1.12px;
+    line-height: 25.2px;
+}
+.story-image{
+    padding-left: -30%;
+    padding-right: 100px;
+    padding-top: 90px;
+}
+.story-image img{
+    width: 30vw;
+    height: 70vh;
+}
 .fourth{
     display: flex;
     width: 100%;
