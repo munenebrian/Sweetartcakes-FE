@@ -40,3 +40,35 @@
     font-family: 'Add light';
     padding-bottom: 0px;
 }
+.gal-categories{
+    background-color: #c4c0c0;
+}
+.gal-text-cat{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 24px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 130px;
+    text-transform: uppercase;
+    font-family: 'again';
+}
+.gal-text-cat p{
+    padding-right: 70px;
+    font-size: 18px;
+}
+.gal-image-cat{
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-bottom: 80px;
+}
+.gal-image-cat img{
+    width: 40vh;
+    height: 60vh;
+    border: 1px solid red;
+    padding: 8px;
+    padding-inline: 10px;
+}
