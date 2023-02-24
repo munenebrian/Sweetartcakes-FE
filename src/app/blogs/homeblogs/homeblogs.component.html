@@ -4,14 +4,16 @@
     <p>the blog</p>
   </div>
   <div class="blog-content-col">
-    <div class="row1">
-      <h2>elegant, sophisticated, and luxury all-white wedding cakes</h2>
-      <p>december 23, 2019</p>
-      <img src="https://img.freepik.com/free-photo/wedding-cake_1157-538.jpg?w=826&t=st=1677129632~exp=1677130232~hmac=35e6d8b5144e9b015113eb61ec044b3de72c6e5e5f3c48002e35a08d28d3a226" alt="cake image">
-      <h4>A few weeks ago, I shared some colourful wedding cake ideas, to show that luxury and stylish cakes don’t always have to use a pared back palette. Today, however, I want to look at some elegant, sophisticated, and all-white luxury wedding cakes. In the same way luxury wedding cakes don’t have to use soft colours, […]</h4>
-      <div class="btn-1">
-        <button type="button">read more</button>
-      </div>
+    <div class="row1" >
+      <div class="loop" *ngFor="let blog of blogs">
+        <h2>{{blog.heading}}</h2>
+        <p>{{blog.created_at | date}}</p>
+        <img src="{{blog.image}}" alt="cake image">
+        <h4>{{blog.text}}</h4>
+        <div class="btn-1">
+          <a [routerLink]="['/blogs/blog-details/',blog.id]" class="button">read more</a>
+        </div>
+    </div>
     </div>
     <div class="row2">
       <p class="welcome">welcome</p>
@@ -24,12 +26,8 @@
         </ul>
       </div>
       <p class="cats">CATEGORIES</p>
-      <div class="categories">
-        <p>design details</p>
-        <p>inspiration</p>
-        <p>real weddings</p>
-        <p>sugar flowers</p>
-        <p>tips & advice</p>
+      <div class="categories" *ngFor="let cat of blogsCategory">
+        <p><a class="p" [routerLink]="['/blogs/category-blogs/',cat.id]">{{cat.name}}</a></p>
       </div>
     </div>
 

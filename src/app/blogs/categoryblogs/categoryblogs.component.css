@@ -1,0 +1,155 @@
+.blogs-container{
+    padding: 0 0;
+}
+.blog-text{
+    font-family: 'add';
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 24px;
+    border: 30px #fff solid;
+    height: 70vh;
+    background: transparent;
+}
+.blog-text p{
+    padding-top: 350px;
+    padding-right: 1000px;
+    text-transform: uppercase;
+    font-family: 'add light';
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.blog-content-col{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+.row1{
+    padding-right: 100px;
+    width: 75%;
+    text-align: center;
+    margin-left: 20px;
+    display: block;
+}
+.loop{
+    margin-top: 5%; 
+    border-bottom: 1px grey solid;
+}
+.row1 h2{
+    font-family: 'add';
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    line-height: 21.6px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    /* padding-left: 30px; */
+    padding-bottom: 30px;
+    width: 80%;
+}
+.row1 p{
+    font-family: 'times new roman';
+    font-size: 16px;
+    text-align: start;
+    letter-spacing: normal;
+    line-height: 16px;
+    text-transform: capitalize;
+    padding-left: 290px;
+}
+.row1 img{
+    width: 98%;
+}
+.row1 h4{
+    font-family: 'add light';
+    line-height: 25.2px;
+    font-size: 14px;
+    letter-spacing: 1.12px;
+    text-align: justify;
+    width: 86%;
+    padding-left: 12px;
+    padding-top: 50px;
+}
+.btn-1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-right: 100px;
+    color: white;
+}
+
+.btn-1 .button{
+    font-size: 16px;
+    border: none;
+    background-color:rgb(196, 193, 193);
+    padding: 20px 60px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.row2{
+    width: 25%;
+    height: 120vh;
+    margin-bottom: 10%;
+    border-left: 1px grey solid;
+}
+.row2 .welcome{
+    font-family: 'add light italic';
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3.2px;
+    line-height: 28.8px;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.row2 img{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 40px;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 80px;
+    gap: 15px;
+}
+
+.cats{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Add;
+    font-size: 17px;
+    line-height: 20.4px;
+    letter-spacing: 3.4px;
+    color: #686868;
+    padding-top: 30px;
+}
+.categories{
+    justify-content: center;
+    padding-left: 30%;
+}
+.categories p{
+    padding-top: 20px;
+}
+.p{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Add;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #000; 
+}
+
+.p:hover{
+    text-decoration: underline;
+}
