@@ -1,0 +1,39 @@
+<div class="blogs-container">
+    <app-navbar2></app-navbar2>
+    <div class="blog-text">
+      <p>the blog</p>
+    </div>
+    <div class="blog-content-col">
+      <div class="row1" >
+        <div class="loop" *ngFor="let blog of blogs">
+          <h2>{{blog.heading}}</h2>
+          <p>{{blog.created_at | date}}</p>
+          <img src="{{blog.image}}" alt="cake image">
+          <h4>{{blog.text}}</h4>
+          <div class="btn-1">
+            <a [routerLink]="['/blogs/blog-details/',blog.id]" class="button">read more</a>
+          </div>
+      </div>
+      </div>
+      <div class="row2">
+        <p class="welcome">welcome</p>
+        <img src="https://img.freepik.com/free-photo/young-woman-holding-tablet-work_23-2149116577.jpg?w=360&t=st=1677244017~exp=1677244617~hmac=5b1185cca0bc534717aa112e444d61d529563e0069bf6d60c1c4472cdf9f4680" alt="lady image">
+        <div class="social-links">
+          <ul class="links">
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+        <p class="cats">CATEGORIES</p>
+        <div class="categories" *ngFor="let cat of categoryblogs">
+          <p><a class="p" [routerLink]="['/blogs/category-blogs/',cat.id]">{{cat.name}}</a></p>
+        </div>
+      </div>
+  
+    </div>  
+    <app-enquiry-button></app-enquiry-button>
+    <app-instagram-content></app-instagram-content>
+  </div>
+  <app-footer></app-footer>
+  
