@@ -1,0 +1,147 @@
+.medical{
+    color: #243A73;
+    margin-top: 9%;
+    margin-bottom: 3%;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.blog-deets{
+    margin-bottom: 5% !important;
+}
+
+.back-blogs{
+    margin-top: 5%;
+    background-color: #ae6986;
+    padding: 3%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.back-blogs:hover{
+    border: 1px solid #7C3E66;
+    background-color: transparent;
+    padding: 3%;
+    color: #ae6986;
+    font-weight: 400;
+}
+
+.cat-name{
+    font-size: large;
+    color: #ae6986;
+    text-align: left;
+}
+.product__details--info__desc{
+    line-height: 200%;
+    font-size: medium;
+}
+.product__details--info__title{
+    font-size: x-large;
+}
+
+@media only screen and (max-width:850px) {
+    .medical{
+        margin-top: 10% !important;
+        margin-bottom: 5%;
+    }
+    .row{
+        display: block !important;
+        width: 100% !important;
+        margin-left: 1% !important;
+    }
+    .product__details--info__title{
+        margin-top: 5%;
+        text-align: center;
+        color: #7C3E66;
+    }
+    .product__details--info__desc{
+        line-height: 150%;
+        font-size: x-large !important;
+    }
+    .cat-name{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .back-blogs{
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .medical{
+        margin-top: 20% !important;
+        margin-bottom: 5%;
+    }
+    .row{
+        display: block !important;
+    }
+    .product__details--info__title{
+        font-size: large;
+        text-align: center;
+        color: #7C3E66;
+    }
+    
+    .product__details--info__desc{
+        line-height: 200%;
+        text-align: center;
+        font-size: medium !important;
+    }
+    .buttons{
+       text-align: center;
+    }
+    
+    .back-shop{
+        font-size: medium !important;
+    }
+}
+
+
+
+
+
+.product__media--preview__items--link .product__media--preview__items--img{
+    max-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+}
+
+.product__media--preview__items {
+    position: relative
+}
+
+.product__media--preview__items--link {
+    width: 100%;
+    display: block
+}
+
+.product__media--view__icon--link{
+    background: #ae6986;
+}
+
+.product__media--view__icon {
+    position: absolute;
+    top: 2rem;
+    left: 2rem
+}
+
+.product__media--view__icon--link {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    background: #7C3E66;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.product__media--view__icon--link:hover {
+    background: #ae6986;
+    color: #fff;
+}
+
+.product__media--view__icon.media__play {
+    right: 2rem;
+    left: auto
+}
