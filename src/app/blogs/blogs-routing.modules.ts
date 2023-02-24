@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
 import { BlogsComponent } from './blogs.component';
 import { HomeblogsComponent } from './homeblogs/homeblogs.component';
 
@@ -9,6 +10,7 @@ const routes: Routes = [
     component: BlogsComponent,
     children: [
         {path:"",component: HomeblogsComponent},
+        {path:"blog-details/:id",component: BlogdetailsComponent},
       ],
   }
 ];
