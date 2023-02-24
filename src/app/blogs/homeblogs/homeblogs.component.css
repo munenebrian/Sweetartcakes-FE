@@ -1,0 +1,14 @@
+.blogs-container{
+    background-color: rgb(214, 208, 208); 
+
+}
+.blog-text{
+    font-family: 'add';
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 24px;
+    border: 20px #fff solid;
+    height: 80%;
+    background: transparent;
+}
