@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Category } from 'src/app/interfaces/category';
 import { Product } from 'src/app/interfaces/product';
+import { CategoriesService } from 'src/app/services/categories.service';
 
 @Component({
   selector: 'app-products',
@@ -21,10 +22,10 @@ export class ProductsComponent implements OnInit{
   itemscount:number = 12;
   itemcounts: any = [4,8,12,16,20]
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private categoriesService: CategoriesService) {}
 
   ngOnInit(): void {
-    // this.homecategoriesService.getCategories().subscribe(data => {
+    // this.categoriesService.getCategories().subscribe(data => {
     //   this.cats = data;
     // });  
   // pagination 
