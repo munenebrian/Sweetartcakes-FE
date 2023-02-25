@@ -1,4 +1,6 @@
 <div class="cont">
+<app-navbar2></app-navbar2>
+
 <div class="product-page medical">
     <div class="category-section">
         <div class="categories">
@@ -8,18 +10,15 @@
                 <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
             </ul>
         </div>
-        <div class="filter">
+        <!-- <div class="filter">
             <h3 class="text-center">Filter by Price</h3>
             <hr>
             <ul class="categoriess" *ngFor="let cat of cats">
                 <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
             </ul>
-        </div>
+        </div> -->
     </div>
     <div class="back">
-        <div class="top">
-            <img src="https://img.freepik.com/premium-vector/cyber-monday-banner-discount-sale-background_549149-169.jpg?w=826" alt="">
-        </div>
         <div class="products">
             <div class="card"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
                 <div class="product__items ">
@@ -49,4 +48,7 @@
     </div>
 </div>
 
+<app-enquiry-button></app-enquiry-button>
+<app-instagram-content></app-instagram-content>
 </div>
+<app-footer></app-footer>
