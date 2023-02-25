@@ -1,10 +1,16 @@
+<div class="cont">
+<app-navbar2></app-navbar2>
+
 <div class="product-page medical">
     <div class="category-section">
         <div class="categories">
-            <h3 class="text-center">Filter by Categories</h3>
+            <h3 class="h3">Filter by Categories</h3>
             <hr>
             <ul class="categoriess" *ngFor="let cat of cats">
-                <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name }}</a>
+                    <p class="count">33</p>
+                </li>
             </ul>
         </div>
     </div>
@@ -37,3 +43,8 @@
         </div>
     </div>
 </div>
+
+<app-enquiry-button></app-enquiry-button>
+<app-instagram-content></app-instagram-content>
+</div>
+<app-footer></app-footer>

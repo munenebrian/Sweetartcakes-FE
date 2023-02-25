@@ -123,6 +123,9 @@
 
 .product-page{
     display: flex;
+    background-color: #fff;
+    margin: 0;
+    padding: 5% 2%;
 }
 
 .category-section{
@@ -131,21 +134,21 @@
 
 .categories {
     padding: 3%;
-    box-shadow: 0px 0px 5px #243A73; 
     margin-bottom: 10%;
     height: 40vh;
 }
-.filter{
-    padding: 3%;
-    box-shadow: 0px 0px 5px #243A73; 
-    margin-bottom: 2%;
-    height: 40vh;
+
+.h3{
+    text-align: left;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: normal;
+    color: #373737;
 }
 
 .cats:hover{
     list-style-type: none;
     padding: 3%;
-    border: 1px solid coral;
     background-color: transparent;
     text-align: center;
     border-radius: 5px;
@@ -153,25 +156,31 @@
 
 .cats a:hover{
     text-decoration: none;
-    color: coral;
     font-weight: 500;
 }
 
 .cats a{
     text-decoration: none;
-    color: #fff;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 20px;
 }
 
 .cats{
-    color: #fff !important;
+    display: flex;
     list-style-type: none;
-    align-items: center;
-    text-align: center;
-    padding: 3%;
-    border: 1px solid #B2B2B2;
-    background-color: coral;
-    border-radius: 5px;
+    text-align: start;
     font-size: 13px;
+    width: 100%;
+}
+
+.cats .count{
+    text-align: right;
+    width: 50%;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 20px;
 }
 
 .back{
@@ -389,14 +398,12 @@
     }
 
     .cats a{
-        color: coral;
         font-size: medium;
     }
 
     .cats{
         list-style-type: none;
         padding: 3%;
-        border: 1px solid coral;
         background-color: transparent;
         text-align: center;
         margin-left: -10%;
