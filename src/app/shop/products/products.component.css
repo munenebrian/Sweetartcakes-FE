@@ -1,6 +1,37 @@
-.cont{
+.contt{
+    /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border: 25px solid #fff;
+    background-color: none;
     display: block;
+
 }
+.experience-text{
+    text-transform: capitalize;
+    font-size: 16px;
+    height:  40vh;
+    padding: 100px 0;
+    border: 20px;
+    text-align: center
+}
+.experience-text p{
+    font-family: 'Add light italic';
+    letter-spacing: 4px;
+    font-size: 60px;
+    color: #3d210a; 
+    line-height: 20px;
+}
+.experience-text h5{
+    font-size: 16px;
+    text-align:center;
+    padding: 4px;
+    /* color: #fff; */
+    font-family: 'Add light';
+    letter-spacing: 1.28px;
+    line-height: 28.8px;
+}
+
 
 .medical{
     margin: 9% 30px;
