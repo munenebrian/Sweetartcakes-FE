@@ -11,11 +11,13 @@
     text-transform: capitalize;
     font-size: 16px;
     height:  40vh;
-    padding: 100px 0;
+    /* padding: 130px 0; */
     border: 20px;
-    text-align: center
+    text-align: right;
+    padding-top: 15%;
 }
 .experience-text p{
+    margin-right: 10%;
     font-family: 'Add light italic';
     letter-spacing: 4px;
     font-size: 60px;
