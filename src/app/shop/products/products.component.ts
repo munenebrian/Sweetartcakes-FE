@@ -12,7 +12,7 @@ export class ProductsComponent implements OnInit{
 
   products: Product[] = [];
   cats: Category[] = [];
-  phonenumber: number = 254724087213;
+  phonenumber: number = 254748459581;
   id:number = 0;
 
   title = 'pagination';
@@ -33,7 +33,7 @@ export class ProductsComponent implements OnInit{
   }
 
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/api_products/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/products/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });
