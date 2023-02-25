@@ -1,37 +1,38 @@
-<div class="container" >
-    <h3 class="text-center medical">Blog Details Page</h3>
-    <div class="row  blog-deets" *ngIf="singleBlog">
-        <div class="col">
-            <div class="product__details--media">
-                <div class="product__media--preview  swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="product__media--preview__items">
-                                <a class="product__media--preview__items--link glightbox" data-gallery="product-media-preview" href="{{ singleBlog[0].image }}"><img class="product__media--preview__items--img" src="{{ singleBlog[0].image }}" alt="product-media-img"></a>
-                                <div class="product__media--view__icon">
-                                    <a class="product__media--view__icon--link glightbox" href="{{ singleBlog[0].image}}" data-gallery="product-media-preview">
-                                        <svg class="product__media--view__icon--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="product__details--info">
-                <form action="#">
-                    <h2 class="product__details--info__title mb-15">{{ singleBlog[0].heading }}</h2>
-                    <p  class="cat-name"><i class="fa-solid fa-calendar-days"></i> {{ singleBlog[0].created_at | date}}</p>
-                    <p class="product__details--info__desc mb-15">{{ singleBlog[0].text }}</p>
-                    <p class="product__details--info__desc mb-15">{{ singleBlog[0].tex2 }}</p>
-                    <p class="product__details--info__desc mb-15">{{ singleBlog[0].text3 }}</p>
-                </form>
-                <div class="buttons">
-                    <a routerLink="/blogs" class="back-blogs btn">Back to Blogs</a>
-                </div>
-            </div>
-        </div>
+<div class="blogs-container">
+    <app-navbar2></app-navbar2>
+    <div class="blog-text">
+      <p>the blog</p>
     </div>
-</div>
+    <div class="blog-content-col">
+      <div class="row1" >
+        <div class="loop" *ngFor="let blog of singleBlog">
+          <h2>{{blog.heading}}</h2>
+          <img src="{{blog.image}}" alt="cake image">
+          <p>{{blog.created_at | date}}</p>
+          <h4>{{blog.text}}</h4>
+          <h4>{{blog.tex2}}</h4>
+          <h4>{{blog.text3}}</h4>
+      </div>
+      </div>
+      <div class="row2">
+        <p class="welcome">welcome</p>
+        <img src="https://img.freepik.com/free-photo/young-woman-holding-tablet-work_23-2149116577.jpg?w=360&t=st=1677244017~exp=1677244617~hmac=5b1185cca0bc534717aa112e444d61d529563e0069bf6d60c1c4472cdf9f4680" alt="lady image">
+        <div class="social-links">
+          <ul class="links">
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+        <p class="cats">CATEGORIES</p>
+        <div class="categories" *ngFor="let cat of blogsCategory">
+          <p><a class="p" [routerLink]="['/blogs/category-blogs/',cat.id]">{{cat.name}}</a></p>
+        </div>
+      </div>
+  
+    </div>  
+    <app-enquiry-button></app-enquiry-button>
+    <app-instagram-content></app-instagram-content>
+  </div>
+  <app-footer></app-footer>
+  

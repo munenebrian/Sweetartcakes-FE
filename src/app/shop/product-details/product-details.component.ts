@@ -12,7 +12,7 @@ export class ProductDetailsComponent implements OnInit{
 
   singleProduct:Product[] = [];
   id:number = 0;
-  phonenumber: number = 254724087213;
+  phonenumber: number = 254748459581;
 
   constructor(private productdetailsService:ProductdetailsService, private route:ActivatedRoute) {}
 
