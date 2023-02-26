@@ -1,0 +1,7 @@
+app-base-layout{
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/wedding-cake_1157-538.jpg?w=826&t=st=1677315426~exp=1677316026~hmac=2779de486032b79b6eef873cb542d3efd1d3c7a7f751984fe0df5c2a008f8f28');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}

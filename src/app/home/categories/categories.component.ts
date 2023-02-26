@@ -11,6 +11,7 @@ export class CategoriesComponent implements OnInit{
   categories: Category[] = [];
 
   constructor() {}
+  
 
   ngOnInit(): void {
     // this.homecategoriesService.getCategories().subscribe(data => {

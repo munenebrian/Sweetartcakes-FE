@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Category } from 'src/app/interfaces/category';
 import { Product } from 'src/app/interfaces/product';
+import { CategoriesService } from 'src/app/services/categories.service';
 
 @Component({
   selector: 'app-products',
@@ -12,7 +13,7 @@ export class ProductsComponent implements OnInit{
 
   products: Product[] = [];
   cats: Category[] = [];
-  phonenumber: number = 254724087213;
+  phonenumber: number = 254748459581;
   id:number = 0;
 
   title = 'pagination';
@@ -21,19 +22,53 @@ export class ProductsComponent implements OnInit{
   itemscount:number = 12;
   itemcounts: any = [4,8,12,16,20]
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private categoriesService: CategoriesService) {}
 
   ngOnInit(): void {
-    // this.homecategoriesService.getCategories().subscribe(data => {
-    //   this.cats = data;
-    // });  
+  // categories 
+  this.http.get<Category[]>("https://sweetartcakes-be-production.up.railway.app/categories/").subscribe(
+
+  data => {
+    this.cats = data
+    console.log(this.cats)
+  }
+); 
   // pagination 
   this.getData();
 
+  
+  var elements = document.getElementsByClassName("column")as HTMLCollectionOf<HTMLElement>;
+
+// Declare a loop variable
+  var i;
+
+  // List View
+  function listView() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.width = "100%";
+    }
   }
 
+  // Grid View
+  function gridView() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.width = "50%";
+    }
+  }
+  /* Optional: Add active class to the current button (highlight it) */
+var container = document.getElementById("btnContainer");
+var btns = container!.getElementsByClassName("btn");
+for (var i:any = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    // this.className += " active";
+  });
+}
+  }
+  
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/api_products/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/products/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });

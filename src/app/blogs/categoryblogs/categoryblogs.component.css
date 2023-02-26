@@ -29,6 +29,7 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 50px;
+    padding-bottom: 5%;
 }
 .row1{
     padding-right: 100px;
@@ -48,9 +49,7 @@
     line-height: 21.6px;
     text-transform: uppercase;
     padding-top: 20px;
-    /* padding-left: 30px; */
     padding-bottom: 30px;
-    width: 80%;
 }
 .row1 p{
     font-family: 'times new roman';
@@ -59,10 +58,10 @@
     letter-spacing: normal;
     line-height: 16px;
     text-transform: capitalize;
-    padding-left: 290px;
+    text-align: center;
 }
 .row1 img{
-    width: 98%;
+    width: 100%;
 }
 .row1 h4{
     font-family: 'add light';
@@ -70,15 +69,11 @@
     font-size: 14px;
     letter-spacing: 1.12px;
     text-align: justify;
-    width: 86%;
-    padding-left: 12px;
     padding-top: 50px;
 }
 .btn-1{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 18px;
-    padding-right: 100px;
+    margin: 20px 0;
     color: white;
 }
 
@@ -107,11 +102,13 @@
     justify-content: center;
     text-transform: capitalize;
 }
+
 .row2 img{
     width: 32vh;
     height: 32vh;
     margin-left: 40px;
 }
+
 .links{
     display: flex;
     list-style-type: none;
@@ -119,7 +116,7 @@
     font-size: 20px;
     padding-top: 40px;
     padding-left: 80px;
-    gap: 15px;
+    gap: 30px;
 }
 
 .cats{
