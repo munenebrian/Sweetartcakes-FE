@@ -1,0 +1,44 @@
+<div class="container-full" >
+    <app-navbar2></app-navbar2>
+    <div class="contt">
+        <div class="experience-text">
+            <p>Product Details</p>
+        </div>
+    </div>
+<div class="products" *ngIf="singleProduct">
+    <div class="product-details">
+        <div class="product-image">
+            <img src="{{singleProduct[0].image}}">
+        </div>
+        
+        <div class="product-price">
+            <p class="name">{{singleProduct[0].name}}</p>
+            <div class="price">
+                <p>Ksh {{singleProduct[0].new_price}}</p>
+                <span class="span">-</span>
+                <p class="strikethrough"> Ksh {{singleProduct[0].old_price}}</p>
+            </div>
+          
+            <div class="btn-buy">
+                <button (click)="openWhatsApp()"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
+            </div>
+            <p class="category">Category: <span id="category-style">{{singleProduct[0].category_name}}</span></p>
+        </div>
+
+     
+    </div>
+    
+    <div class="product-description">
+       
+        <p class="heading">DESCRIPTION</p>
+        <hr class="line-1">
+        <p class="description-1">{{singleProduct[0].description}}</p>
+    </div>
+  
+</div>
+
+    <app-enquiry-button></app-enquiry-button>
+    <app-instagram-content></app-instagram-content>
+</div>
+
+<app-footer></app-footer>
