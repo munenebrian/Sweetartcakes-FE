@@ -15,9 +15,12 @@
         <div class="categories">
             <h3 class="h3">Filter by Categories</h3>
             <hr>
-            <ul class="categoriess" *ngFor="let cat of cats">
+            <ul class="categoriess">
                 <li class="cats" >
-                    <a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name }}</a>
+                    <a [routerLink]="['/shop/']" class="cattss" >Wedding Cakes</a> 
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/occasionalcakes/']" class="cattss" >Occasional Cakes</a> 
                 </li>
             </ul>
         </div>

@@ -6,13 +6,13 @@ import { Product } from '../interfaces/product';
 @Injectable({
   providedIn: 'root'
 })
-export class ProductdetailsService {
+export class OcassionalcakedetailsService {
 
   id:number = 0;
 
   constructor(private http:HttpClient) { }
 
-  getProductDetails(id:number): Observable<Product[]> {
-    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/weddingcakedetails/' + id);
+  getOccasionalCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakedetails/' + id);
   }
 }

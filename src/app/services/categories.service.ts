@@ -13,6 +13,6 @@ export class CategoriesService {
   constructor(private http :HttpClient) { }
 
   getCategoryProducts(id:number): Observable<Categoryproducts[]> {
-    return this.http.get<Categoryproducts[]>('https://sweetartcakes-be-production.up.railway.app/categoryproducts/' + id);
+    return this.http.get<Categoryproducts[]>('https://sweetartcakes-be-production.up.railway.app/categoryoccassionalcakes/' + id);
   }
 }

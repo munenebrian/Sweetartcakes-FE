@@ -25,14 +25,7 @@ export class ProductsComponent implements OnInit{
   constructor(private http: HttpClient, private categoriesService: CategoriesService) {}
 
   ngOnInit(): void {
-  // categories 
-  this.http.get<Category[]>("https://sweetartcakes-be-production.up.railway.app/categories/").subscribe(
-
-  data => {
-    this.cats = data
-    console.log(this.cats)
-  }
-); 
+  
   // pagination 
   this.getData();
 
@@ -68,7 +61,7 @@ for (var i:any = 0; i < btns.length; i++) {
   }
   
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/products/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/weddingcakes/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });
