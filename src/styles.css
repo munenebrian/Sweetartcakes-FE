@@ -20,10 +20,10 @@ body,html{
 
 @media only screen and (max-width: 850px) {
   body,html{
-    height: auto;
-    background-image: none;
+    height: 100%;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-delicious-cake_88340-3432.jpg?w=360");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
