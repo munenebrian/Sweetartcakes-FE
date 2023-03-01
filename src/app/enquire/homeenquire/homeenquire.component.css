@@ -1,11 +1,8 @@
 .cont{
-    /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     border: 25px solid #fff;
     background-color: none;
-
 }
+
 .experience-text{
     text-align: end;
     text-transform: capitalize;
@@ -24,7 +21,6 @@
     padding: 20px;
     font-family: 'Add light italic';
     letter-spacing: 4px;
-    /* color: #fff; */
     line-height: 20px;
 }
 .experience-text h5{
@@ -87,6 +83,7 @@ textarea{
     margin-top: 4%;
     margin-left: 40%;
 }
+
 .upload input{
     width: 45%;
 }
@@ -133,6 +130,20 @@ textarea{
 
 
 @media only screen and (max-width: 850px) {
+    .cont{
+        border: 25px solid #fff;
+        height: 30vh;
+        background-color: none;
+    }
+
+    .experience-text{
+        padding-right: 40px;
+        padding-top: 15%;
+        padding-bottom: 0;
+        margin-left: 30%;
+        text-align: right;     
+    }
+
     .experience-text h5{
         font-size: 16px;
         text-align:center;
@@ -140,5 +151,81 @@ textarea{
         font-family: 'Add light';
         letter-spacing: 1.28px;
         line-height: 28.8px;
+    }
+
+    .experience-text p{
+        margin-right: 30%;
+    }
+
+    .upload input{
+        width: 70%;
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cont{
+        border: 15px solid #fff;
+        height: 40vh;
+        background: ;
+    }
+
+   .experience-text{
+       text-align: center;
+        margin-left: 10%;
+        padding-top: 20%;
+        color: #fff;
+        padding-right: 50px;
+        margin-left: 15%;
+    }
+    
+    .experience-text h5{
+        font-size: 12px;
+        text-align:center;
+        padding: 1px 0;
+        line-height: 15.8px;
+    }
+
+    .experience-text p{
+
+        font-size: 22px;
+        margin-right: 10%;
+        padding-bottom: 0;
+    }
+
+    .enquire-form{
+        background-color: #fff;
+        display: block;
+        width: 100%;
+        padding: 10px 10%;
+    }
+
+    .enquire-images{
+        display: none;
+    }
+
+    .enquire-text{
+        width: 100%;
+    }
+
+    .upload {
+        margin-top: 4%;
+        margin-left: 15%;
+    }
+
+    .upload input{
+        width: 80%;
+        text-align: center;
+    }
+
+    .submit-btn{
+        text-align: center;
+        padding: 20px 0;
+    
+    }
+    
+    .submit-btn button{
+        padding: 10px 100px;
+      
     }
 }

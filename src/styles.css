@@ -20,8 +20,8 @@ body,html{
 
 @media only screen and (max-width: 850px) {
   body,html{
-    height: 100%;
-    background-image: url("https://img.freepik.com/premium-photo/beautiful-delicious-cake_88340-3432.jpg?w=360");
+    height:auto;
+    background-image: url("https://img.freepik.com/free-photo/cute-wedding-cake_1157-17843.jpg?w=360&t=st=1677666045~exp=1677666645~hmac=c6c9659e6411deb8fb6dcba205c13587230b8b325f1a49ee2c9337fdc05ffea4");
     background-repeat: no-repeat;
     background-size: contain;
     overflow-x: hidden;
@@ -31,3 +31,4 @@ body,html{
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 }
+
