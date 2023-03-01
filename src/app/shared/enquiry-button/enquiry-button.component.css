@@ -6,11 +6,51 @@
 }
 
 .btn-1 button{
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'add light italic';
+    line-height: 28.8px;
     border: none;
     background-color:rgb(122, 121, 121);
     padding: 20px 60px;
     display: inline-block;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 3.6px;
 }
+
+@media only screen and (max-width: 850px) {
+    .btn-1{
+        padding: 70px 36%;
+        text-align: center;
+        color: white;
+        background-color: rgb(231, 231, 231);
+    }
+    
+    .btn-1 button{
+        font-size: 16px;
+        border: none;
+        background-color:rgb(122, 121, 121);
+        padding: 15px 30px;
+        display: inline-block;
+        text-decoration: none;
+        letter-spacing: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .btn-1{
+        padding: 50px 80px;
+        text-align: center;
+        color: white;
+        background-color: rgb(231, 231, 231);
+    }
+    
+    .btn-1 button{
+        font-size: 16px;
+        border: none;
+        background-color:rgb(122, 121, 121);
+        padding: 10px 20px;
+        display: inline-block;
+        text-decoration: none;
+        letter-spacing: 3px;
+    }
+  }
