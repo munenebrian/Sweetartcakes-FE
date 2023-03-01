@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/interfaces/product';
@@ -11,12 +12,16 @@ import { OcassionalcakedetailsService } from 'src/app/services/ocassionalcakedet
 export class OccasionalCakesDetailsComponent implements OnInit {
 
   singleProduct:Product[] = [];
+  products: Product[] = [];
   id:number = 0;
   phonenumber: number = 254748459581;
 
-  constructor(private ocassionalcakedetailsService:OcassionalcakedetailsService, private route:ActivatedRoute) {}
+  constructor(private http: HttpClient,private ocassionalcakedetailsService:OcassionalcakedetailsService, private route:ActivatedRoute) {}
 
   ngOnInit(): void {
+
+    this.getData();
+
     this.route.params.subscribe(
       data =>{
         this.id = data['id'];
@@ -29,6 +34,18 @@ export class OccasionalCakesDetailsComponent implements OnInit {
         )
       }
     );
+  }
+
+  getData() {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakes/').subscribe(response => {
+      this.products  = response;
+      console.log(this.products)
+    });
+  }
+
+  // whatsapp 
+  openWhatsAppp( index:number) {
+    window.open(`https://wa.me/${this.phonenumber}?text=Hello%2C%20I%20want%20to%20purchase%3A%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%C2%A0*Buy:*%20${this.products[index].name}%0A%20%20%20%20%20%20%20%20*Price:*%20KSh${this.products[index].new_price}%0A%20%20%20%20%20%20%20%20*URL:*%20https://40163de3.ahericareng.pages.dev/product-details/${this.products[index].id}%2F%0D%0A%0D%0AThank%20you%21`, "_blank");
   }
 
   openWhatsApp() {

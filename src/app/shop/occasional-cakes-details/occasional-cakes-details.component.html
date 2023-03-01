@@ -34,6 +34,36 @@
         <hr class="line-1">
         <p class="description-1">{{singleProduct[0].description}}</p>
     </div>
+
+    <hr class="line-1">
+
+    <div class="related">
+        <p class="h2">Related Products</p>
+        <div class="cardd column"  *ngFor="let product of products;let i = index" >
+            <div class="product__items">
+                <div class="product__items--thumbnail">
+                    <a [routerLink]="['/shop/product-details/',product.id]" class="product__items--link" >
+                        <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
+                        <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
+                    </a>
+                    <div class="product__badge">
+                        <span class="product__badge--items sale">Sale</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <p class="cat-name">{{ product.category_name | titlecase}}</p>
+                <a [routerLink]="['/shop/product-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                <div class="price-tag">
+                    <p class="new-price">Kes {{ product.new_price}}</p>
+                    <span>-</span>
+                    <p class="old-price">Kes {{ product.old_price }}</p>
+                </div>
+                <button (click)="openWhatsAppp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
+            </div>
+        </div> 
+    </div>
   
 </div>
 
