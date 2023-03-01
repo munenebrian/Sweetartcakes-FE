@@ -408,7 +408,6 @@ display: flex;
 
 .old-price{
     margin-left: 10%;
-    text-decoration: line-through;
     font-size: 15px;
 }
 
