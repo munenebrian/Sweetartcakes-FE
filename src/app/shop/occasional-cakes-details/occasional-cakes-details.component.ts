@@ -2,21 +2,21 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/interfaces/product';
-import { ProductdetailsService } from 'src/app/services/productdetails.service';
+import { OcassionalcakedetailsService } from 'src/app/services/ocassionalcakedetails.service';
 
 @Component({
-  selector: 'app-product-details',
-  templateUrl: './product-details.component.html',
-  styleUrls: ['./product-details.component.css']
+  selector: 'app-occasional-cakes-details',
+  templateUrl: './occasional-cakes-details.component.html',
+  styleUrls: ['./occasional-cakes-details.component.css']
 })
-export class ProductDetailsComponent implements OnInit{
+export class OccasionalCakesDetailsComponent implements OnInit {
 
   singleProduct:Product[] = [];
   products: Product[] = [];
   id:number = 0;
   phonenumber: number = 254748459581;
 
-  constructor(private http: HttpClient, private productdetailsService:ProductdetailsService, private route:ActivatedRoute) {}
+  constructor(private http: HttpClient,private ocassionalcakedetailsService:OcassionalcakedetailsService, private route:ActivatedRoute) {}
 
   ngOnInit(): void {
 
@@ -26,7 +26,7 @@ export class ProductDetailsComponent implements OnInit{
       data =>{
         this.id = data['id'];
         console.log(this.id);
-        this.productdetailsService.getProductDetails(this.id).subscribe(
+        this.ocassionalcakedetailsService.getOccasionalCakeDetails(this.id).subscribe(
           datax =>{
             this.singleProduct = datax;
             console.log(datax)
@@ -37,7 +37,7 @@ export class ProductDetailsComponent implements OnInit{
   }
 
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/weddingcakes/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakes/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });

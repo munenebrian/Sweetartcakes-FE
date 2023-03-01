@@ -1,74 +1,142 @@
 .gal{
     border: 25px solid #fff;
     background-color: none;
+    height: 60vh;
+   
 }
 .gal-text{
-    text-align: start;
-    text-transform: capitalize;
+    font-family: "Add light italic";
     font-size: 20px;
-    padding-left: 90px;
-    padding-top: 350px;
-    padding-bottom: 40px;
-    height: 65vh;
-    border: 20px;
-}
-.gal-text p{
-    text-transform: capitalize;
-    padding: 10px;
-    font-family: 'Add light italic';
+    margin-top: 17%;
+    margin-left: 4%;
     letter-spacing: 4px;
-    line-height: 6px;
+    line-height: 36px;
 }
-.gal-text p .p{
-    text-transform: capitalize;
-    font-family: 'Add light italic';
-    letter-spacing: 4px;
-    line-height: 6px;
-}
+
+
 .about-gallery{
     text-align:left;
     background-color: rgb(235, 231, 231);
-    height: 40vh;
+    padding: 120px 100px;
 }
+
 .about-gallery p{
-    font-size: 14px;
-    padding: 80px;
+    font-size: 20px;
     text-align: center;
-    letter-spacing: 1.12px;
-    padding-top: 100px;
-    line-height: 25.2px;
-    font-family: 'Add light';
-    padding-bottom: 0px;
+    letter-spacing: normal;
+    line-height: 28.1px;
+    font-family: Times New Roman;
+   
 }
 .gal-categories{
+    display: flex;
+    flex-direction: row;
     background-color: #ffffff;
 }
 .gal-text-cat{
+    margin: 80px 7%;
     display: flex;
-    flex-direction: row;
+    grid-gap: 45px;
+}
+
+.gal-text-down p {
+    font-style: Add;
     text-align: center;
-    letter-spacing: 4px;
-    line-height: 24px;
-    padding-top: 100px;
-    padding-bottom: 30px;
-    padding-left: 130px;
+    font-size: 20px;
     text-transform: uppercase;
-    font-family: 'again';
+    LETTER-SPACING: 4px;
+    line-height: 24px;
 }
-.gal-text-cat p{
-    padding-right: 70px;
-    font-size: 18px;
-}
-.gal-image-cat{
-    display: flex;
-    flex-direction: row;
-    padding-left: 110px;
-    padding-bottom: 80px;
-}
-.gal-image-cat img{
+
+.gal-text-down img{
     width: 40vh;
     height: 60vh;
     border: 1px solid #c1c1c0;
     padding: 8px;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 850px) {
+.gal{
+    border: 15px solid #fff;
+    height: 50vh;
+}
+.gal-text{
+    font-size: 20px;
+    margin-top: 50%;
+    margin-left: 4%;
+    letter-spacing: 4px;
+    line-height: 36px;
+}
+
+.about-gallery{
+    padding: 80px 60px;
+}
+
+.about-gallery p{
+    font-size: 27px;
+    line-height: 35px;
+}
+
+.gal-text-cat{
+    margin: 80px 3%;
+    display: block;
+    grid-gap: 0;
+    width: 100%;
+}
+.gal-text-down {
+    margin: 8% 7%;
+
+}
+.gal-text-down img{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid #c1c1c0;
+    padding: 8px;
+    margin-left: 0;
+}
+.gal-text-down p {
+    font-size:  28px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .gal-text{
+        font-size: 16px;
+        margin-top: 70%;
+        margin-left: 5%;
+        letter-spacing: 4px;
+        line-height: 20px;
+    }
+.about-gallery{
+    padding: 30px 40px;
+}
+
+.about-gallery p{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+    .gal-text-cat{
+        margin: 50px 2%;
+        display: block;
+        grid-gap: 0;
+    }
+    .gal-text-down {
+        margin: 3% 7%;
+
+    }
+    .gal-text-down img{
+        width: 100%;
+        height: 50vh;
+        border: 1px solid #c1c1c0;
+        padding: 8px;
+        margin-left: 0;
+    }
+
+    .gal-text-down p {
+        font-size:  16px;
+    }
+
+}
+

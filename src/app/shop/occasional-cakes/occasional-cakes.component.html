@@ -1,6 +1,6 @@
 
 
- <div class="cont">
+<div class="cont">
     <app-navbar2></app-navbar2>
 
     <div class="contt">
@@ -15,12 +15,9 @@
         <div class="categories">
             <h3 class="h3">Filter by Categories</h3>
             <hr>
-            <ul class="categoriess">
+            <ul class="categoriess" *ngFor="let cat of cats">
                 <li class="cats" >
-                    <a [routerLink]="['/shop/']" class="cattss" >Wedding Cakes</a> 
-                </li>
-                <li class="cats" >
-                    <a [routerLink]="['/shop/occasionalcakes/']" class="cattss" >Occasional Cakes</a> 
+                    <a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name }}</a>
                 </li>
             </ul>
         </div>
@@ -34,7 +31,7 @@
             <div class="card column"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
                 <div class="product__items">
                     <div class="product__items--thumbnail">
-                        <a [routerLink]="['/shop/product-details/',product.id]" class="product__items--link" >
+                        <a [routerLink]="['/shop/occasionalcakes-details/',product.id]" class="product__items--link" >
                             <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
                             <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
                         </a>
@@ -46,11 +43,10 @@
     
                 <div class="details">
                     <p class="cat-name">{{ product.category_name | titlecase}}</p>
-                    <a [routerLink]="['/shop/product-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                    <a [routerLink]="['/shop/occasionalcakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
                     <div class="price-tag">
                         <p class="new-price">Kes {{ product.price}}</p>
-                        <span>-</span>
-                        <p class="old-price">Kes {{ product.range_price }}</p>
+                        
                     </div>
                     <button (click)="openWhatsApp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
                 </div>

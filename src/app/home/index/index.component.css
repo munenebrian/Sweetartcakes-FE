@@ -23,7 +23,8 @@
   height: 30%;
 }
 .top-text{
-  color: rgb(77, 33, 4);
+  /* color: rgb(77, 33, 4); */
+  color: #fff;
   justify-content: center;
   text-align: center;
 }
@@ -56,8 +57,8 @@
 .brands{
   flex-direction: row;
   background-color: #fff;
-  padding: 100px 0px;
-  padding-left: 150px;
+  padding: 60px 0px;
+  padding-left: 18%;
 }
 .brand-text{
   text-align: center;
@@ -66,8 +67,8 @@
 }
 .brands img{
   padding: 8px;
-  width: 15vw;
-  height: 15vh;
+  width: 25vh;
+  height: 25vh;
 }
 .mid-text{
   padding-top: 160px;
@@ -170,6 +171,7 @@
   height: 80vh;
   border: 16px solid #fff;
   margin-top: -30%;
+  width: 100%;
 }
 
 /* Slideshow container */
@@ -224,15 +226,13 @@
   animation-duration: 6.5s;
 }
 
+
 @keyframes fade {
   from {opacity: .9} 
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 500px) {
-  .text {font-size: 11px}
-}
+
 
 /* END OF CAROUSEL PART  */
 
@@ -268,4 +268,584 @@
   font-family: 'Times New Roman', Times, serif;
   text-transform: capitalize;
   font-style: italic;
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 850px) {
+  .top-background-section{
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/lovely-wedding-cake-standing-among-candy-bar-sweet-table-banquet-table-holiday-food-sweet-festive-table_199683-540.jpg?w=826');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  
+  .top-logo-image{
+    padding-left: 40%;
+    padding-top: 35%;
+  
+  }
+  .top-logo-image img {
+    padding-bottom: 5px;
+    margin-top: 150px;
+    width: 30%;
+    height: 30%;
+  }
+  .top-text{
+    /* color: rgb(77, 33, 4); */
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+  }
+  .top-text h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .p{
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  .top-text p{
+    font-size: x-large;
+  }
+  .mid-background-section{
+    /* padding:30% 0; */
+    background-color: black;
+    /* height: 100vh; */
+    /* padding-top: 300px; */
+    padding-bottom: 0;
+  }
+  .layout{
+    display: block;
+  }
+  
+  .asseen{
+    margin: 0;
+    font-size: medium;
+    /* padding-top: 100px; */
+  }
+  
+  .brands{
+    flex-direction: row;
+    background-color: #fff;
+    padding: 30px 0px;
+    padding-left: 50px;
+  }
+  .brand-text{
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+  }
+  .brands img{
+    /* padding: 12px; */
+    width: 15vh;
+    height: 15vh;
+    gap: 3px;
+    padding-right: 2px;
+  }
+  .loco{
+    display: none;
+  }
+  .mid-text{
+    padding-top: 160px;
+    font-family: 'add light italic';
+    color: #fff;
+    font-size: 20px;
+    padding-left: 100px;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-bottom: 120px;
+  }
+  .mid-p{
+    padding-left: 120px;
+  }
+  
+  /* CAROUSEL PART  */
+  
+  .exquisite{
+    display: block;
+  }
+  
+  .header-ps{
+    background-color: #fff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 0px;
+  }
+  
+  .ex-cakes{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #686868;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .expect{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #686868;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .carousel{
+    display: flex;
+    width: 100%;
+    background-color: #f5f0ef;
+    margin-top: 0;
+    padding-bottom: 10%;
+  }
+  
+  .images, .text{
+    width: 50%;
+  }
+  
+  .images{
+    position: relative;
+    top: 0;
+    left: 1%;
+  }
+  
+  .text{
+    align-items: left;
+    margin: 7% 5%;
+  }
+  
+  .param{
+    color: #686868;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .button{
+    background-color: #a5a6a7;
+    width: 55%;
+    margin-top: 20%;
+  }
+  
+  .btnn{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .mySlides {display: none;}
+  .fade>img {
+    vertical-align: middle;
+    height: 38vh;
+    width: 140%;
+    border: 16px solid #fff;
+    margin-top: -30%;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .background {
+    width: 10px;
+    font-size: 15px;
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+  }
+  
+  .slideimg{
+      width:100%;
+      height: 100vh;
+    }
+  
+  .para{
+    width: 40%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 10%;
+    position: relative;
+    border-radius: 15px ;
+    background: rgba(228, 224, 224, 0.5);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    display: none;
+    height: 15px;
+    width: 15px;
+    margin: 0 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: rgba(166, 162, 162, 0.8);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 6.5s;
+  }
+    
+  .more-info-images{
+    background-color: #e0dfdf;
+    display: flex;
+    gap: 80px;
+    width: 100%;
+    height: 70%;
+    padding: 78px 11%;
+    padding-left: 57px;
+  }
+
+  .image1{
+    width: 30%;
+  }
+  .more-info-images img{
+    width: 120%;
+    height: 25vh;
+    margin: 20px 0;
+  }
+
+  .buttonz{
+    flex-direction: row;
+    padding: 15px 0;
+    background-color: #a5a6a7;
+    width: 120%;
+    text-align: center;
+  }
+  .btn-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .text {font-size: 11px}
+  .top-background-section{
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/lovely-wedding-cake-standing-among-candy-bar-sweet-table-banquet-table-holiday-food-sweet-festive-table_199683-540.jpg?w=826');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  
+  .top-logo-image{
+    padding-left: 30%;
+    padding-top: 2.5%;
+  
+  }
+  .top-logo-image img {
+    padding-bottom: 5px;
+    margin-top: 100px;
+    width: 60%;
+    height: 40%;
+  }
+  .top-text{
+    /* color: rgb(77, 33, 4); */
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+  }
+  .top-text h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'add light';
+    line-height: 16px;
+    letter-spacing: normal;
+    padding-top: 15px;
+  }
+  .top-text h1{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-family: 'add light';
+    line-height: 16px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+  }
+  .top-text .p{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: 'add light';
+    line-height: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .mid-background-section{
+    /* padding:30% 0; */
+    background-color: black;
+    /* height: 100vh; */
+    /* padding-top: 300px; */
+    padding-bottom: 0;
+  }
+  .layout{
+    display: block;
+  }
+  
+  .asseen{
+    margin: 0;
+    font-size: medium;
+    padding-top: 30px;
+  }
+  
+  .brands{
+    background-color: #fff;
+    margin-bottom: 2%;     
+    display: -ms-grid;   
+    display: grid;    
+    -ms-grid-columns: (170px);   
+    grid-template-columns: repeat(2, 170px);   
+    justify-content: center;    
+    grid-gap: 0;
+    padding-left: 5px;
+  }
+  .brand-text{
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+  }
+  .brands img{
+    /* padding: 12px; */
+    width: 13vh;
+    height: 15vh;
+    gap: 10px;
+    padding-right: 12px;
+  }
+  .brands{
+    flex-direction: row;
+    background-color: #fff;
+    padding: 50px 0px;
+    padding-left: 0;
+  }
+  .brand-text{
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+  }
+  .brands img{
+    padding: 8px;
+    width: 100%;
+    height: 15vh;
+  }
+  .mid-text{
+    padding-top: 160px;
+    font-family: 'add light italic';
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 80px;
+    font-style: italic;
+    letter-spacing: 4px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-bottom: 120px;
+  }
+  .mid-p{
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  
+  /* CAROUSEL PART  */
+  
+  .exquisite{
+    display: block;
+  }
+  
+  .header-ps{
+    background-color: #fff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 0px;
+  }
+  
+  .ex-cakes{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px;
+    font-weight: 600;
+    color: #686868;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .expect{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #686868;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .carousel{
+    display: grid;
+    width: 100%;
+    background-color: #f5f0ef;
+    margin-top: 30px;
+    padding-bottom: 10%;
+  }
+  
+  .images, .text{
+    width: 100%;
+  }
+  
+  .images{
+    position: relative;
+    top: 0;
+    left: 1%;
+  }
+  
+  .text{
+    text-align: justify;
+    margin: 7% 5%;
+    padding-right: 40px;
+  }
+  
+  .param{
+    color: #686868;
+    font-size: 15px;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+  }
+  
+  .button{
+    background-color: #a5a6a7;
+    /* width: 45%; */
+    margin-top: 20%;
+    margin-left: 75px;
+  }
+  
+  .btnn{
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .mySlides {display: none;}
+  .fade>img {
+    vertical-align: middle;
+    height: 38vh;
+    width: 100%;
+    border: 16px solid #fff;
+    margin-top: -30%;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .background {
+    width: 10px;
+    font-size: 15px;
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+  }
+  
+  .slideimg{
+      width:100%;
+      height: 100vh;
+    }
+  
+  .para{
+    width: 40%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 10%;
+    position: relative;
+    border-radius: 15px ;
+    background: rgba(228, 224, 224, 0.5);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    display: none;
+    height: 15px;
+    width: 15px;
+    margin: 0 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: rgba(166, 162, 162, 0.8);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 6.5s;
+  }
+    
+  .more-info-images{
+    background-color: #e0dfdf;
+    display: grid;
+    width: 100%;
+    height: 70%;
+  }
+
+  .image1{
+    width: 95%;
+  }
+  .more-info-images img{
+    width: 100%;
+    height: 40vh;
+    /* margin: 5px 0; */
+  }
+
+  .buttonz{
+    flex-direction: row;
+    padding: 15px 0;
+    background-color: #a5a6a7;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+  }
 }

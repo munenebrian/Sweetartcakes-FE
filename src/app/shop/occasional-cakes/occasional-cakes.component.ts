@@ -5,11 +5,11 @@ import { Product } from 'src/app/interfaces/product';
 import { CategoriesService } from 'src/app/services/categories.service';
 
 @Component({
-  selector: 'app-products',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css']
+  selector: 'app-occasional-cakes',
+  templateUrl: './occasional-cakes.component.html',
+  styleUrls: ['./occasional-cakes.component.css']
 })
-export class ProductsComponent implements OnInit{
+export class OccasionalCakesComponent implements OnInit{
 
   products: Product[] = [];
   cats: Category[] = [];
@@ -22,10 +22,17 @@ export class ProductsComponent implements OnInit{
   itemscount:number = 12;
   itemcounts: any = [4,8,12,16,20]
 
-  constructor(private http: HttpClient, private categoriesService: CategoriesService) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-  
+  // categories 
+  this.http.get<Category[]>("https://sweetartcakes-be-production.up.railway.app/categories/").subscribe(
+
+  data => {
+    this.cats = data
+    console.log(this.cats)
+  }
+); 
   // pagination 
   this.getData();
 
@@ -61,7 +68,7 @@ for (var i:any = 0; i < btns.length; i++) {
   }
   
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/weddingcakes/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakes/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });
@@ -81,4 +88,5 @@ for (var i:any = 0; i < btns.length; i++) {
   openWhatsApp( index:number) {
     window.open(`https://wa.me/${this.phonenumber}?text=Hello%2C%20I%20want%20to%20purchase%3A%0D%0A%0D%0A%20%20%20%20%20%20%20%20%20%C2%A0*Buy:*%20${this.products[index].name}%0A%20%20%20%20%20%20%20%20*Price:*%20KSh${this.products[index].price}%0A%20%20%20%20%20%20%20%20*URL:*%20https://40163de3.ahericareng.pages.dev/product-details/${this.products[index].id}%2F%0D%0A%0D%0AThank%20you%21`, "_blank");
   }
+
 }

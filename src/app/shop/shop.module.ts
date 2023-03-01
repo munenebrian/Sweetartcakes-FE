@@ -7,6 +7,8 @@ import { ShopRoutingModule } from './shop-routing.module';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CategoriesComponent } from './categories/categories.component';
+import { OccasionalCakesComponent } from './occasional-cakes/occasional-cakes.component';
+import { OccasionalCakesDetailsComponent } from './occasional-cakes-details/occasional-cakes-details.component';
 
 
 
@@ -15,7 +17,9 @@ import { CategoriesComponent } from './categories/categories.component';
     ShopComponent,
     ProductsComponent,
     ProductDetailsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    OccasionalCakesComponent,
+    OccasionalCakesDetailsComponent
   ],
   imports: [
     CommonModule,

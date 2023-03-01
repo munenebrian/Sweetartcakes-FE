@@ -1,43 +1,140 @@
 .contt{
-    /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     border: 25px solid #fff;
     background-color: none;
     display: block;
-
 }
+
+.related{
+    height: 60vh;
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Add light italic';
+}
+
 .experience-text{
     text-transform: capitalize;
     font-size: 16px;
-    height:  40vh;
+    height:  35vh;
     /* padding: 130px 0; */
     border: 20px;
     text-align: right;
-    padding-top: 15%;
+    padding-top: 12%;
 }
 .experience-text p{
     margin-right: 10%;
     font-family: 'Add light italic';
     letter-spacing: 4px;
-    font-size: 60px;
+    font-size: 30px;
     color: #3d210a; 
     line-height: 20px;
 }
-.experience-text h5{
+
+.container-full {
+    width:100%;
+}
+.products{
+    display: block;
+    background: #fff;
+    padding: 3% 0;
+}
+.product-details{
+    display: flex;
+ 
+
+}
+
+.product-image{
+    padding: 0 0;
+    margin-left: 10%;
+}
+
+.product-image img{
+    width: 40vw;
+    height: 80vh;
+}
+
+.product-price{
+    margin-left: 15%;
+    padding-top: 30px;
+}
+
+.product-price .name{
+    font-weight: 900;
+}
+.product-price p{
+    font-family: add light;
     font-size: 16px;
-    text-align:center;
-    padding: 4px;
-    /* color: #fff; */
-    font-family: 'Add light';
-    letter-spacing: 1.28px;
     line-height: 28.8px;
+    letter-spacing: 1.28px;
 }
 
-
-.medical{
-    margin: 9% 30px;
+.price {
+display: flex;
 }
+
+.span{
+    color: black;
+    margin: 2% 20px;
+    /* width:80px; */
+}
+.price .strikethrough{
+    text-decoration: line-through;
+    color: #9f9f9f;
+}
+.product-price .category{
+    padding: 5px 0;
+}
+
+.btn-buy{
+    padding: 5px 0;
+}
+
+.btn-buy button{
+    border: 1px solid transparent;
+    padding: 10px 70px;
+    background-color: rgb(223, 186, 193);
+    font-size: 16px;
+    font-family: 'add light';
+    line-height: 28.8px;
+    letter-spacing: 0.5px;  
+}
+
+.category #category-style{
+    color: #9f9f9f;
+}
+
+.product-description{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.product-description .heading{
+    font-family: add light;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 1.28px;
+    font-weight: 900;
+}
+
+.product-description .description-1{
+    padding: 0 8%;
+    font-family: add light;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 1.28px;
+    text-align:center;
+}
+
+.line-1{
+    padding: 10px;
+}
+
 
 .prod-details{
     text-decoration: none;
@@ -262,7 +359,7 @@
 
 .column {
     float: left;
-    width: 30%;
+    width: 20%;
     padding: 10px;
     margin-left: 3%;
     margin-top: 1.5%;
@@ -270,7 +367,7 @@
     border: 0;
   }
 
-.card:hover{
+.cardd:hover{
     box-shadow: 5px 5px 5px 5px grey;
     transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
     transform: translateX(3px);
