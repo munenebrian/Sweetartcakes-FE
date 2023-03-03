@@ -8,7 +8,7 @@
 
 body,html{
     height: 100%;
-    background-image: url('https://img.freepik.com/premium-photo/cake-dessert-chocolate-pie-sweets_471702-2571.jpg?w=996');
+    background-image: url('../src/assets/images/home-page/SA_home_image2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -20,10 +20,10 @@ body,html{
 
 @media only screen and (max-width: 850px) {
   body,html{
-    height: auto;
-    background-image: none;
+    height:auto;
+    background-image: url("https://img.freepik.com/free-photo/cute-wedding-cake_1157-17843.jpg?w=360&t=st=1677666045~exp=1677666645~hmac=c6c9659e6411deb8fb6dcba205c13587230b8b325f1a49ee2c9337fdc05ffea4");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
@@ -31,3 +31,4 @@ body,html{
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 }
+

@@ -11,9 +11,9 @@ header{
 }
 
 .menu{
-  padding: 10px 0;
-  justify-content: center;
-  background:rgb(184, 136, 104);
+  padding: 20px 0;
+  justify-content: space-around;
+  background:#FFEBC1;
 }
 
 .menu ul{
@@ -24,9 +24,12 @@ header{
 .menu ul li{
   list-style-type: none;
   font-family: "Times New Roman";
-  color: #fff;
+  color: #8E3200;
   display: inline-block;
-  margin-left: 80px;
+}
+
+.li{
+  margin-left: 140px;
 }
 
 .menu ul li:hover{

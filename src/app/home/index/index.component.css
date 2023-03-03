@@ -5,7 +5,8 @@
 
 .top-background-section{
   height: 100vh;
-  background-image: url('https://img.freepik.com/premium-photo/lovely-wedding-cake-standing-among-candy-bar-sweet-table-banquet-table-holiday-food-sweet-festive-table_199683-540.jpg?w=826');
+  background-color:rgb(255,255,255.3);;
+  background-image: url('https://img.freepik.com/free-photo/wedding-cake_1157-767.jpg?w=740&t=st=1677762353~exp=1677762953~hmac=3c7cd93bceed4da61ef3d0514d52c7fdce87b97cc3749c32d749a67bde635492 ');
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -15,6 +16,7 @@
 .top-logo-image{
   padding-left: 40%;
 
+
 }
 .top-logo-image img {
   padding-bottom: 5px;
@@ -23,8 +25,11 @@
   height: 30%;
 }
 .top-text{
-  /* color: rgb(77, 33, 4); */
-  color: #fff;
+  font-family:"Add light italic";
+  font-size: 18px;
+  letter-spacing: 3.6px;
+  line-height: 32.4px;
+  color: #83371c;
   justify-content: center;
   text-align: center;
 }
@@ -100,7 +105,7 @@
   text-align: center;
   font-size: 24px;
   font-weight: 600;
-  color: #686868;
+  color: #8E3200;
   letter-spacing: 4px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -110,7 +115,7 @@
   text-align: center;
   font-size: 18px;
   font-weight: 300;
-  color: #686868;
+  color: #A64B2A;
   text-transform: capitalize;
   letter-spacing: 4px;
   font-style: italic;
@@ -120,7 +125,7 @@
 .carousel{
   display: flex;
   width: 100%;
-  background-color: #f5f0ef;
+  background-color: #FFEBC1;
   margin-top: 0;
   padding-bottom: 10%;
 }
@@ -148,12 +153,23 @@
 
 .button{
   margin-left: 30%;
-  background-color: #a5a6a7;
-  width: 40%;
-  margin-top: 10%;
-  padding-left: 30px;
+  background-color: #A64B2A;
+
+  /* margin-top: 10%; */
+
 }
 
+.more{
+  background-color: #A64B2A;
+  margin: 10% 30%;
+  padding: 10px 10%;
+}
+
+.btn-button{
+  color: #fff;
+  float: center;
+  font-size: 20px;
+}
 .btnn{
   padding: 20px 20px;
   text-decoration: none;
