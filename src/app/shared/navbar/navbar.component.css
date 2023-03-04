@@ -98,9 +98,9 @@ header{
   .menu-icon{
     display: inline-block;
     position: relative;
-    left: 0;
-    top: 20px;
+    top: 10px;
     float: right;
+    margin-right: 5%;
   }
 
   .menu-icon span{
@@ -173,9 +173,9 @@ header{
   .menu-icon{
     display: inline-block;
     position: relative;
-    right: 0;
-    top: 20px;
+    top: 10px;
     float: right;
+    margin-right: 5%;
   }
 
   .menu-icon span{
