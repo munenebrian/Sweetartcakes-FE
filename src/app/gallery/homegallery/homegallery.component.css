@@ -1,6 +1,6 @@
 .gal{
     border: 25px solid #fff;
-    background-color: none;
+    background: rgb(0, 0, 0, .4);
     height: 60vh;
    
 }
@@ -11,6 +11,8 @@
     margin-left: 4%;
     letter-spacing: 4px;
     line-height: 36px;
+    color: #fff;
+    text-transform: capitalize;
 }
 
 
@@ -101,13 +103,22 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .gal-text{
-        font-size: 16px;
-        margin-top: 70%;
-        margin-left: 5%;
-        letter-spacing: 4px;
-        line-height: 20px;
-    }
+
+.gal{
+    border: 15px solid #fff;
+    background-color: none;
+    height: 40vh;
+    
+}
+
+.gal-text{
+    font-size: 16px;
+    margin-top: 35%;
+    margin-left: 0;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 20px;
+}
 .about-gallery{
     padding: 30px 40px;
 }
