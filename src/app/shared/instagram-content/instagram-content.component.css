@@ -1,28 +1,32 @@
 .instagram-images{
-    background-color: #f5f0ef;
-    /* background-color: red; */
+    background-color: #fff;
+   
   }
   .insta{
     text-align: center;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 4px;
-    font-family: 'add';
+    font-family: 'Add';
     text-transform: uppercase;
-    padding-top: 40px;
-    color: #686868;
+    padding: 50px 0;
+    color: #8E3200;
   }
+
   .insta-images{
     display: flex;
-    flex-direction: row;
-    padding: 10px 0px;
-    margin: 0 0;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    /* margin: 0 10%; */
   }
+
   .insta-images img{
     width: 25vw;
-    height: 35vh;
-    padding: 4px;
+    height: 42vh;
+    padding: 0 4px;
   }
+
+
 
   @media only screen and (max-width: 850px) {
     .insta-images{
