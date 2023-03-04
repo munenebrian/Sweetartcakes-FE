@@ -3,14 +3,14 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #686868;
+  background: #f8ebcf;
   position: relative;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: #373636;
+  color: #8E3200;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -20,13 +20,16 @@ ul {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #a5a6a7;
+  color: #8E3200;
   font-size: 20px;
-  font-weight: 600;
+  font-family: 'Add';
+  line-height: 18px;
+  letter-spacing: 2px; 
+  font-weight:500;
   margin-bottom: 2px;
 }
 .cta-text .span {
-  color: #a5a6a7;
+  color: #D7A86E;
   font-size: 15px;
   text-decoration: none;
 }
@@ -49,7 +52,7 @@ ul {
     font-size: 30px;
     font-weight: 800;
     font-style: italic;
-    color: #fff;
+    color: #A64B2A;
     text-decoration: none;
 }
 .footer-logo a span{
@@ -62,15 +65,18 @@ ul {
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-  color: #a5a6a7;
+  color: #1d1e1f;
   line-height: 28px;
 }
 .footer-social-icon span {
-  color: #a5a6a7;
+  color: #A64B2A;
   display: block;
   font-size: 20px;
+  font-family: 'Add';
+  line-height: 18px;
+  letter-spacing: 2px; 
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  
   margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -86,18 +92,16 @@ ul {
   border-radius: 50%;
 }
 .facebook-bg{
-  background: #3B5998;
+  background: #A64B2A;
 }
-.twitter-bg{
-  background: #55ACEE;
-}
-.instagram-bg{
-  background: #DD4B39;
-}
+
 .footer-widget-heading h3 {
-  color: #a5a6a7;
+  color: #A64B2A;
   font-size: 20px;
-  font-weight: 600;
+  font-family: 'Add';
+  line-height: 18px;
+  letter-spacing: 2px; 
+  font-weight:500;
   margin-bottom: 40px;
   position: relative;
 }
@@ -117,10 +121,10 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: #373636;
+  color: #361401;
 }
 .footer-widget ul li a {
-  color: #a5a6a7;
+  color: #A64B2A;
   font-size: 14px;
   text-decoration: none;
   text-transform: capitalize;
@@ -132,16 +136,25 @@ ul {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #c1c1c0;
-  border: 1px solid #c1c1c0;
+  background: #D7A86E;
+  border: none;
   color: #fff;
 }
+
+.subscribe-form input::placeholder{
+  color: #494848;
+  font-style: italic;
+  line-height: 18px;
+  letter-spacing: 2px; 
+ 
+}
+
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #373636;
+    background: #A64B2A;
     padding: 13px 20px;
-    border: 1px solid #373636;
+    border: none;
     top: 0;
 }
 .subscribe-form button i {
@@ -150,13 +163,14 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #a5a6a7;
+  background: #fff;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
   color: #000;
+ 
 }
 .copyright-text p a{
   color: #000;
@@ -167,7 +181,7 @@ ul {
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #fff;
+  color: #8E3200;
 }
 .footer-menu li a {
   font-size: 14px;
