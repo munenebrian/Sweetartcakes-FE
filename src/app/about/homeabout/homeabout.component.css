@@ -190,9 +190,11 @@
         text-align: center;
         text-transform: capitalize;
         padding-top: 300px;
-        padding-right: 500px;
-        padding-bottom: 100px;
-        border: 25px #fff solid;
+        padding-right: 450px;
+        color: #fff;
+        padding-bottom: 50px;
+        border: 15px #fff solid;
+        background: rgb(0, 0, 0, .4);
     }
     
     .section2-about{
@@ -370,6 +372,21 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .about-text{
+        font-family: 'add light italic';
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 4px;
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 100px;
+        padding-right: 15px;
+        color: #fff;
+        padding-bottom: 70px;
+        border: 15px #fff solid;
+        background: rgb(0, 0, 0, .4);
+    }
+
     .sec2-image{
         display: none;
     }
@@ -560,6 +577,6 @@
         color: #fff;
         text-transform: capitalize;
         text-decoration: none;
-        margin-left: 10%;
+        margin:0 17%;
     }
 }
