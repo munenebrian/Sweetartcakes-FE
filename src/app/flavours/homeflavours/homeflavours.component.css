@@ -11,6 +11,7 @@
     padding-bottom: 40px;
     height: 65vh;
     border: 20px;
+    background: rgb(0, 0, 0, .4);
 }
 .flav-text p{
     text-transform: uppercase;
@@ -18,6 +19,7 @@
     font-family: 'Add light italic';
     letter-spacing: 4px;
     line-height: 24px;
+    color: #fff;
 }
 
 .bod{
@@ -78,7 +80,39 @@
     color: #686868;
 }
 
+@media only screen and (max-width:850px) {
+    .flav-text{
+        text-align: start;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding-left: 90px;
+        padding-top: 300px;
+        padding-bottom: 40px;
+        height: 35vh;
+        border: 20px;
+        background: rgb(0, 0, 0, .4);
+    }
+
+}
+
 @media only screen and (max-width:500px) {
+
+    .flavv{
+        border: 15px solid #fff;
+        background-color: none;
+    }
+    .flav-text{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding-left: 0;
+        padding-top: 35%;
+        padding-bottom: 0;
+        height: 35vh;
+        border: 20px;
+        background: rgb(0, 0, 0, .4);
+    }
+
     .about-flavours{
         padding: 5% 8%;
     }
