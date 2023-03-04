@@ -1,26 +1,7 @@
 .blogs-container{
     padding: 0 0;
 }
-.blog-text{
-    font-family: 'add';
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 4px;
-    line-height: 24px;
-    border: 30px #fff solid;
-    height: 70vh;
-    background: transparent;
-}
-.blog-text p{
-    padding-top: 350px;
-    padding-right: 1000px;
-    text-transform: uppercase;
-    font-family: 'add light';
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 4px;
-}
+
 .blog-content-col{
     display: flex;
     flex-direction: row;
@@ -28,7 +9,7 @@
     background-color: #fff;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 5%;
 }
 .row1{
@@ -78,6 +59,7 @@
     margin-bottom: 10%;
     border-left: 1px grey solid;
 }
+
 .row2 .welcome{
     font-family: 'add light italic';
     font-size: 16px;
@@ -134,4 +116,72 @@
 
 .p:hover{
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 850px) {
+    .blog-content-col{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 5%;
+    }
+
+    .row1{
+        padding-right: 60px;
+        width: 75%;
+        text-align: center;
+        margin-left: 20px;
+        display: block;
+    }
+
+    .row2{
+        width: 25%;
+        height: 120vh;
+        margin-bottom: 10%;
+        border-left: 1px grey solid;
+    }
+    
+    .row2 img{
+        width: 22vw;
+        height: 22vh;
+        margin-left: 10px;
+    }
+
+    .links{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 30px;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .row1{
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-left: 0;
+        margin: 0 5%;
+        display: block;
+    }
+
+    .row1 h2{
+        font-family: 'add';
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        line-height: 21.6px;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .row2{
+        display: none;
+    }
 }

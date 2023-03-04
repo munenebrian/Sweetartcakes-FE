@@ -86,6 +86,7 @@
     text-decoration: none;
     letter-spacing: 3px;
     color: #fff;
+    text-transform: capitalize;
 }
 .row2{
     width: 25%;
