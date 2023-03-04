@@ -68,7 +68,8 @@ header{
   @media only screen and (max-width: 850px) {
   
     header{
-      padding: 8px 0;
+      padding: 20px 0;
+      background-color: #fff;
     }
   
     .menu{
@@ -111,8 +112,9 @@ header{
       display: inline-block;
       position: relative;
       left: 0;
-      top: 20px;
+      top: 5px;
       float: right;
+      margin-right: 5%;
     }
   
     .menu-icon span{
@@ -149,8 +151,8 @@ header{
   @media only screen and (max-width: 500px) {
   
     header{
-      padding: 10px 0;
-      background-color: transparent;
+      padding: 20px 0;
+      background-color: #fff;
     }
   
     .container{
@@ -186,8 +188,9 @@ header{
       display: inline-block;
       position: relative;
       right: 0;
-      top: 20px;
+      top: 5px;
       float: right;
+      margin-right: 5%;
     }
   
     .menu-icon span{
