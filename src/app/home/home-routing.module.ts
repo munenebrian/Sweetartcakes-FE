@@ -9,7 +9,6 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
         {path:"",component:IndexComponent},
-        // { path: 'blog-details/:id', component: BlogDetailsComponent },
       ],
   }
 ];
