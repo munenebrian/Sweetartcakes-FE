@@ -23,6 +23,7 @@
   width: 30%;
   height: 30%;
 }
+
 .top-text{
   font-family:"Add light italic";
   font-size: 18px;
@@ -32,20 +33,25 @@
   justify-content: center;
   text-align: center;
 }
+
 .top-text h2{
   font-size: 30px;
   padding-bottom: 10px;
 }
+
 .p{
   font-size: 25px;
   padding-bottom: 40px;
 }
+
 .top-text p{
   font-size: x-large;
 }
+
 .topper{
   margin-top: 20%;
 }
+
 .layout{
   display: block;
   background-color: transparent;
@@ -79,15 +85,13 @@
   height: 25vh;
 }
 .mid-text{
-  padding-top: 160px;
+  padding: 5% 15%;
   font-size: 20px;
-  padding-left: 100px;
   font-family: 'Add';
   letter-spacing: 4px;
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  padding-bottom: 120px;
   color: #8E3200;
   background-color: transparent;
 }
@@ -320,7 +324,7 @@
   }
 
   .rgba{
-    background: rgba(0, 0, 0, .4);
+    background: rgba(255, 255, 255, .6);
     padding: 0;
     margin: 0;
     height: 70vh;
@@ -340,7 +344,7 @@
     height: 40%;
   }
   .top-text{
-    color: #fff;
+    color: #000;
     justify-content: center;
     text-align: center;
   }
@@ -371,7 +375,7 @@
   }
 
   .topper{
-    margin: 15% 0 !important;
+    margin: 0 !important;
   }
 
   .layout{
@@ -406,14 +410,12 @@
     display: none;
   }
   .mid-text{
-    padding-top: 160px;
+    padding: 10% 15%;
     font-family: 'add light italic';
     color: #fff;
     font-size: 20px;
-    padding-left: 100px;
     font-style: italic;
     text-transform: uppercase;
-    padding-bottom: 120px;
     background-color: black !important;
   }
   .mid-p{
@@ -591,7 +593,7 @@
   .btn-btn{
     text-decoration: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
     font-style: italic;
@@ -612,7 +614,7 @@
   }
 
   .rgba{
-    background: rgba(0, 0, 0, .4);
+    background: rgba(255, 255, 255, .6);
     padding: 0;
     margin: 0;
     height: 70vh;
@@ -632,7 +634,7 @@
     height: 60%;
   }
   .top-text{
-    color: #fff;
+    color: #000;
     justify-content: center;
     text-align: center;
     margin: 0 5%;
@@ -712,21 +714,19 @@
     height: 15vh;
   }
   .mid-text{
-    padding-top: 160px;
+    padding: 10% 5%;
     font-family: 'add light italic';
     color: #fff;
     font-size: 18px;
     text-align: center;
-    padding-right: 80px;
     font-style: italic;
     letter-spacing: 4px;
     line-height: 24px;
     text-transform: capitalize;
-    padding-bottom: 120px;
   }
   .mid-p{
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
   }
   
   /* CAROUSEL PART  */
@@ -799,7 +799,6 @@
   
   .button{
     background-color: #a5a6a7;
-    /* width: 45%; */
     margin-top: 20%;
     margin-left: 75px;
   }
