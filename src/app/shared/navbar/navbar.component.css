@@ -106,7 +106,7 @@ header{
   .menu-icon span{
     width: 32px;
     height: 3px;
-    background: #000 !important;
+    background: #fff !important;
     display: block;
     transition: .2s ease-in-out;
   }
@@ -181,7 +181,7 @@ header{
   .menu-icon span{
     width: 32px;
     height: 3px;
-    background: #000;
+    background: #fff;
     display: block;
     transition: .2s ease-in-out;
   }
