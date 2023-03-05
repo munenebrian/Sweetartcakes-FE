@@ -28,3 +28,28 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+// form data to whatsapp
+function whatsapp(){
+  var FirstName = document.getElementById("FirstName").value;
+  var LastName = document.getElementById("LastName").value;
+  var Email = document.getElementById("Email").value;
+  var Phone = document.getElementById("Phone").value;
+  var Cake = document.getElementById("Cake").value;
+  var Date = document.getElementById("Date").value;
+  var Venue = document.getElementById("Venue").value;
+  var Budget = document.getElementById("Budget").value;
+
+  var url = "https://wa.me/254707367650?text="
+  +"* FirstName : * " + FirstName + "%0a"
+  +"* LastName : * " + LastName + "%0a"
+  +"* Email : * " + Email + "%0a"
+  +"* Phone : * " + Phone + "%0a"
+  +"* Cake : * " + Cake + "%0a"
+  +"* Date : * " + Date + "%0a"
+  +"* Venue : * " + Venue + "%0a"
+  +"* Budget : * " + Budget ;
+
+  window.open(url, '_blank').focus;
+
+}

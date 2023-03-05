@@ -1,6 +1,6 @@
 .cont{
     border: 25px solid #fff;
-    background-color: none;
+    background-color: rgb(0, 0, 0, 0.4);
 }
 
 .experience-text{
@@ -22,6 +22,7 @@
     font-family: 'Add light italic';
     letter-spacing: 4px;
     line-height: 20px;
+    color: #fff;
 }
 .experience-text h5{
     font-size: 16px;
@@ -30,6 +31,7 @@
     font-family: 'Add light';
     letter-spacing: 1.28px;
     line-height: 28.8px;
+    color: #fff;
 }
 
 .enquire-form{
@@ -126,6 +128,7 @@ textarea{
 
 .images img{
     width: 100%;
+    height: 50vh;
 }
 
 
