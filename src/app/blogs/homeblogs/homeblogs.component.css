@@ -9,7 +9,7 @@
     line-height: 24px;
     border: 30px #fff solid;
     height: 70vh;
-    background: transparent;
+    background-color: rgb(0, 0, 0, .4);
 }
 .blog-text p{
     padding-top: 350px;
@@ -20,6 +20,7 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 4px;
+    color: #fff;
 }
 .blog-content-col{
     display: flex;
@@ -161,7 +162,7 @@
         line-height: 24px;
         border: 20px #fff solid;
         height: 40vh;
-        background: transparent;
+        background-color: rgb(0, 0, 0, .4);
     }
     .blog-text p{
         padding-top: 350px;
