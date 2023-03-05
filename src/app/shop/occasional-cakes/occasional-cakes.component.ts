@@ -27,19 +27,17 @@ export class OccasionalCakesComponent implements OnInit{
   ngOnInit(): void {
   // categories 
   this.http.get<Category[]>("https://sweetartcakes-be-production.up.railway.app/categories/").subscribe(
-
-  data => {
-    this.cats = data
-    console.log(this.cats)
-  }
-); 
+    data => {
+      this.cats = data
+      console.log(this.cats)
+    }
+  ); 
   // pagination 
   this.getData();
-
   
   var elements = document.getElementsByClassName("column")as HTMLCollectionOf<HTMLElement>;
 
-// Declare a loop variable
+  // Declare a loop variable
   var i;
 
   // List View
@@ -62,7 +60,6 @@ for (var i:any = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
-    // this.className += " active";
   });
 }
   }
