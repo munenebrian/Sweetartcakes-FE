@@ -43,7 +43,6 @@ header{
 }
 
 .nav-link{
-  /* /* color: #fff; */
   color: rgb(77, 33, 4); 
   text-decoration: none;
   font-weight: 800;
@@ -71,15 +70,16 @@ header{
   }
 
   .menu{
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 44px;
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: auto;
     padding: 20% 0;
     background-color: #f5f0ef;
     transition: .4s ease-in-out;
     z-index: 999;
+    overflow-x: hidden !important;
   }
 
   .menu ul li{
@@ -98,15 +98,15 @@ header{
   .menu-icon{
     display: inline-block;
     position: relative;
-    left: 0;
-    top: 20px;
+    top: 10px;
     float: right;
+    margin-right: 5%;
   }
 
   .menu-icon span{
     width: 32px;
     height: 3px;
-    background: #fff;
+    background: #fff !important;
     display: block;
     transition: .2s ease-in-out;
   }
@@ -146,14 +146,15 @@ header{
   }
 
   .menu{
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 50px;
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: auto;
     background-color: #f5f0ef;
     transition: .4s ease-in-out;
     z-index: 999;
+    overflow-x: none;
   }
 
   .menu ul li{
@@ -172,9 +173,9 @@ header{
   .menu-icon{
     display: inline-block;
     position: relative;
-    right: 0;
-    top: 20px;
+    top: 10px;
     float: right;
+    margin-right: 5%;
   }
 
   .menu-icon span{
