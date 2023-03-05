@@ -22,7 +22,6 @@
             <div class="btn-buy">
                 <button (click)="openWhatsApp()"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
             </div>
-            <p class="category">Category: <span id="category-style">{{singleProduct[0].category_name}}</span></p>
         </div>
     </div>
     
@@ -35,7 +34,7 @@
     <hr class="line-1">
 
     <p class="h2">Related Products</p>
-    
+
     <div class="related">
         <div class="cardd column"  *ngFor="let product of products;let i = index" >
             <div class="product__items">

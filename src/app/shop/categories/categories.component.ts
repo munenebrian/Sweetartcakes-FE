@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Category } from 'src/app/interfaces/category';
 import { Categoryproducts } from 'src/app/interfaces/category-products';
 import { CategoriesService } from 'src/app/services/categories.service';
 
@@ -12,11 +14,20 @@ export class CategoriesComponent implements OnInit {
 
   phonenumber: number = 254748459581;
   catproducts:Categoryproducts[] = [];
+  cats: Category[] = [];
   id:number = 0;
 
-  constructor(private categoriesService : CategoriesService,private route:ActivatedRoute) {}
+  constructor(private http: HttpClient, private categoriesService : CategoriesService,private route:ActivatedRoute) {}
 
   ngOnInit(): void {
+    // categories 
+    this.http.get<Category[]>("https://sweetartcakes-be-production.up.railway.app/categories/").subscribe(
+      data => {
+        this.cats = data
+        console.log(this.cats)
+      }
+    ); 
+
     this.route.params.subscribe(
       data =>{
         this.id = data['id'];
