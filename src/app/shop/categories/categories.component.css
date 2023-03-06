@@ -155,24 +155,29 @@
 
 .h3{
     text-align: left;
+    color: #8E3200;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    line-height: 36px;
-    letter-spacing: normal;
-    color: #373737;
+    font-weight: 900;
+    letter-spacing: 3.6px;
+    line-height: 16px
 }
 
 .cats a{
     text-decoration: none;
     text-transform: capitalize;
-    color: #000;
+    font-family: 'times new roman';
+    color: #A64B2A;
+    font-weight: 800;
+    font-style: italic;
     font-size: 16px;
-    text-align: left;
-    letter-spacing: 22.652px;
-    letter-spacing: normal;
+    text-align: start;
+    letter-spacing: 1.16px;
+    line-height: 16px;
 }
 
 .cats a:hover{
-    color: #9f9f9f;
+    color: #D7A86E;
 }
 
 .cats{
@@ -229,16 +234,20 @@
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color: #f1f1f1;
+    background-color: #FFEBC1;
     cursor: pointer;
+    font-size: 14px;
+    font-family: 'add';
+    letter-spacing: 1.16px;
+    
   }
   
   .btn:hover {
-    background-color: #ddd;
+    background-color: #D7A86E;
   }
   
   .btn.active {
-    background-color: #666;
+    background-color: #A64B2A;
     color: white;
   }
 
@@ -252,8 +261,8 @@
     border: 0;
   }
 
-.card:hover{
-    box-shadow: 5px 5px 5px 5px grey;
+  .card:hover{
+    box-shadow: 2px 2px 2px 2px rgb(129, 125, 125,.4);
     transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
     transform: translateX(3px);
   }
@@ -272,11 +281,14 @@
 }
 
 .product-name{
-    font-size: 14px;
     text-decoration: none;
-    color: #000;
-    font-weight: 700;
     text-align: center;
+    color: #8E3200;
+    font-family: 'add light';
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3.6px;
+    line-height: 16px;
 }
 
 .product-name:hover{
@@ -287,6 +299,16 @@
 .price-tag{
     display: flex;
     margin-top: 5%;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'times new roman';
+    color: black;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 14px;
+    text-align: start;
+    letter-spacing: 1.16px;
+    line-height: 16px;
 }
 
 .new-price{
@@ -300,20 +322,14 @@
 }
 
 .whatsapp{
-    background-color: #000;
+    background-color: #A64B2A;
     padding: 3% 6%;
     color: #fff;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 14px;
+    font-family: "add light";
+    line-height: 16px;
+    letter-spacing: 1.8px;
 }
-.whatsapp:hover{
-    background-color: transparent;
-    border: 1px solid #000;
-    padding: 3% 6%;
-    color: #000;
-    font-weight: 400;
-}
-
 a:focus, a:active {
     text-decoration: none;
     outline: none;

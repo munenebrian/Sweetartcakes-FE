@@ -270,8 +270,7 @@
 
 .cat-name{
     font-size: 12px;
-    color: #606060;
-    
+    color: #242323;   
 }
 
 .product-name{
@@ -287,7 +286,7 @@
 
 .product-name:hover{
     text-decoration: none;
-    color: #9f9f9f;
+    color: #D7A86E;
 }
 
 .price-tag{
