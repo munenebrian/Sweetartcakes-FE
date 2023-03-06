@@ -414,11 +414,14 @@ line-height: 16px;
 }
 
 .product-name{
-    font-size: 14px;
     text-decoration: none;
-    color: #000;
-    font-weight: 700;
     text-align: center;
+    color: #8E3200;
+    font-family: 'add light';
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3.6px;
+    line-height: 16px;
 }
 
 .product-name:hover{
@@ -429,6 +432,16 @@ line-height: 16px;
 .price-tag{
     display: flex;
     margin-top: 5%;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'times new roman';
+    color: black;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 14px;
+    text-align: start;
+    letter-spacing: 1.16px;
+    line-height: 16px;
 }
 
 .new-price{
@@ -442,18 +455,13 @@ line-height: 16px;
 }
 
 .whatsapp{
-    background-color: #000;
+    background-color: #A64B2A;
     padding: 3% 6%;
     color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-}
-.whatsapp:hover{
-    background-color: transparent;
-    border: 1px solid #000;
-    padding: 3% 6%;
-    color: #000;
-    font-weight: 400;
+    font-size: 14px;
+    font-family: "add light";
+    line-height: 16px;
+    letter-spacing: 1.8px;
 }
 
 

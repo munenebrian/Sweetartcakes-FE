@@ -36,7 +36,6 @@
 
 .enquire-form{
     background: rgba(248,235,207,.7);
-    /* background-color: #ffffff; */
     display: flex;
     width: 100%;
     padding: 10px 10%;
@@ -50,13 +49,13 @@ label{
     color: #8E3200;
     font-weight: 800;
     font-style: "Times New Roman italic" ;
-    margin-top: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
+
 select {
-    background-color: #f8ebcf;
     border: none;
     padding: 10px 0;
-    /* margin: 0; */
     width: 100%;
     font-family: inherit;
     font-size: inherit;
@@ -68,7 +67,6 @@ select {
     height: 4vh;
     border-radius: 2px;
     border: 1px solid #c1c1c0;
-    color:  #f8ebcf;
     font-family: 'Add light';
     font-size: 14px;
     letter-spacing: 2px;
@@ -78,7 +76,7 @@ select {
 
 input, select{
     width: 100%;
-    height: 4vh;
+    height: 6vh;
     border-radius: 2px;
     border: 1px solid #c1c1c0;
     color: #A64B2A;
@@ -111,13 +109,18 @@ input[type="text"] {
 }
 
 select[type=""]{
-    font-size: 20px;
+    font-size: 14px;
     padding-left: 2%;
     font-family: "add light";
     line-height: 4px;
     letter-spacing: 1.12px;
     color: #A64B2A;
 }
+
+.selected{
+    padding-left: 2%;
+}
+
 .text-1, .text-2, .text-3{
     font-size: 16px;
     margin-top: 10%;
@@ -154,7 +157,6 @@ select[type=""]{
     font-size: 20px;
     font-family: 'Add light';
     letter-spacing: 1.28px;
-    /* font-style: italic; */
     line-height: 28.8px;
 }
 
