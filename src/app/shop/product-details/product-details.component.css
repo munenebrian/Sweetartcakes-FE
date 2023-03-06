@@ -426,7 +426,6 @@ display: flex;
     font-weight: 400;
 }
 
-
 a:focus, a:active {
     text-decoration: none;
     outline: none;
