@@ -11,59 +11,40 @@
     </div>
         <div class="enquire-form">
             <div class="enquire-text">
-                <form>
+                <form method="post">
                     <div class="text-1">
                         <label for="fname">First Name:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Please provide your first name"><br>
+                        <input type="text" id="FirstName" value="" placeholder="Please provide your first name"><br>
     
                         <label for="lname">Last Name:</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="Please provide your last name"><br>
+                        <input type="text" id="LastName" value="" placeholder="Please provide your last name"><br>
     
-                        <label for="fname">Email:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Please provide your email address"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="Email" value="" placeholder="Please provide your email address"><br>
     
-                        <label for="lname">Confirm Email:</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="Please confirm your email address"><br>
-    
-                        <label for="fname">Phone:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Please provide your phone number"><br>
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="Phone" value="" placeholder="Please provide your phone number"><br>
                     </div>
                  
                     <div class="text-2">
-                        <label for="fname">Wedding or Celebration cake?</label><br>
-                        <select id="inputCake" class="form-select">
+                        <label for="cake">Wedding or Celebration cake?</label><br>
+                        <select id="Cake" value="" class="form-select">
                           <option selected>Select</option>
                           <option>Wedding Cake or Wedding dessert table</option>
                           <option>Celebration Cake</option>
                           <option>Corporate Event</option>
                         </select>
     
-                        <label for="lname">Date of Wedding / Celebration Event:</label><br>
-                        <input type="date" id="lname" name="lname" value="Please provide your last name"><br>
+                        <label for="date">Date of Wedding / Celebration Event:</label><br>
+                        <input type="date" id="Date" value="" placeholder="Please provide your last name"><br>
     
-                        <label for="fname">Wedding Venue</label><br>
-                        <input type="text" id="fname" name="fname"><br>
+                        <label for="venue">Wedding Venue</label><br>
+                        <input type="text" id="Venue" value=""><br>
                     </div>
                     
                     <div class="text-3">
-                        <label for="fname">How did you hear about SweetArt Cakes?</label><br>
-                        <select id="inputCake" class="form-select">
-                            <option selected>Select</option>
-                            <option>Recommendation by Venue or Friend / Family</option>
-                            <option>Instagram</option>
-                            <option>Facebook</option>
-                            <option>Google</option>
-                            <option>Pinterest</option>
-                            <option>Twitter</option>
-                            <option>LinkedIn</option>
-                          </select>
-      
-    
-                        <label for="lname">How can I help?</label><br>
-                        <textarea type="text" id="lname" name="lname" value="Please confirm your email address"></textarea><br>
-    
-                        <label for="fname">What is your approximate cake budget</label><br>
-                        <select id="inputCake" class="form-select">
+                        <label for="budget">What is your approximate cake budget</label><br>
+                        <select id="Budget" value="" class="form-select">
                             <option selected>Select</option>
                             <option>€725 - €1000</option>
                             <option>€1100 - €2000</option>
@@ -72,14 +53,8 @@
                           </select>
                     </div>
 
-                    <div class="upload-images">
-                        <p>If you have any images please feel free to upload them below:</p>
-                        <div class="upload">
-                        <input type="file" id="fname" name="fname" title="choose files to upload"><br>
-                        </div>
-                    </div>
                   <div class="submit-btn">
-                    <button> Send </button>
+                    <button type="button" onclick="whatsapp()"> Send </button>
                   </div>
 
                     
@@ -87,8 +62,8 @@
             </div>
 
             <div class="enquire-images">
-                <p>E: hello@hayleyelizabethcakedesign.com</p>
-                <p> T: 07535627479</p>
+                <p>Email: hello@hayleyelizabethcakedesign.com</p>
+                <p> Tel: 07535627479</p>
                 <div class="images">
                     <img src="https://w2d8a5y9.stackpathcdn.com/wp-content/uploads/2020/04/mauve-dusky-pink-wedding-cake-marble-471x705.jpg">
                     <img src="https://st.depositphotos.com/2325841/3475/i/600/depositphotos_34756713-stock-photo-wedding-cake.jpg" alt="">
