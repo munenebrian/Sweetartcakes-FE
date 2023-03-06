@@ -140,7 +140,7 @@ display: flex;
 
 .prod-details:hover{
     text-decoration: none;
-    color: orangered;
+    /* color: orangered; */
 }
 
 .product__items--thumbnail {

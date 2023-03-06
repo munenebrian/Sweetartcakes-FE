@@ -21,7 +21,7 @@
     width: 60%;
     height: 60vh;
     margin-top: 5%;
-    background-color: #f7f6f4;
+    background-color: #f8ebcf;
     padding: 5% 80px ;
 }
 
@@ -38,11 +38,12 @@
 
 .right .p{
     text-align: justify;
-    font-size: 14px;
-    letter-spacing: 1.12px;
     line-height: 25.2px;
     color: #686868;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'add light';
+    letter-spacing: 1.12px; 
 }
 
 .experience-text{
@@ -52,29 +53,38 @@
     padding-right: 90px;
     padding-top: 200px;
     padding-bottom: 40px;
+    background: rgb(0, 0, 0, .4);
     border: 20px solid #fff;
 }
 .experience-text p{
     text-transform: uppercase;
     padding: 10px;
-    font-family: 'Add light italic';
+    font-family: 'Add light';
     letter-spacing: 4px;
     color: #fff;
     line-height: 24px;
+    font-weight: 800;
 }
 .experience-text h5{
     font-size: 15px;
     padding: 4px;
     color: #fff;
     font-family: 'Add light italic';
+    font-style: italic;
+    font-weight: 800;
     letter-spacing: 4px;
     line-height: 36px;
 }
 .expe-text{
     display: flex;
     width: 100%;
-    background-color: #f5f0ef;
+    background-color: #f8ebcf;
     margin-bottom: 15%;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'add light';
+    line-height: 28px;
+    letter-spacing: 1.12px;   
 }
 .expe-text p{
     color: #686868;

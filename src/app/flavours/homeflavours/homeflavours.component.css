@@ -16,14 +16,16 @@
 .flav-text p{
     text-transform: uppercase;
     padding: 10px;
-    font-family: 'Add light italic';
+    font-family: 'Add light';
     letter-spacing: 4px;
     line-height: 24px;
     color: #fff;
 }
 
 .bod{
-    background-color: rgb(235, 231, 231);
+    background-color: #f8ebcf;
+    margin-bottom: 5%;
+    
 }
 
 .about-flavours{
@@ -31,11 +33,11 @@
 }
 
 .about-flavours p{
-    font-size: 14px;
+    font-size: 17px;
     text-align: justify;
     letter-spacing: 1.12px;
     line-height: 25.2px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'add light';
     padding-bottom: 0px;
 }
 
