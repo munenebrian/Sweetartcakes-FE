@@ -2,7 +2,7 @@
     padding: 100px 36%;
     text-align: center;
     color: white;
-    background-color: rgb(231, 231, 231);
+    background-color: #FFEBC1;
 }
 
 .btn-1 button{
@@ -10,7 +10,7 @@
     font-family: 'add light italic';
     line-height: 28.8px;
     border: none;
-    background-color:rgb(122, 121, 121);
+    background-color:#A64B2A;
     padding: 20px 60px;
     display: inline-block;
     text-decoration: none;

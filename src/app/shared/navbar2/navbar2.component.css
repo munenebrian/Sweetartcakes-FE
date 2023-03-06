@@ -13,7 +13,7 @@ header{
   .menu{
     padding: 10px 0;
     justify-content: center;
-    background:#d8c5c2;
+    background:#FFEBC1;
   }
   
   .menu ul{
@@ -45,25 +45,26 @@ header{
   
   .nav-link{
     /* /* color: #fff; */
-    color: rgb(77, 33, 4); 
+    color:  #8E3200; 
     text-decoration: none;
-    font-weight: 800;
-    font-size: small;
+    font-family: "Add Thin";
+    font-style: italic;
+    line-height: 21.6px;
+    letter-spacing: 3.6px; 
+    font-weight:500;
     padding: 8px 10px;
-    line-height: 1em;
-    font-weight: 800;
     font-size: 15px;
     transition: color .25s;
     }
   
   .nav-link:hover {
-    color:rgb(206, 128, 76);
+    color:#D7A86E;
     font-weight: 800;
     cursor: pointer;
   }
   
   .active-link{
-    color: #FFC93C;
+    color: #201008;
   }
   @media only screen and (max-width: 850px) {
   
