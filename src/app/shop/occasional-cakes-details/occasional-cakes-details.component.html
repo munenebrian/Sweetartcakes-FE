@@ -22,21 +22,17 @@
             </div>
             <p class="category">Category: <span id="category-style">{{singleProduct[0].category_name}}</span></p>
         </div>
-
-     
     </div>
     
     <div class="product-description">
-       
         <p class="heading">DESCRIPTION</p>
         <hr class="line-1">
         <p class="description-1">{{singleProduct[0].description}}</p>
     </div>
 
     <hr class="line-1">
-
+    <p class="h2">Related Products</p>
     <div class="related">
-        <p class="h2">Related Products</p>
         <div class="cardd column"  *ngFor="let product of products;let i = index" >
             <div class="product__items">
                 <div class="product__items--thumbnail">
@@ -61,9 +57,6 @@
             </div>
         </div> 
     </div>
-  
 </div>
-
 </div>
-
 <app-footer></app-footer>

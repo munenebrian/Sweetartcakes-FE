@@ -44,14 +44,7 @@
     color: #686868;
     font-family: 'Times New Roman', Times, serif;
 }
-.cont{
-    /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    border: 25px solid #fff;
-    background-color: none;
 
-}
 .experience-text{
     text-align: end;
     text-transform: capitalize;
@@ -59,20 +52,20 @@
     padding-right: 90px;
     padding-top: 200px;
     padding-bottom: 40px;
-    border: 20px;
+    border: 20px solid #fff;
 }
 .experience-text p{
     text-transform: uppercase;
     padding: 10px;
     font-family: 'Add light italic';
     letter-spacing: 4px;
-    /* color: #fff; */
+    color: #fff;
     line-height: 24px;
 }
 .experience-text h5{
     font-size: 15px;
     padding: 4px;
-    /* color: #fff; */
+    color: #fff;
     font-family: 'Add light italic';
     letter-spacing: 4px;
     line-height: 36px;
@@ -93,7 +86,6 @@
 }
 .e-text{
     padding: 5% 10%;
-    /* padding-left: 30px; */
     width: 60%;
 }
 
@@ -115,13 +107,13 @@
         background-color: #fff;
         display: inline-flex;
         width: 100%;
-        padding: 0px 40px ;
+        padding: 5% 40px ;
     }
     
     .left{
         width: 40%;
         margin-right: -3%;
-        height: 55vh;
+        height: 36vh;
     }
     
     .left img{
@@ -132,7 +124,7 @@
     
     .right{
         width: 60%;
-        height: 30vh;
+        height: 36vh;
         margin-top: 5%;
         background-color: #f7f6f4;
         padding: 5% 30px ;
@@ -155,17 +147,9 @@
         letter-spacing: 1.12px;
         line-height: 20.2px;
         color: #686868;
-        /* height: fit-content; */
         font-family: 'Times New Roman', Times, serif;
     }
-    .cont{
-        /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; */
-        border: 25px solid #fff;
-        background-color: none;
-    
-    }
+
     .experience-text{
         text-align: end;
         text-transform: capitalize;
@@ -173,21 +157,18 @@
         padding-right: 20px;
         padding-top: 150px;
         padding-bottom: 40px;
-        border: 20px;
+        border: 20px solid #fff;
+        background: rgb(0, 0, 0, .4);
     }
     .experience-text p{
         text-transform: uppercase;
         padding: 5px;
-        font-family: 'Add light italic';
         letter-spacing: 4px;
-        /* color: #fff; */
         line-height: 24px;
     }
     .experience-text h5{
         font-size: 12px;
         padding: 4px;
-        /* color: #fff; */
-        font-family: 'Add light italic';
         letter-spacing: 4px;
         line-height: 36px;
     }
@@ -195,7 +176,7 @@
         display: flex;
         width: 100%;
         background-color: #f5f0ef;
-        margin-bottom: 15%;
+        margin-bottom: 0;
     }
     .expe-text p{
         color: #686868;
@@ -207,13 +188,13 @@
     }
     .e-text{
         padding: 5% 10%;
-        /* padding-left: 30px; */
         width: 60%;
     }
     
     .img{
         width: 40%;
-        padding-bottom: -50%;
+        z-index: 99;
+        margin-bottom: -5% !important;
     }
     .expe-text .img img{
         width: 70%;
@@ -230,27 +211,48 @@
         background-color: #fff;
         display: grid;
         width: 100%;
-        padding: 50px 10% ;
-    }
-    
-    .left{
-        width: 100%;
-        margin-right: 0;
-        height: 75vh;
-    }
-    
-    .left img{
-     float: center;   
-     width:100%;
-     height: 65vh;
+        padding: 50px 5% ;
+        /* display: block; */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* optional */
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
     }
     
     .right{
         width: 100%;
         height: 60vh;
-        margin-top: 5%;
         background-color: #f7f6f4;
-        padding: 5% 35px ;
+        padding: 20% 2%;
+    }
+
+    .left{
+        width: 100%;
+        margin: 0 0;
+        height: 45vh;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+    
+    .left img{
+     float: center;   
+     width:100%;
+     height: 100%;
     }
     
     .h1{
@@ -272,35 +274,25 @@
         color: #686868;
         font-family: 'Times New Roman', Times, serif;
     }
-    .cont{
-        /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; */
-        border: 25px solid #fff;
-        background-color: none;
-    
-    }
+   
     .experience-text{
         text-align: center;
         text-transform: capitalize;
         font-size: 20px;
-        padding-right: 0px;
-        padding-top: 200px;
-        padding-bottom: 40px;
-        border: 20px;
+        padding: 60px 20px;
+        border: 10px solid #fff !important;
     }
+
     .experience-text p{
         text-transform: uppercase;
         padding: 10px;
         font-family: 'Add light italic';
         letter-spacing: 4px;
-        /* color: #fff; */
         line-height: 24px;
     }
     .experience-text h5{
         font-size: 15px;
         padding: 4px;
-        /* color: #fff; */
         font-family: 'Add light italic';
         letter-spacing: 4px;
         line-height: 36px;
@@ -309,32 +301,30 @@
         display: grid;
         width: 100%;
         background-color: #f5f0ef;
-        margin-bottom: 15%;
     }
     .expe-text p{
         color: #686868;
         font-size: 13px;
         text-align: justify;
         font-family: 'Times New Roman', Times, serif;
-        margin: 0px 0px;
+        margin: 0;
         padding: 15px 0;
-        width: 200%;
+        width: 100%;
     }
     .e-text{
-        padding: 5% 10%;
-        /* padding-left: 30px; */
-        width: 60%;
+        padding: 5% 5%;
+        width: 100%;
     }
     
     .img{
         width: 100%;
-        padding-bottom: 0;
+        padding: 0 5%;
     }
     .expe-text .img img{
         width: 100%;
         height: 100%;
         border: 12px solid #fff;
-        margin-top: 10%;
+        margin-top: 0;
         margin-bottom: 0;
     }
     

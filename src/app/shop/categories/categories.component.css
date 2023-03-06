@@ -1,38 +1,21 @@
 .contt{
-    /* background-image: url(https://as1.ftcdn.net/v2/jpg/01/31/31/96/1000_F_131319676_GlYtzmVblDbz5nbP2NiZrfrj6d3WOsgV.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     border: 25px solid #fff;
-    background-color: none;
+    background-color: rgb(0, 0, 0, .4);
     display: block;
-
 }
 .experience-text{
     text-transform: capitalize;
-    font-size: 16px;
-    height:  40vh;
-    border: 20px;
     text-align: right;
-    padding-top: 15%;
+    padding: 10% 0;
 }
 .experience-text p{
-    margin-right: 5%;
+    margin-right: 10%;
     font-family: 'Add light italic';
     letter-spacing: 4px;
     font-size: 60px;
-    color: #3d210a; 
+    color: #fff; 
     line-height: 20px;
 }
-.experience-text h5{
-    font-size: 16px;
-    text-align:center;
-    padding: 4px;
-    /* color: #fff; */
-    font-family: 'Add light';
-    letter-spacing: 1.28px;
-    line-height: 28.8px;
-}
-
 
 .medical{
     margin: 9% 30px;
@@ -331,156 +314,6 @@
     font-weight: 400;
 }
 
-
-@media only screen and (max-width:850px) {
-    .medical{
-        margin-top: 15% !important;
-        margin-bottom: 5%;
-    }
-    .product-page{
-        display: block;
-    }
-    .category-section{
-        width: 80%;
-    }
-    .categories .filter{
-        padding-left: 5%;
-        margin-left: 10%;
-        margin-bottom: 5%;
-    }
-    .cats{
-        list-style-type: none;
-        padding: 3%;
-        border: 1px solid #B2B2B2;
-        background-color: transparent;
-        text-align: center;
-        margin-left: -10%;
-        border-radius: 5px;
-    }
-    
-    .cats a{
-        color: #606060;
-        font-size: x-large;
-    }
-    .products{
-        display: block;
-        margin-left: 10%;
-    }
-    .cat-name{
-        text-align: left;
-        font-size: x-large;
-    }
-    .product-name{
-        text-align: left !important;
-        font-size: x-large;
-    }
-    .price-tag{
-        text-align: left;
-        margin-bottom: 5%;
-    }
-    .new-price,.old-price{
-        font-size: x-large;
-    }
-    .whatsapp{
-        margin-left: 30%;
-        font-size: x-large;
-    }
-    .product-page{
-        margin-bottom: 10%;
-    }
-    .paginate{
-        margin-left: -8%;
-        margin-bottom: 10%;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    .cont{
-        margin: 0;
-        padding: 0;
-    }
-    .medical{
-        margin-top: 20% !important;
-        margin-bottom: 5%;
-    }
-    .product-page{
-        display: block;
-        padding: 0;
-        margin: 0 10px;
-    }
-
-    .category-section{
-        width: 100%;
-    }
-
-    .categories {
-        padding: 10px 20px;
-        margin-bottom: 10%;
-    }
-
-    .filter{
-        padding: 10px 20px;
-        margin-bottom: 5%;
-    }
-
-    .cats a{
-        font-size: 16px;
-        text-align: left;
-        letter-spacing: 22.652px;
-        letter-spacing: normal;
-    }
-
-    .cats{
-        list-style-type: none;
-        padding: 3%;
-        background-color: transparent;
-        text-align: center;
-        margin-left: -10%;
-        border-radius: 5px;
-    }
-
-    .back{
-        margin: 0 20px;
-        width: 90%;
-        padding: 0;
-    }
-
-    .top{
-        display: none;
-    }
-    
-    .products{
-        display: block;
-        margin-left: 0;
-    }
-   
-    .cat-name{
-        text-align: left;
-        font-size: larger;
-    }
-    .product-name{
-        text-align: left !important;
-        font-size: large;
-    }
-    .price-tag{
-        text-align: left;
-    }
-    .new-price,.old-price{
-        font-size: large;
-    }
-    .whatsapp{
-        margin-left: 0;
-        font-size: large;
-    }
-    .product-page{
-        margin-bottom: 10%;
-    }
-    .paginate{
-        margin-left: -8%;
-        margin-bottom: 10%;
-    }
-}
-
 a:focus, a:active {
     text-decoration: none;
     outline: none;
@@ -500,5 +333,241 @@ a:focus, a:active {
 @media only screen and (max-width:575px) {
     .product__items:hover .product__items--action__style2 {
         right: 1rem;
+    }
+}
+
+
+@media only screen and (max-width:850px) {
+
+    .contt{
+        border: 20px solid #fff;
+        background-color: rgb(0, 0, 0, .4);
+        display: block;
+    }
+    .experience-text{
+        text-transform: capitalize;
+        text-align: center;
+        padding: 20% 0;
+    }
+    .experience-text p{
+        margin-right: 0;
+        font-family: 'Add light italic';
+        letter-spacing: 4px;
+        font-size: 60px;
+        color: #fff; 
+        line-height: 20px;
+    }
+
+    .medical{
+        margin-top: 0 !important;
+        margin-bottom: 0;
+        display: block;
+        height: auto;
+    }
+
+    .product-page{
+        display: block;
+    }
+
+    .category-section{
+        width: 100%;
+    }
+
+    .categories {
+        padding: 3%;
+        margin-bottom: 0;
+        height: 17vh;
+    }
+    
+    .h3{
+        text-align: center;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: normal;
+        color: #373737;
+    }
+
+    .categoriess{
+        display: inline-flex !important;
+        overflow-x: scroll !important;
+        padding: 0;
+    }
+
+    .cats{
+        list-style-type: none;
+        padding: 1% 5%;
+        border: 1px solid #B2B2B2;
+        background-color: transparent;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 2%;
+        border-radius: 5px;
+        width: 200px;
+    }
+    
+    .cats a{
+        color: #606060;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .back{
+        margin: 0;
+        width:  100% ;
+        display: block;
+    }
+
+    #btnContainer{
+        display: none;
+    }
+
+    .products{
+        display: block;
+        margin-left: 0;
+    }
+
+    .column {
+        float: none;
+        width: 90%;
+        padding: 10px;
+        margin: 3% 5%;
+        background-color: #fff;
+        border: 0;
+      }
+
+    .product-name{
+        text-align: left !important;
+        font-size: x-large;
+    }
+    .price-tag{
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    .new-price,.old-price{
+        font-size: x-large;
+    }
+    .whatsapp{
+        margin-left: 30%;
+        font-size: x-large;
+    }
+   
+    .paginate{
+        margin-left: -8%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .contt{
+        border: 15px solid #fff;
+        background-color: rgb(0, 0, 0, .4);
+        display: block;
+    }
+    .experience-text{
+        text-transform: capitalize;
+        text-align: center;
+        padding: 20% 0;
+    }
+    .experience-text p{
+        margin-right: 0;
+        font-family: 'Add light italic';
+        letter-spacing: 4px;
+        font-size: 30px;
+        color: #fff; 
+        line-height: 20px;
+    }
+
+    .cont{
+        margin: 0;
+        padding: 0;
+    }
+    .medical{
+        margin-top: 0 !important;
+        margin-bottom: 0;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .category-section{
+        width: 100%;
+    }
+
+    .categories {
+        padding: 3%;
+        margin-bottom: 0;
+        height: 25vh;
+    }
+
+    .categoriess{
+        display: inline-flex !important;
+        overflow-x: scroll !important;
+        padding: 0;
+    }
+
+    .cats{
+        list-style-type: none;
+        padding: 1% 2%;
+        border: 1px solid #B2B2B2;
+        background-color: transparent;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 8%;
+        border-radius: 5px;
+        width: 100px;
+    }
+    
+    .cats a{
+        color: #606060;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .back{
+        margin: 0;
+        width:  100% ;
+        display: block;
+    }
+
+    #btnContainer{
+        display: none;
+    }
+    
+    .products{
+        display: block;
+        margin-left: 0;
+    }
+
+    .column {
+        float: none;
+        width: 90%;
+        padding: 10px;
+        margin: 3% 5%;
+        background-color: #fff;
+        border: 0;
+      }
+   
+    .cat-name{
+        text-align: left;
+        font-size: larger;
+    }
+    .product-name{
+        text-align: left !important;
+        font-size: large;
+    }
+    .price-tag{
+        text-align: left;
+    }
+    .new-price,.old-price{
+        font-size: large;
+    }
+    .whatsapp{
+        margin-left: 0;
+        font-size: large;
+    }
+    
+    .paginate{
+        margin-left: -8%;
+        margin-bottom: 10%;
     }
 }
