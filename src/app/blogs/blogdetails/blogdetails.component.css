@@ -134,6 +134,10 @@
 }
 
 @media only screen and (max-width: 850px) {
+    .loop img{
+        width: 100%;
+    }
+    
     .blog-content-col{
         display: flex;
         flex-direction: row;

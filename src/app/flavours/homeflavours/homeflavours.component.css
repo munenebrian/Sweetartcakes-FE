@@ -25,7 +25,6 @@
 .bod{
     background-color: #f8ebcf;
     margin-bottom: 5%;
-    
 }
 
 .about-flavours{
@@ -57,7 +56,6 @@
 }
 
 .flav{
-    /* background-color: blue; */
     margin: 10px 0;
     padding: 0 20px;
 }
@@ -83,6 +81,10 @@
 }
 
 @media only screen and (max-width:850px) {
+    .bod{
+        margin-bottom: 0;
+    }
+    
     .flav-text{
         text-align: start;
         text-transform: capitalize;
