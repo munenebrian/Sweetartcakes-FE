@@ -170,6 +170,10 @@
 }
 
 @media only screen and (max-width: 850px) {
+    .loop img{
+        width: 100%;
+    }
+
     .blog-text{
         font-family: 'add';
         font-size: 20px;
@@ -202,6 +206,21 @@
         padding-right: 2%;
         padding-top: 50px;
         padding-bottom: 5%;
+    }
+
+    .btn-1 .button{
+        font-size: 20px;
+        font-family: 'add light';
+        font-style: italic;
+        line-height: 32px;
+        border: none;
+        background-color:#D7A86E;
+        padding: 20px 60px;
+        display: inline-block;
+        text-decoration: none;
+        letter-spacing: 3.2px;
+        color: #fff;
+        text-transform: capitalize;
     }
 
     .row1{
