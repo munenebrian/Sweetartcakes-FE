@@ -68,6 +68,7 @@
         text-decoration: none;
         text-align: center;
         color: #8E3200;
+        text-transform: capitalize;
         font-family: 'add light';
         font-size: 20px;
         font-weight: 900;
@@ -575,6 +576,10 @@ a:focus, a:active {
         padding-top: 30px;
     }
 
+    .product-price .name{
+        text-align: left;
+    }
+
     .cat-name{
         text-align: left;
         font-size: x-large;
@@ -590,9 +595,19 @@ a:focus, a:active {
     .new-price,.old-price{
         font-size: x-large;
     }
-    .whatsapp{
-        margin-left: 0;
-        font-size: x-large;
+    .btn-buy{
+        padding: 5px 0;
+    }
+    
+    .btn-buy button{
+        border: 1px solid transparent;
+        padding: 10px 20px;
+        background-color: #A64B2A;
+        font-size: 16px;
+        color: #fff;
+        font-family: "add light";
+        line-height: 16px;
+        letter-spacing: 1.8px;
     }
     .product-page{
         margin-bottom: 10%;
@@ -684,6 +699,10 @@ a:focus, a:active {
         display: block;
         margin-left: 0;
         height: auto;
+    }
+
+    .product-price .name{
+        text-align: left;
     }
 
     .column {
