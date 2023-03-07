@@ -370,16 +370,16 @@
     
     .btn-exp{
         padding: 10px 30px;
-        /* padding: 20px 15px;
-        /* line-height: 28.8px; */
+        padding: 20px 15px;
+        line-height: 28.8px; 
         font-size: 12px;
-        /* letter-spacing: 2.6px; 
+        letter-spacing: 2.6px; 
         text-align: center;
         font-family: "Add light italic";
         color: #fff;
         text-transform: capitalize;
         text-decoration: none;
-        margin-left: 30%; */
+        margin-left: 0; 
     }
 }
 
