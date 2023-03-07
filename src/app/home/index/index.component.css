@@ -202,7 +202,7 @@
   text-align: center;
 }
 
-.mySlides {display: none;}
+/* .mySlides {display: none;} */
 .fade>img {
   vertical-align: middle;
   height: 80vh;

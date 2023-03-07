@@ -40,7 +40,7 @@ function whatsapp(){
   var Venue = document.getElementById("Venue").value;
   var Budget = document.getElementById("Budget").value;
 
-  var url = "https://wa.me/254707367650?text="
+  var url = "https://wa.me/254721408076?text="
   +"* FirstName : * " + FirstName + "%0a"
   +"* LastName : * " + LastName + "%0a"
   +"* Email : * " + Email + "%0a"
