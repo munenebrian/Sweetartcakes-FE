@@ -5,7 +5,7 @@
     background-color: #FFEBC1;
 }
 
-.btn-1 button{
+.btn-1 a{
     font-size: 18px;
     font-family: 'add light italic';
     line-height: 28.8px;
@@ -15,6 +15,7 @@
     display: inline-block;
     text-decoration: none;
     letter-spacing: 3.6px;
+    color: white;
 }
 
 @media only screen and (max-width: 850px) {
@@ -24,7 +25,7 @@
         color: white;
     }
     
-    .btn-1 button{
+    .btn-1 a{
         font-size: 20px;
         border: none;
         padding: 20px 70px;
@@ -41,7 +42,7 @@
         color: white;
     }
     
-    .btn-1 button{
+    .btn-1 a{
         font-size: 16px;
         border: none;
         padding: 10px 20px;
