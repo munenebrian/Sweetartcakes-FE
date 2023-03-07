@@ -230,3 +230,25 @@ ul {
     background: none;
   }  
 }
+
+@media only screen and (max-width: 400px) {
+  .footer-section {
+    padding: 0 5%;
+  }
+
+  .single-cta{
+    margin: 2% 0;
+  }
+
+  .cta-text .one{
+    font-size: 15px;
+  }
+
+  .footer-logo a{
+    font-size: 16px;
+  }
+
+  .copyright-area{
+    background: none;
+  }  
+}
