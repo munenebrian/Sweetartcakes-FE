@@ -14,7 +14,7 @@ export class ProductDetailsComponent implements OnInit{
   singleProduct:Product[] = [];
   products: Product[] = [];
   id:number = 0;
-  phonenumber: number = 254748459581;
+  phonenumber: number = 254721408076;
 
   constructor(private http: HttpClient, private productdetailsService:ProductdetailsService, private route:ActivatedRoute) {}
 

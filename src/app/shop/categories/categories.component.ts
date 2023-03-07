@@ -12,7 +12,7 @@ import { CategoriesService } from 'src/app/services/categories.service';
 })
 export class CategoriesComponent implements OnInit {
 
-  phonenumber: number = 254748459581;
+  phonenumber: number = 254721408076;
   catproducts:Categoryproducts[] = [];
   cats: Category[] = [];
   id:number = 0;
