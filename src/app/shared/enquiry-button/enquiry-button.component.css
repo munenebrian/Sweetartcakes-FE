@@ -22,13 +22,11 @@
         padding: 70px 20%;
         text-align: center;
         color: white;
-        background-color: rgb(231, 231, 231);
     }
     
     .btn-1 button{
         font-size: 20px;
         border: none;
-        background-color:rgb(122, 121, 121);
         padding: 20px 70px;
         display: inline-block;
         text-decoration: none;
@@ -41,13 +39,11 @@
         padding: 50px 80px;
         text-align: center;
         color: white;
-        background-color: rgb(231, 231, 231);
     }
     
     .btn-1 button{
         font-size: 16px;
         border: none;
-        background-color:rgb(122, 121, 121);
         padding: 10px 20px;
         display: inline-block;
         text-decoration: none;
