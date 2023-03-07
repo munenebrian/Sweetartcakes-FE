@@ -33,12 +33,12 @@
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: #686868;
+    color: #8E3200;
 }
 
 .right .p{
     text-align: justify;
-    line-height: 25.2px;
+    line-height: 27.2px;
     color: #686868;
     text-align: justify;
     font-size: 17px;
@@ -136,7 +136,6 @@
         width: 60%;
         height: 36vh;
         margin-top: 5%;
-        background-color: #f7f6f4;
         padding: 5% 30px ;
     }
     
@@ -147,13 +146,13 @@
         text-align: center;
         text-transform: uppercase;
         font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
-        color: #686868;
+        font-size: 16px;
+        color: #8E3200;
     }
     
     .right .p{
         text-align: justify;
-        font-size: 10px;
+        font-size: 14px;
         letter-spacing: 1.12px;
         line-height: 20.2px;
         color: #686868;
@@ -171,13 +170,14 @@
         background: rgb(0, 0, 0, .4);
     }
     .experience-text p{
+        font-size: 16px;
         text-transform: uppercase;
         padding: 5px;
         letter-spacing: 4px;
         line-height: 24px;
     }
     .experience-text h5{
-        font-size: 12px;
+        font-size: 16px;
         padding: 4px;
         letter-spacing: 4px;
         line-height: 36px;
@@ -185,16 +185,16 @@
     .expe-text{
         display: flex;
         width: 100%;
-        background-color: #f5f0ef;
         margin-bottom: 0;
     }
     .expe-text p{
         color: #686868;
-        font-size: 12px;
+        font-size: 14px;
         font-family: 'Times New Roman', Times, serif;
         margin: 0px 30px;
         padding: 15px 0;
         width: 100%;
+        line-height: 16px;
     }
     .e-text{
         padding: 5% 10%;
@@ -202,7 +202,8 @@
     }
     
     .img{
-        width: 40%;
+        width: 50vw;
+        height: 35vh;
         z-index: 99;
         margin-bottom: -5% !important;
     }
@@ -244,7 +245,6 @@
     .right{
         width: 100%;
         height: 60vh;
-        background-color: #f7f6f4;
         padding: 20% 2%;
     }
 
@@ -273,7 +273,6 @@
         text-transform: uppercase;
         font-family: 'Times New Roman', Times, serif;
         font-size: 15px;
-        color: #686868;
     }
     
     .right .p{
@@ -282,6 +281,7 @@
         letter-spacing: 1.12px;
         line-height: 20.2px;
         color: #686868;
+        padding: 5px 20px;
         font-family: 'Times New Roman', Times, serif;
     }
    
@@ -310,7 +310,6 @@
     .expe-text{
         display: grid;
         width: 100%;
-        background-color: #f5f0ef;
     }
     .expe-text p{
         color: #686868;
@@ -328,6 +327,7 @@
     
     .img{
         width: 100%;
+        height: 50vh;
         padding: 0 5%;
     }
     .expe-text .img img{
