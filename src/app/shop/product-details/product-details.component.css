@@ -102,7 +102,6 @@ line-height: 16px;
 .span{
     color: black;
     margin: 2% 20px;
-    /* width:80px; */
 }
 .price .strikethrough{
     text-decoration: line-through;
@@ -414,21 +413,34 @@ line-height: 16px;
 }
 
 .product-name{
-    font-size: 14px;
     text-decoration: none;
-    color: #000;
-    font-weight: 700;
     text-align: center;
+    color: #8E3200;
+    font-family: 'add light';
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3.6px;
+    line-height: 16px;
 }
 
 .product-name:hover{
     text-decoration: none;
-    color: #9f9f9f;
+    color: #D7A86E;
 }
 
 .price-tag{
     display: flex;
     margin-top: 5%;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'times new roman';
+    color: black;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 14px;
+    text-align: start;
+    letter-spacing: 1.16px;
+    line-height: 16px;
 }
 
 .new-price{
@@ -442,18 +454,13 @@ line-height: 16px;
 }
 
 .whatsapp{
-    background-color: #000;
+    background-color: #A64B2A;
     padding: 3% 6%;
     color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-}
-.whatsapp:hover{
-    background-color: transparent;
-    border: 1px solid #000;
-    padding: 3% 6%;
-    color: #000;
-    font-weight: 400;
+    font-size: 14px;
+    font-family: "add light";
+    line-height: 16px;
+    letter-spacing: 1.8px;
 }
 
 a:focus, a:active {
@@ -566,6 +573,10 @@ a:focus, a:active {
         padding-top: 30px;
     }
 
+    .product-price .name{
+        text-align: left;
+    }
+
     .cat-name{
         text-align: left;
         font-size: x-large;
@@ -581,10 +592,20 @@ a:focus, a:active {
     .new-price,.old-price{
         font-size: x-large;
     }
-    .whatsapp{
-        margin-left: 0;
-        font-size: x-large;
-    }
+        .btn-buy{
+            padding: 5px 0;
+        }
+        
+        .btn-buy button{
+            border: 1px solid transparent;
+            padding: 10px 20px;
+            background-color: #A64B2A;
+            font-size: 16px;
+            color: #fff;
+            font-family: "add light";
+            line-height: 16px;
+            letter-spacing: 1.8px;
+        }
     .product-page{
         margin-bottom: 10%;
     }
@@ -694,6 +715,11 @@ a:focus, a:active {
         text-align: left !important;
         font-size: large;
     }
+
+    .product-price .name{
+        text-align: left;
+    }
+
     .price-tag{
         text-align: left;
     }
@@ -702,7 +728,9 @@ a:focus, a:active {
     }
     .whatsapp{
         margin-left: 0;
-        font-size: large;
+        padding: 3% 2%;
+        color: #fff;
+        font-size: 14px;
     }
     .product-page{
         margin-bottom: 10%;
