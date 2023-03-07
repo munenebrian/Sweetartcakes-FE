@@ -49,16 +49,23 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo a {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 800;
+    font-family: 'add light';
+    letter-spacing: 1.16px;
+    line-height: 3.28px;
     font-style: italic;
-    color: #A64B2A;
+    color: #8E3200;
     text-decoration: none;
+    font-weight: 600;
 }
 .footer-logo a span{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 800;
-    font-style: normal;
+    font-family: 'add light';
+    letter-spacing: 1.16px;
+    line-height: 3.28px;
+    font-style: italic;
     color: #000;
     text-decoration: none;
 }
