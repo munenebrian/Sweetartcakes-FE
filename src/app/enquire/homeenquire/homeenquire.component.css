@@ -313,6 +313,7 @@ select[type=""]{
         padding-bottom: 0;
     }
 
+
     .enquire-form{
         background-color: #fff;
         display: block;
@@ -349,9 +350,22 @@ select[type=""]{
         font-size: 14px;
     }
 
-    input, select{
+    input{
         width: 100%;
         height: 4vh;
+        border-radius: 2px;
+        border: 1px solid #c1c1c0;
+        color: #A64B2A;
+        font-family: 'Add light';
+        letter-spacing: 1.28px;
+        font-style: italic;
+        line-height: 28.8px;
+    }
+
+  
+    select{
+        width: 100%;
+        height: 6vh;
         border-radius: 2px;
         border: 1px solid #c1c1c0;
         color: #A64B2A;
