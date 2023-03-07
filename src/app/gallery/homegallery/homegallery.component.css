@@ -51,7 +51,7 @@
 }
 
 .gal-text-down img{
-    width: 40vh;
+    width: 45vh;
     height: 60vh;
     border: 1px solid #c1c1c0;
     padding: 8px;
@@ -91,11 +91,11 @@
 
 }
 .gal-text-down img{
-    width: 100%;
+    width: 80%;
     height: 50vh;
     border: 1px solid #c1c1c0;
     padding: 8px;
-    margin-left: 0;
+    margin-left: 10%;
 }
 .gal-text-down p {
     font-size:  28px;
