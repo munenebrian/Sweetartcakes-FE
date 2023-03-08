@@ -31,12 +31,14 @@
    
 }
 .gal-categories{
+    width: 100%;
+    padding: 0 3%;
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
 }
 .gal-text-cat{
-    margin: 80px 5%;
+    margin: 80px 0;
     display: flex;
     grid-gap: 15px;
 }
@@ -52,7 +54,7 @@
 }
 
 .gal-text-down img{
-    width: 45vh;
+    width: 22vw;
     height: 60vh;
     border: 1px solid #c1c1c0;
     padding: 8px;
@@ -89,7 +91,6 @@
 }
 .gal-text-down {
     margin: 8% 7%;
-
 }
 .gal-text-down img{
     width: 80%;
