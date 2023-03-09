@@ -51,3 +51,20 @@
         letter-spacing: 3px;
     }
   }
+
+  @media only screen and (max-width: 450px) {
+    .btn-1{
+        padding: 50px 80px;
+        text-align: center;
+        color: white;
+    }
+    
+    .btn-1 a{
+        font-size: 16px;
+        border: none;
+        padding: 8px 14px;
+        display: inline-block;
+        text-decoration: none;
+        letter-spacing: 3px;
+    }
+  }
