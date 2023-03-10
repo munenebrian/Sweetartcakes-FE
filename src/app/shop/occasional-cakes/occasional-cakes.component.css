@@ -346,6 +346,78 @@ a:focus, a:active {
     right: 1.5rem;
 }
 
+.pricelist2{
+    background-color: #fff;
+    margin: 120px 0;
+    padding: 10px 0;
+}
+
+.pricelist2 h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'add light';
+    letter-spacing: 3.16px;
+    padding: 20px 0;
+    color: #8E3200;
+    font-weight: 500;
+}
+
+/* input{
+   align-items: right;
+} */
+
+#myInput {
+    
+    width: 20%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 70%;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 2% 10%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable .fl{
+    font-family: 'add';
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 1.16px;
+    font-weight: 600;
+  }
+
+  #myTable .titles{
+    color: #8E3200;
+    font-family: 'add';
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 1.16px;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  
+#myTable tr.header, #myTable tr:hover {
+    background-color: #f8e4b9;
+    opacity: 1;
+  }
+
 @media only screen and (max-width:575px) {
     .product__items:hover .product__items--action__style2 {
         right: 1rem;
@@ -470,6 +542,30 @@ a:focus, a:active {
     .paginate{
         margin-left: -8%;
         margin-bottom: 10%;
+    }
+
+    .pricelist2{
+        padding: 0 0;
+    }
+    .pricelist2 h2{
+        padding-top: 0;
+    }
+     #myTable {
+        width: 95%;
+       margin: 10px 20px;
+    }
+
+    #myTable .titles{
+        line-height: 24px;
+    }
+
+    #myTable .fl{
+        line-height: 24px;
+    }
+
+    #myInput{
+        width: 30%;
+        margin-left: 67%;
     }
 }
 
