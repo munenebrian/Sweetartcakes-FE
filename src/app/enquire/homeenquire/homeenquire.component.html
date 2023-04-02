@@ -11,7 +11,12 @@
     </div>
         <div class="enquire-form">
             <div class="enquire-text">
-                <form method="post">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openForm(event, 'wedding')">Wedding Cakes Order Form</button>
+                    <button class="tablinks" onclick="openForm(event, 'ocassional')">Ocassional Cakes Order Form</button>
+                  </div>
+
+                <form method="post" id="wedding" class="tabcontent ones active">
                     <div class="text-1">
                         <label for="fname">First Name:</label><br>
                         <input type="text" id="FirstName" value="" placeholder="Please provide your first name"><br>
@@ -39,6 +44,45 @@
                         <input type="date" id="Date" value="" placeholder="Please provide your last name"><br>
     
                         <label for="venue">Wedding Venue</label><br>
+                        <input type="text" id="Venue" value=""><br>
+                    </div>
+                    
+                    <div class="text-3">
+                        <label for="budget">What is your approximate cake budget</label><br>
+                        <select id="Budget" value="" class="form-select">
+                            <option class="selected" selected>Select</option>
+                            <option>Kes72500 - Kes100000</option>
+                            <option>Kes110000 - Kes200000</option>
+                            <option>2 tire cake starting from or other small celebration 2 tier or less </option>
+                            <option>celebration/birthday cake €300+</option>
+                          </select>
+                    </div>
+
+                  <div class="submit-btn">
+                    <button type="button" onclick="whatsapp()"> Send To Whatsapp </button>
+                  </div>
+                </form>
+
+                <form method="post" id="ocassional" class="tabcontent">
+                    <div class="text-1">
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" id="FirstName" value="" placeholder="Please provide your first name"><br>
+    
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" id="LastName" value="" placeholder="Please provide your last name"><br>
+    
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="Email" value="" placeholder="Please provide your email address"><br>
+    
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="Phone" value="" placeholder="Please provide your phone number"><br>
+                    </div>
+                 
+                    <div class="text-2">
+                        <label for="date">Date of Wedding / Celebration Event:</label><br>
+                        <input type="date" id="Date" value="" placeholder="Please provide your last name"><br>
+    
+                        <label for="venue">Delivery Venue</label><br>
                         <input type="text" id="Venue" value=""><br>
                     </div>
                     
