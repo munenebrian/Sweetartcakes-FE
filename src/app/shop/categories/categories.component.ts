@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Category } from 'src/app/interfaces/category';
 import { Categoryproducts } from 'src/app/interfaces/category-products';
@@ -17,9 +18,15 @@ export class CategoriesComponent implements OnInit {
   cats: Category[] = [];
   id:number = 0;
 
-  constructor(private http: HttpClient, private categoriesService : CategoriesService,private route:ActivatedRoute) {}
+  constructor(private http: HttpClient, private categoriesService : CategoriesService,private route:ActivatedRoute, private meta: Meta) {}
 
   ngOnInit(): void {
+
+    this.meta.addTags([ 
+      { name: 'description', content: 'This a cake shop' }, 
+      { name: 'keywords', content: 'nairobi wedding cakes, cake shop, cakes, birthday cakes, sweet art, sweet art luxury cakes, kenya wedding cakes, nairobi bakeries, wedding cakes, nairobi cakes' } 
+    ]);
+
     // categories 
     this.http.get<Category[]>("https://sweetartcakes-be-production.up.railway.app/categories/").subscribe(
       data => {

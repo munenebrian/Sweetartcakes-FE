@@ -348,11 +348,10 @@ a:focus, a:active {
 
 .pricelist2{
     background-color: #fff;
-    margin: 120px 0;
+    padding: 120px 0;
     padding: 10px 0;
 }
-
-.pricelist2 h2{
+.h22{
     text-align: center;
     font-size: 40px;
     font-family: 'add light';
@@ -417,7 +416,42 @@ a:focus, a:active {
     background-color: #f8e4b9;
     opacity: 1;
   }
-
+ .h33{
+    width: 100%;
+    margin-left: 25vw;
+    padding: 25px 0;
+    text-align: center !important;
+    color: #8E3200;
+    font-family: 'add';
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 1.16px;
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+  .pricelist2 .note{
+    text-align: center;
+    color: #8E3200;
+    font-family: 'add light';
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .pricelist2 hr{
+    margin: 1% 20%;
+    font-weight: 500;
+  }
+.h44{
+    color: black;
+    font-family: 'add';
+    font-size: 17px;
+    line-height: 38.8px;
+    letter-spacing: 1.16px;
+    width: 100%;
+    margin: 0 30%;
+}
 @media only screen and (max-width:575px) {
     .product__items:hover .product__items--action__style2 {
         right: 1rem;
@@ -545,14 +579,17 @@ a:focus, a:active {
     }
 
     .pricelist2{
+        width: 100%;
         padding: 0 0;
+        overflow-x: scroll !important;
     }
     .pricelist2 h2{
         padding-top: 0;
     }
-     #myTable {
+
+    #myTable {
         width: 95%;
-       margin: 10px 20px;
+        margin: 10px 20px;
     }
 
     #myTable .titles{
@@ -681,5 +718,39 @@ a:focus, a:active {
     .paginate{
         margin-left: -8%;
         margin-bottom: 10%;
+    }
+
+    .h22{
+        width: 200%;
+        text-align: left;
+        font-size: 35px;
+        font-family: 'add light';
+        letter-spacing: 3.16px;
+        padding: 20px;
+        color: #8E3200;
+        font-weight: 900;
+    }
+
+    .h33{
+        width: 300%;
+        margin-left: 5vw;
+        padding: 25px 0;
+        text-align: center !important;
+        color: #8E3200;
+        font-family: 'add';
+        font-size: 24px;
+        line-height: 16px;
+        letter-spacing: 1.16px;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    .pricelist2 .h44{
+        color: black;
+        font-family: 'add';
+        font-size: 17px;
+        line-height: 38.8px;
+        letter-spacing: 1.16px;
+        width: 100%;
+        margin: 5%;
     }
 }

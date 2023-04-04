@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { Category } from 'src/app/interfaces/category';
 import { Product } from 'src/app/interfaces/product';
 import { CategoriesService } from 'src/app/services/categories.service';
@@ -22,7 +23,7 @@ export class OccasionalCakesComponent implements OnInit{
   itemscount:number = 12;
   itemcounts: any = [4,8,12,16,20]
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private meta: Meta) {}
 
   ngOnInit(): void {
   // categories 
@@ -30,8 +31,13 @@ export class OccasionalCakesComponent implements OnInit{
     data => {
       this.cats = data
       console.log(this.cats)
-    }
+    },
   ); 
+  
+  this.meta.addTags([ 
+    { name: 'description', content: 'This a cake shop' }, 
+    { name: 'keywords', content: 'nairobi wedding cakes, cake shop, cakes, birthday cakes, sweet art, sweet art luxury cakes, kenya wedding cakes, nairobi bakeries, wedding cakes, nairobi cakes' } 
+  ]);
   // pagination 
   this.getData();
   
