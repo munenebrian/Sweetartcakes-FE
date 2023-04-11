@@ -774,9 +774,10 @@
   }
   
   .images{
-    position: relative;
+    /* position: relative;
     top: 0;
-    left: 1%;
+    left: 1%; */
+    display: none;
   }
   
   .text{
