@@ -15,6 +15,10 @@ header{
     justify-content: center;
     background:#FFEBC1;
   }
+
+  .loggos{
+    display: none;
+  }
   
   .menu ul{
     padding: 0;
@@ -72,11 +76,38 @@ header{
       padding: 20px 0;
       background-color: #fff;
     }
+
+    .container{
+      width: 100%;
+      display: flex;
+      padding: 0 20px;
+      gap: 240px;
+    }
+
+    .loggos{
+      display: contents;
+      width: 90%;
+    }
+
+    .loggo{
+      text-decoration: none;
+      color: #8E3200;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .loggo span{
+      color: #000;
+    }
+
+    .flexa{
+      width: 10%;
+    }
   
     .menu{
       position: fixed;
       right: -100%;
-      top: 44px;
+      top: 65px;
       width: 280px;
       height: auto;
       padding: 20% 0;
@@ -158,12 +189,35 @@ header{
   
     .container{
       width: 100%;
+      display: flex;
+      padding: 0 20px;
+      gap: 40px;
+    }
+
+    .loggos{
+      display: contents;
+      width: 90%;
+    }
+
+    .loggo{
+      text-decoration: none;
+      color: #8E3200;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .loggo span{
+      color: #000;
+    }
+
+    .flexa{
+      width: 10%;
     }
   
     .menu{
       position: fixed;
       right: -100%;
-      top: 50px;
+      top: 65px;
       width: 280px;
       height: auto;
       background-color: #f5f0ef;
@@ -191,7 +245,7 @@ header{
       right: 0;
       top: 5px;
       float: right;
-      margin-right: 5%;
+      margin-right: 0;
     }
   
     .menu-icon span{

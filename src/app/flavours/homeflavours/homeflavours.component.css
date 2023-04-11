@@ -102,6 +102,9 @@
 }
 
 @media only screen and (max-width:500px) {
+    .row{
+        width: 100%;
+    }
 
     .flavv{
         border: 15px solid #fff;
