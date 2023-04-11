@@ -651,7 +651,9 @@
   .more{
     background-color: #A64B2A;
     margin: 10% 15%;
-    padding: 10px 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
   }
   
   .btn-button{
