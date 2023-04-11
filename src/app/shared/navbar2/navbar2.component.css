@@ -81,7 +81,7 @@ header{
       width: 100%;
       display: flex;
       padding: 0 0;
-      gap: 240px;
+      gap: 150px;
     }
 
     .loggos{
@@ -191,7 +191,7 @@ header{
       width: 100%;
       display: flex;
       padding: 0 0;
-      gap: 40px;
+      gap: 20px;
     }
 
     .loggos{
