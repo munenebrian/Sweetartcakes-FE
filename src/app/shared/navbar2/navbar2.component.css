@@ -190,7 +190,7 @@ header{
     .container{
       width: 100%;
       display: flex;
-      padding: 0 20px;
+      padding: 0 10px;
       gap: 40px;
     }
 
