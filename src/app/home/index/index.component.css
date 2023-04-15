@@ -12,6 +12,9 @@
   justify-content: center;
   margin-bottom: 0px;
 }
+.rgba{
+  margin-top: -40%;
+}
 
 .top-logo-image{
   padding-left: 40%;
@@ -49,7 +52,7 @@
 }
 
 .topper{
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 
 .layout{
@@ -110,51 +113,29 @@
   display: block;
 }
 
-.header-ps{
+/* .header-ps{
   background-color: #fff;
   padding-top: 10%;
   padding-bottom: 10%;
   margin-top: 0px;
-}
-
-.ex-cakes{
-  text-transform: capitalize;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  color: #8E3200;
-  letter-spacing: 4px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.expect{
-  margin-top: 3%;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-  color: #A64B2A;
-  text-transform: capitalize;
-  letter-spacing: 4px;
-  font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 .carousel{
-  display: flex;
+  /* display: flex; */
   width: 100%;
-  background-color: #FFEBC1;
+  /* background-color: #FFEBC1; */
   margin-top: 0;
-  padding-bottom: 7%;
+
 }
 
 .images, .text{
-  width: 50%;
+  width: 100%;
 }
 
 .images{
   position: relative;
   top: 0;
-  left: 10%;
+  /* left: 10%; */
 }
 
 .text{
@@ -205,14 +186,12 @@
 .fade>img {
   vertical-align: middle;
   height: 80vh;
-  border: 16px solid #fff;
-  margin-top: -30%;
   width: 100%;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 60%;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -232,13 +211,13 @@
   }
 
 .para{
-  width: 40%;
+  width: 100%;
+  align-items: center;
   padding-bottom: 5%;
   padding-top: 2%;
-  padding-left: 10%;
+  /* padding-left: 10%; */
   position: relative;
   border-radius: 15px ;
-  background: rgba(228, 224, 224, 0.5);
 }
 
 /* The dots/bullets/indicators */
