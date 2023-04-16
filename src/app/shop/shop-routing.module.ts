@@ -14,6 +14,8 @@ import { BridalshowerDetailsComponent } from './bridalshower-details/bridalshowe
 import { BridalshowerCakesComponent } from './bridalshower-cakes/bridalshower-cakes.component';
 import { ChristmassCakesComponent } from './christmass-cakes/christmass-cakes.component';
 import { ChristmassDetailsComponent } from './christmass-details/christmass-details.component';
+import { EasterDetailsComponent } from './easter-details/easter-details.component';
+import { EasterCakesComponent } from './easter-cakes/easter-cakes.component';
 
 const routes: Routes = [
   {
@@ -33,6 +35,8 @@ const routes: Routes = [
         { path: 'bridalshowercakes-details/:id', component: BridalshowerDetailsComponent },
         { path: 'christmascakes', component: ChristmassCakesComponent },
         { path: 'christmascakes-details/:id', component: ChristmassDetailsComponent },
+        { path: 'eastercakes', component: EasterCakesComponent },
+        { path: 'eastercakes-details/:id', component: EasterDetailsComponent },
       ],
   }
 ];

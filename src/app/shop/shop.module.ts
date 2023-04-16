@@ -17,6 +17,8 @@ import { BridalshowerCakesComponent } from './bridalshower-cakes/bridalshower-ca
 import { BridalshowerDetailsComponent } from './bridalshower-details/bridalshower-details.component';
 import { ChristmassCakesComponent } from './christmass-cakes/christmass-cakes.component';
 import { ChristmassDetailsComponent } from './christmass-details/christmass-details.component';
+import { EasterCakesComponent } from './easter-cakes/easter-cakes.component';
+import { EasterDetailsComponent } from './easter-details/easter-details.component';
 
 
 
@@ -35,7 +37,9 @@ import { ChristmassDetailsComponent } from './christmass-details/christmass-deta
     BridalshowerCakesComponent,
     BridalshowerDetailsComponent,
     ChristmassCakesComponent,
-    ChristmassDetailsComponent
+    ChristmassDetailsComponent,
+    EasterCakesComponent,
+    EasterDetailsComponent
   ],
   imports: [
     CommonModule,
