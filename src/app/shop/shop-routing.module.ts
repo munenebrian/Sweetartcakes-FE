@@ -69,6 +69,8 @@ const routes: Routes = [
         { path: 'baptismalcakes-details/:id', component: BaptismalDetailsComponent },
         { path: 'christeningcakes', component: ChristeningCakesComponent },
         { path: 'christeningcakes-details/:id', component: ChristeningDetailsComponent },
+        { path: 'birthdaycakes', component: ChristeningCakesComponent },
+        { path: 'birthdaycakes-details/:id', component: ChristeningDetailsComponent },
       ],
   }
 ];
