@@ -30,6 +30,8 @@ import { AnniversaryDetailsComponent } from './anniversary-details/anniversary-d
 import { AnniversaryCakesComponent } from './anniversary-cakes/anniversary-cakes.component';
 import { BaptismalDetailsComponent } from './baptismal-details/baptismal-details.component';
 import { BaptismalCakesComponent } from './baptismal-cakes/baptismal-cakes.component';
+import { ChristeningDetailsComponent } from './christening-details/christening-details.component';
+import { ChristeningCakesComponent } from './christening-cakes/christening-cakes.component';
 
 const routes: Routes = [
   {
@@ -65,6 +67,8 @@ const routes: Routes = [
         { path: 'anniversarycakes-details/:id', component: AnniversaryDetailsComponent },
         { path: 'baptismalcakes', component: BaptismalCakesComponent },
         { path: 'baptismalcakes-details/:id', component: BaptismalDetailsComponent },
+        { path: 'christeningcakes', component: ChristeningCakesComponent },
+        { path: 'christeningcakes-details/:id', component: ChristeningDetailsComponent },
       ],
   }
 ];
