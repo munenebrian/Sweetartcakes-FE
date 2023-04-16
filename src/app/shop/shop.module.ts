@@ -21,6 +21,8 @@ import { EasterCakesComponent } from './easter-cakes/easter-cakes.component';
 import { EasterDetailsComponent } from './easter-details/easter-details.component';
 import { FathersdayCakesComponent } from './fathersday-cakes/fathersday-cakes.component';
 import { FathersdayDetailsComponent } from './fathersday-details/fathersday-details.component';
+import { MothersdayCakesComponent } from './mothersday-cakes/mothersday-cakes.component';
+import { MothersdayDetailsComponent } from './mothersday-details/mothersday-details.component';
 
 
 
@@ -43,7 +45,9 @@ import { FathersdayDetailsComponent } from './fathersday-details/fathersday-deta
     EasterCakesComponent,
     EasterDetailsComponent,
     FathersdayCakesComponent,
-    FathersdayDetailsComponent
+    FathersdayDetailsComponent,
+    MothersdayCakesComponent,
+    MothersdayDetailsComponent
   ],
   imports: [
     CommonModule,

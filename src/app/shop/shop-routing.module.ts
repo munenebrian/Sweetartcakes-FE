@@ -18,6 +18,8 @@ import { EasterDetailsComponent } from './easter-details/easter-details.componen
 import { EasterCakesComponent } from './easter-cakes/easter-cakes.component';
 import { FathersdayDetailsComponent } from './fathersday-details/fathersday-details.component';
 import { FathersdayCakesComponent } from './fathersday-cakes/fathersday-cakes.component';
+import { MothersdayDetailsComponent } from './mothersday-details/mothersday-details.component';
+import { MothersdayCakesComponent } from './mothersday-cakes/mothersday-cakes.component';
 
 const routes: Routes = [
   {
@@ -41,6 +43,8 @@ const routes: Routes = [
         { path: 'eastercakes-details/:id', component: EasterDetailsComponent },
         { path: 'fathersdaycakes', component: FathersdayCakesComponent },
         { path: 'fathersdaycakes-details/:id', component: FathersdayDetailsComponent },
+        { path: 'mothersdaycakes', component: MothersdayCakesComponent },
+        { path: 'mothersdaycakes-details/:id', component: MothersdayDetailsComponent },
       ],
   }
 ];

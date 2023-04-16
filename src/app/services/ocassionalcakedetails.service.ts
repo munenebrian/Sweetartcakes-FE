@@ -31,4 +31,8 @@ export class OcassionalcakedetailsService {
   getFathersDayCakeDetails(id:number): Observable<Product[]> {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/fathersDayCakesDetails/' + id);
   }
+
+  getMothersDayCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/mothersDayCakesDetails/' + id);
+  }
 }
