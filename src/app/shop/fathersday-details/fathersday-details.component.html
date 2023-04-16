@@ -20,7 +20,7 @@
             <div class="btn-buy">
                 <button (click)="openWhatsApp()"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
             </div>
-            <p class="category">Category: <span id="category-style">{{singleProduct[0].category_name}}</span></p>
+            <p class="category">Category: <span id="category-style">Fathers Day Cake</span></p>
         </div>
     </div>
     
@@ -47,11 +47,10 @@
             </div>
 
             <div class="details">
-                <p class="cat-name">{{ product.category_name | titlecase}}</p>
+                <p class="cat-name">Fathers Day Cake</p>
                 <a [routerLink]="['/shop/fathersdaycakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
                 <div class="price-tag">
                     <p class="new-price">Kes {{ product.price}}</p>
-                   
                 </div>
                 <button (click)="openWhatsAppp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
             </div>

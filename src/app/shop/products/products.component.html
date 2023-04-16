@@ -40,13 +40,9 @@
                 </div>
     
                 <div class="details">
-                    <p class="cat-name">{{ product.category_name | titlecase}}</p>
+                    <p class="cat-name">Wedding Cakes</p>
                     <a [routerLink]="['/shop/product-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
-                    <div class="price-tag">
-                        <p class="new-price">Kes {{ product.price}}</p>
-                        <span>-</span>
-                        <p class="old-price">Kes {{ product.range_price }}</p>
-                    </div>
+                    <br><br>
                     <button (click)="openWhatsApp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
                 </div>
             </div> 

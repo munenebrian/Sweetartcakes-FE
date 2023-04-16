@@ -42,6 +42,12 @@
                 <li class="cats" >
                     <a [routerLink]="['/shop/anniversarycakes/']" class="cattss" >Anniversary Cakes</a>
                 </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/baptismalcakes/']" class="cattss" >Baptismal Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/christeningcakes/']" class="cattss" >Christening Cakes</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -61,7 +67,7 @@
                 </div>
     
                 <div class="details">
-                    <p class="cat-name">{{ product.category_name | titlecase}}</p>
+                    <p class="cat-name">Corporate Cake</p>
                     <a [routerLink]="['/shop/corporatecakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
                     <div class="price-tag">
                         <p class="new-price">Kes {{ product.price}}</p>
