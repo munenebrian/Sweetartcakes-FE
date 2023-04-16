@@ -9,6 +9,10 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { CategoriesComponent } from './categories/categories.component';
 import { OccasionalCakesComponent } from './occasional-cakes/occasional-cakes.component';
 import { OccasionalCakesDetailsComponent } from './occasional-cakes-details/occasional-cakes-details.component';
+import { EngagementCakesComponent } from './engagement-cakes/engagement-cakes.component';
+import { RuracioCakesComponent } from './ruracio-cakes/ruracio-cakes.component';
+import { EngagementDetailsComponent } from './engagement-details/engagement-details.component';
+import { RuracioDetailsComponent } from './ruracio-details/ruracio-details.component';
 
 
 
@@ -19,7 +23,11 @@ import { OccasionalCakesDetailsComponent } from './occasional-cakes-details/occa
     ProductDetailsComponent,
     CategoriesComponent,
     OccasionalCakesComponent,
-    OccasionalCakesDetailsComponent
+    OccasionalCakesDetailsComponent,
+    EngagementCakesComponent,
+    RuracioCakesComponent,
+    EngagementDetailsComponent,
+    RuracioDetailsComponent
   ],
   imports: [
     CommonModule,

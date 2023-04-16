@@ -6,6 +6,10 @@ import { OccasionalCakesComponent } from './occasional-cakes/occasional-cakes.co
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ProductsComponent } from './products/products.component';
 import { ShopComponent } from './shop.component';
+import { EngagementCakesComponent } from './engagement-cakes/engagement-cakes.component';
+import { RuracioCakesComponent } from './ruracio-cakes/ruracio-cakes.component';
+import { EngagementDetailsComponent } from './engagement-details/engagement-details.component';
+import { RuracioDetailsComponent } from './ruracio-details/ruracio-details.component';
 
 const routes: Routes = [
   {
@@ -17,6 +21,10 @@ const routes: Routes = [
         { path: 'category-products/:id', component: CategoriesComponent },
         { path: 'occasionalcakes', component: OccasionalCakesComponent },
         { path: 'occasionalcakes-details/:id', component: OccasionalCakesDetailsComponent },
+        { path: 'engagementcakes', component: EngagementCakesComponent },
+        { path: 'engagementcakes-details/:id', component: EngagementDetailsComponent },
+        { path: 'ruraciocakes', component: RuracioCakesComponent },
+        { path: 'ruraciocakes-details/:id', component: RuracioDetailsComponent },
       ],
   }
 ];
