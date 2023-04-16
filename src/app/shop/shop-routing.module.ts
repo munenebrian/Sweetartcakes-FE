@@ -22,6 +22,8 @@ import { MothersdayDetailsComponent } from './mothersday-details/mothersday-deta
 import { MothersdayCakesComponent } from './mothersday-cakes/mothersday-cakes.component';
 import { GraduationDetailsComponent } from './graduation-details/graduation-details.component';
 import { GraduationCakesComponent } from './graduation-cakes/graduation-cakes.component';
+import { ValentinesDetailsComponent } from './valentines-details/valentines-details.component';
+import { ValentinesCakesComponent } from './valentines-cakes/valentines-cakes.component';
 
 const routes: Routes = [
   {
@@ -49,6 +51,8 @@ const routes: Routes = [
         { path: 'mothersdaycakes-details/:id', component: MothersdayDetailsComponent },
         { path: 'graduationcakes', component: GraduationCakesComponent },
         { path: 'graduationcakes-details/:id', component: GraduationDetailsComponent },
+        { path: 'valentinescakes', component: ValentinesCakesComponent },
+        { path: 'valentinescakes-details/:id', component: ValentinesDetailsComponent },
       ],
   }
 ];

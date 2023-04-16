@@ -39,4 +39,8 @@ export class OcassionalcakedetailsService {
   getGraduationCakeDetails(id:number): Observable<Product[]> {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/graduationCakesDetails/' + id);
   }
+
+  getValentinesCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/valentinesCakesDetails/' + id);
+  }
 }
