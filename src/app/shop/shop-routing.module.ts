@@ -26,6 +26,8 @@ import { ValentinesDetailsComponent } from './valentines-details/valentines-deta
 import { ValentinesCakesComponent } from './valentines-cakes/valentines-cakes.component';
 import { CorporateDetailsComponent } from './corporate-details/corporate-details.component';
 import { CorporateCakesComponent } from './corporate-cakes/corporate-cakes.component';
+import { AnniversaryDetailsComponent } from './anniversary-details/anniversary-details.component';
+import { AnniversaryCakesComponent } from './anniversary-cakes/anniversary-cakes.component';
 
 const routes: Routes = [
   {
@@ -57,6 +59,8 @@ const routes: Routes = [
         { path: 'valentinescakes-details/:id', component: ValentinesDetailsComponent },
         { path: 'corporatecakes', component: CorporateCakesComponent },
         { path: 'corporatecakes-details/:id', component: CorporateDetailsComponent },
+        { path: 'anniversarycakes', component: AnniversaryCakesComponent },
+        { path: 'anniversarycakes-details/:id', component: AnniversaryDetailsComponent },
       ],
   }
 ];

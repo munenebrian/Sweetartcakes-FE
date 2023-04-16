@@ -29,6 +29,8 @@ import { ValentinesCakesComponent } from './valentines-cakes/valentines-cakes.co
 import { ValentinesDetailsComponent } from './valentines-details/valentines-details.component';
 import { CorporateCakesComponent } from './corporate-cakes/corporate-cakes.component';
 import { CorporateDetailsComponent } from './corporate-details/corporate-details.component';
+import { AnniversaryCakesComponent } from './anniversary-cakes/anniversary-cakes.component';
+import { AnniversaryDetailsComponent } from './anniversary-details/anniversary-details.component';
 
 
 
@@ -59,7 +61,9 @@ import { CorporateDetailsComponent } from './corporate-details/corporate-details
     ValentinesCakesComponent,
     ValentinesDetailsComponent,
     CorporateCakesComponent,
-    CorporateDetailsComponent
+    CorporateDetailsComponent,
+    AnniversaryCakesComponent,
+    AnniversaryDetailsComponent
   ],
   imports: [
     CommonModule,
