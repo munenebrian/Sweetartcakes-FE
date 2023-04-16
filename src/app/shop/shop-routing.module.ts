@@ -32,6 +32,8 @@ import { BaptismalDetailsComponent } from './baptismal-details/baptismal-details
 import { BaptismalCakesComponent } from './baptismal-cakes/baptismal-cakes.component';
 import { ChristeningDetailsComponent } from './christening-details/christening-details.component';
 import { ChristeningCakesComponent } from './christening-cakes/christening-cakes.component';
+import { BirthdayCakesComponent } from './birthday-cakes/birthday-cakes.component';
+import { BirthdayDetailsComponent } from './birthday-details/birthday-details.component';
 
 const routes: Routes = [
   {
@@ -69,8 +71,8 @@ const routes: Routes = [
         { path: 'baptismalcakes-details/:id', component: BaptismalDetailsComponent },
         { path: 'christeningcakes', component: ChristeningCakesComponent },
         { path: 'christeningcakes-details/:id', component: ChristeningDetailsComponent },
-        { path: 'birthdaycakes', component: ChristeningCakesComponent },
-        { path: 'birthdaycakes-details/:id', component: ChristeningDetailsComponent },
+        { path: 'birthdaycakes', component: BirthdayCakesComponent },
+        { path: 'birthdaycakes-details/:id', component: BirthdayDetailsComponent },
       ],
   }
 ];
