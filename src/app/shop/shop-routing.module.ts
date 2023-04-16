@@ -10,6 +10,8 @@ import { EngagementDetailsComponent } from './engagement-details/engagement-deta
 import { RuracioDetailsComponent } from './ruracio-details/ruracio-details.component';
 import { BabyshowerCakesComponent } from './babyshower-cakes/babyshower-cakes.component';
 import { BabyshowerDetailsComponent } from './babyshower-details/babyshower-details.component';
+import { BridalshowerDetailsComponent } from './bridalshower-details/bridalshower-details.component';
+import { BridalshowerCakesComponent } from './bridalshower-cakes/bridalshower-cakes.component';
 
 const routes: Routes = [
   {
@@ -25,6 +27,8 @@ const routes: Routes = [
         { path: 'ruraciocakes-details/:id', component: RuracioDetailsComponent },
         { path: 'babyshowercakes', component: BabyshowerCakesComponent },
         { path: 'babyshowercakes-details/:id', component: BabyshowerDetailsComponent },
+        { path: 'bridalshowercakes', component: BridalshowerCakesComponent },
+        { path: 'bridalshowercakes-details/:id', component: BridalshowerDetailsComponent },
       ],
   }
 ];

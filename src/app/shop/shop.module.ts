@@ -13,6 +13,8 @@ import { EngagementDetailsComponent } from './engagement-details/engagement-deta
 import { RuracioDetailsComponent } from './ruracio-details/ruracio-details.component';
 import { BabyshowerCakesComponent } from './babyshower-cakes/babyshower-cakes.component';
 import { BabyshowerDetailsComponent } from './babyshower-details/babyshower-details.component';
+import { BridalshowerCakesComponent } from './bridalshower-cakes/bridalshower-cakes.component';
+import { BridalshowerDetailsComponent } from './bridalshower-details/bridalshower-details.component';
 
 
 
@@ -27,7 +29,9 @@ import { BabyshowerDetailsComponent } from './babyshower-details/babyshower-deta
     EngagementDetailsComponent,
     RuracioDetailsComponent,
     BabyshowerCakesComponent,
-    BabyshowerDetailsComponent
+    BabyshowerDetailsComponent,
+    BridalshowerCakesComponent,
+    BridalshowerDetailsComponent
   ],
   imports: [
     CommonModule,
