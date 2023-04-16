@@ -23,6 +23,8 @@ import { FathersdayCakesComponent } from './fathersday-cakes/fathersday-cakes.co
 import { FathersdayDetailsComponent } from './fathersday-details/fathersday-details.component';
 import { MothersdayCakesComponent } from './mothersday-cakes/mothersday-cakes.component';
 import { MothersdayDetailsComponent } from './mothersday-details/mothersday-details.component';
+import { GraduationCakesComponent } from './graduation-cakes/graduation-cakes.component';
+import { GraduationDetailsComponent } from './graduation-details/graduation-details.component';
 
 
 
@@ -47,7 +49,9 @@ import { MothersdayDetailsComponent } from './mothersday-details/mothersday-deta
     FathersdayCakesComponent,
     FathersdayDetailsComponent,
     MothersdayCakesComponent,
-    MothersdayDetailsComponent
+    MothersdayDetailsComponent,
+    GraduationCakesComponent,
+    GraduationDetailsComponent
   ],
   imports: [
     CommonModule,

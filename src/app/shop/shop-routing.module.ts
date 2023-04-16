@@ -20,6 +20,8 @@ import { FathersdayDetailsComponent } from './fathersday-details/fathersday-deta
 import { FathersdayCakesComponent } from './fathersday-cakes/fathersday-cakes.component';
 import { MothersdayDetailsComponent } from './mothersday-details/mothersday-details.component';
 import { MothersdayCakesComponent } from './mothersday-cakes/mothersday-cakes.component';
+import { GraduationDetailsComponent } from './graduation-details/graduation-details.component';
+import { GraduationCakesComponent } from './graduation-cakes/graduation-cakes.component';
 
 const routes: Routes = [
   {
@@ -45,6 +47,8 @@ const routes: Routes = [
         { path: 'fathersdaycakes-details/:id', component: FathersdayDetailsComponent },
         { path: 'mothersdaycakes', component: MothersdayCakesComponent },
         { path: 'mothersdaycakes-details/:id', component: MothersdayDetailsComponent },
+        { path: 'graduationcakes', component: GraduationCakesComponent },
+        { path: 'graduationcakes-details/:id', component: GraduationDetailsComponent },
       ],
   }
 ];
