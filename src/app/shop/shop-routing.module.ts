@@ -16,6 +16,8 @@ import { ChristmassCakesComponent } from './christmass-cakes/christmass-cakes.co
 import { ChristmassDetailsComponent } from './christmass-details/christmass-details.component';
 import { EasterDetailsComponent } from './easter-details/easter-details.component';
 import { EasterCakesComponent } from './easter-cakes/easter-cakes.component';
+import { FathersdayDetailsComponent } from './fathersday-details/fathersday-details.component';
+import { FathersdayCakesComponent } from './fathersday-cakes/fathersday-cakes.component';
 
 const routes: Routes = [
   {
@@ -37,6 +39,8 @@ const routes: Routes = [
         { path: 'christmascakes-details/:id', component: ChristmassDetailsComponent },
         { path: 'eastercakes', component: EasterCakesComponent },
         { path: 'eastercakes-details/:id', component: EasterDetailsComponent },
+        { path: 'fathersdaycakes', component: FathersdayCakesComponent },
+        { path: 'fathersdaycakes-details/:id', component: FathersdayDetailsComponent },
       ],
   }
 ];

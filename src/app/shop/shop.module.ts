@@ -19,6 +19,8 @@ import { ChristmassCakesComponent } from './christmass-cakes/christmass-cakes.co
 import { ChristmassDetailsComponent } from './christmass-details/christmass-details.component';
 import { EasterCakesComponent } from './easter-cakes/easter-cakes.component';
 import { EasterDetailsComponent } from './easter-details/easter-details.component';
+import { FathersdayCakesComponent } from './fathersday-cakes/fathersday-cakes.component';
+import { FathersdayDetailsComponent } from './fathersday-details/fathersday-details.component';
 
 
 
@@ -39,7 +41,9 @@ import { EasterDetailsComponent } from './easter-details/easter-details.componen
     ChristmassCakesComponent,
     ChristmassDetailsComponent,
     EasterCakesComponent,
-    EasterDetailsComponent
+    EasterDetailsComponent,
+    FathersdayCakesComponent,
+    FathersdayDetailsComponent
   ],
   imports: [
     CommonModule,
