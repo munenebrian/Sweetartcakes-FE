@@ -1,0 +1,445 @@
+<div class="cont">
+    <app-navbar2></app-navbar2>
+    <div class="contt">
+        <div class="experience-text">
+            <p>Shop</p>
+        </div>
+    </div>
+
+<div class="product-page medical">
+    <div class="category-section">
+        <div class="categories">
+            <h3 class="h3">Filter by Categories</h3>
+            <hr>
+            <ul class="categoriess">
+                <li class="cats" >
+                    <a [routerLink]="['/shop/babyshowercakes/']" class="cattss" >Baby Shower Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/bridalshowercakes/']" class="cattss" >Bridal Shower Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/christmascakes/']" class="cattss" >Christmas Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/eastercakes/']" class="cattss" >Easter Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/fathersdaycakes/']" class="cattss" >Fathers Day Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/mothersdaycakes/']" class="cattss" >Mothers Day Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/graduationcakes/']" class="cattss" >Graduation Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/valentinescakes/']" class="cattss" >Valentines Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/corporatecakes/']" class="cattss" >Corporate Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/anniversarycakes/']" class="cattss" >Anniversary Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/baptismalcakes/']" class="cattss" >Baptismal Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/christeningcakes/']" class="cattss" >Christening Cakes</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="back">
+        <div class="products">
+            <div class="card column"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
+                <div class="product__items">
+                    <div class="product__items--thumbnail">
+                        <a [routerLink]="['/shop/anniversarycakes-details/',product.id]" class="product__items--link" >
+                            <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
+                            <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
+                        </a>
+                        <div class="product__badge">
+                            <span class="product__badge--items sale">Sale</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="details">
+                    <p class="cat-name">Anniversary Cake</p>
+                    <a [routerLink]="['/shop/anniversarycakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                    <div class="price-tag">
+                        <p class="new-price">Kes {{ product.price}}</p>
+                    </div>
+                    <button (click)="openWhatsApp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<div class="pricelist2">
+  <p class="h22">Occasional Cakes Price List</p>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cakes.." title="Type in a flavor">
+
+<table id="myTable">
+  <tr class="header">
+    <th class= fl style="width:20%;">CAKE FLAVOR</th>
+    <th style="width:10%;">0.5KG</th>
+    <th style="width:10%;">1.0KG</th>
+    <th style="width:10%;">1.5KG</th>
+    <th style="width:10%;">2.0KG</th>
+    <th style="width:10%;">3.0KG</th>
+    <th style="width:10%;">4.0KG</th>
+    <th style="width:10%;">5.0KG</th>
+  </tr>
+  <p class="h33">Sweet flavors redefined</p>
+  <tr>
+    <td class="titles">Vanilla Cake</td>
+    <td>1600</td>
+    <td>2200</td>
+    <td>3200</td>
+    <td>4000</td>
+    <td>5500</td>
+    <td>7200</td>
+    <td>8500</td>
+  </tr>
+  <tr>
+    <td class="titles" >Orange Cake</td>
+    <td>1600</td>
+    <td>2300</td>
+    <td>3400</td>
+    <td>4200</td>
+    <td>5700</td>
+    <td>7400</td>
+    <td>8600</td>
+  </tr>
+  <tr>
+    <td class="titles">Passion Cake</td>
+    <td>1600</td>
+    <td>2400</td>
+    <td>3500</td>
+    <td>4300</td>
+    <td>5800</td>
+    <td>7600</td>
+    <td>8800</td>
+  </tr>
+  <tr>
+    <td class="titles">Lemon Cake</td>
+    <td>1600</td>
+    <td>2300</td>
+    <td>3400</td>
+    <td>4200</td>
+    <td>5700</td>
+    <td>7400</td>
+    <td>8800</td>
+  </tr>
+  <tr>
+    <td class="titles">Coconut Cake</td>
+    <td>1600</td>
+    <td>2300</td>
+    <td>3400</td>
+    <td>4200</td>
+    <td>5700</td>
+    <td>7400</td>
+    <td>8600</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Blueberry</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3600</td>
+    <td>4300</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>9000</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Combo</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3500</td>
+    <td>4200</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>9000</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Mint</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3500</td>
+    <td>4200</td>
+    <td>5600</td>
+    <td>7400</td>
+    <td>9000</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Orange</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3500</td>
+    <td>4200</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>9000</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Passion</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Blueberry Forest</td>
+    <td>2100</td>
+    <td>2700</td>
+    <td>3700</td>
+    <td>4500</td>
+    <td>6200</td>
+    <td>8100</td>
+    <td>9600</td>
+  </tr>
+  <tr>
+    <td class="titles">Amarula Forest</td>
+    <td>2300</td>
+    <td>3000</td>
+    <td>4000</td>
+    <td>5000</td>
+    <td>6500</td>
+    <td>8500</td>
+    <td>10000</td>
+  </tr>
+  <p class="h33">Exotic Flavors</p>
+  <tr>
+    <td class="titles">Pinacolada</td>
+    <td>1700</td>
+    <td>2500</td>
+    <td>3500</td>
+    <td>4500</td>
+    <td>6500</td>
+    <td>7500</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Chocolate Mint</td>
+    <td>1700</td>
+    <td>2500</td>
+    <td>3500</td>
+    <td>4500</td>
+    <td>6500</td>
+    <td>7500</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Passion Orange</td>
+    <td>1700</td>
+    <td>2500</td>
+    <td>3500</td>
+    <td>4500</td>
+    <td>6700</td>
+    <td>7800</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Blueberry Poppy</td>
+    <td>1900</td>
+    <td>2600</td>
+    <td>3700</td>
+    <td>4700</td>
+    <td>6700</td>
+    <td>7900</td>
+    <td>9000</td>
+  </tr>
+  <tr>
+    <td class="titles">Strawberry Raspberry Vanilla</td>
+    <td>1700</td>
+    <td>2500</td>
+    <td>3500</td>
+    <td>4500</td>
+    <td>6500</td>
+    <td>7500</td>
+    <td>8900</td>
+  </tr>
+  <p class="h33">Healthy Flavors</p>
+  <tr>
+    <td class="titles">Zucchini Cake</td>
+    <td>1900</td>
+    <td>2600</td>
+    <td>3600</td>
+    <td>4700</td>
+    <td>6700</td>
+    <td>8200</td>
+    <td>9200</td>
+  </tr>
+  <tr>
+    <td class="titles">Carrot Cake</td>
+    <td>1900</td>
+    <td>2600</td>
+    <td>3600</td>
+    <td>4700</td>
+    <td>6700</td>
+    <td>8200</td>
+    <td>9200</td>
+  </tr>
+  <p class="h33">Chocolate Goodness</p>
+  <tr>
+    <td class="titles">Chocolate Chip Cake</td>
+    <td>1800</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Chocolate Fudge</td>
+    <td>1900</td>
+    <td>3400</td>
+    <td>4200</td>
+    <td>4900</td>
+    <td>6900</td>
+    <td>8400</td>
+    <td>10400</td>
+  </tr>
+  <tr>
+    <td class="titles">Chocolate Mint</td>
+    <td>1600</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5600</td>
+    <td>7100</td>
+    <td>8600</td>
+  </tr>
+  <tr>
+    <td class="titles">Chocolate Orange</td>
+    <td>1900</td>
+    <td>2600</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+&nbsp;
+&nbsp;
+  <tr>
+    <td class="titles">Eggless Cake</td>
+    <td>1900</td>
+    <td>2600</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Light Fruit Cake</td>
+    <td>2000</td>
+    <td>3000</td>
+    <td>4000</td>
+    <td>5000</td>
+    <td>6500</td>
+    <td>8500</td>
+    <td>9500</td>
+  </tr>
+  <tr>
+    <td class="titles">Red Velvet</td>
+    <td>1900</td>
+    <td>2900</td>
+    <td>3800</td>
+    <td>4400</td>
+    <td>6400</td>
+    <td>7900</td>
+    <td>9400</td>
+  </tr>
+  <tr>
+    <td class="titles">Rich Fruit Cake</td>
+    <td>2500</td>
+    <td>4300</td>
+    <td>5000</td>
+    <td>7000</td>
+    <td>10500</td>
+    <td>12800</td>
+    <td>15000</td>
+  </tr>
+   <tr>
+    <td class="titles">Salted Caramel</td>
+    <td>1900</td>
+    <td>2600</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>6400</td>
+    <td>7900</td>
+    <td>9400</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Blueberry</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+  <tr>
+    <td class="titles">Vanilla Combo</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3200</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+   <tr>
+    <td class="titles">Vanilla Mint</td>
+    <td>1600</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5600</td>
+    <td>7100</td>
+    <td>8600</td>
+  </tr>
+   <tr>
+    <td class="titles">Vanilla Orange</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+   <tr>
+    <td class="titles">Vanilla Passion</td>
+    <td>1700</td>
+    <td>2400</td>
+    <td>3400</td>
+    <td>3900</td>
+    <td>5900</td>
+    <td>7400</td>
+    <td>8900</td>
+  </tr>
+</table>
+<div class="notee">
+  <h3 class="note">NOTE</h3>
+<hr>
+<p class="h44">1. <strong>Designer Cakes</strong> range from <strong>5000/=</strong> to <strong>10000/= per kg</strong> and should be <strong>more than 2kgs</strong></p>
+<p class="h44">2. <strong>Edible and cartoon cakes</strong> are from <strong>500/=</strong> depending on the size</p>
+<p class="h44">3. <strong>Additional toppings and macarons</strong> from <strong>300/=</strong></p>
+</div>
+</div>
+
+<app-enquiry-button></app-enquiry-button>
+<app-instagram-content></app-instagram-content>
+<app-footer></app-footer>

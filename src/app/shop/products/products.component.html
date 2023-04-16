@@ -5,12 +5,7 @@
             <p>Shop</p>
         </div> 
     </div>
-    <div class="disclaimer">
-        <p class="disc">
-            Please note that all orders require a 50% non-refundable deposit at the time of
-            booking.
-        </p>
-    </div>
+  
 <div class="product-page medical">
     <div class="category-section">
         <div class="categories">
@@ -21,16 +16,15 @@
                     <a [routerLink]="['/shop/']" class="cattss active" routerLinkActive="active-link">Wedding Cakes</a> 
                 </li>
                 <li class="cats" >
-                    <a [routerLink]="['/shop/occasionalcakes/']" class="cattss" routerLinkActive="active-link">Occasional Cakes</a> 
+                    <a [routerLink]="['/shop/engagementcakes/']" class="cattss" routerLinkActive="active-link">Engagement Cakes</a> 
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/ruraciocakes/']" class="cattss" routerLinkActive="active-link">Ruracio Cakes</a> 
                 </li>
             </ul>
         </div>
     </div>
     <div class="back">
-        <div id="btnContainer">
-            <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-            <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
-          </div>
         <div class="products">
             <div class="card column"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
                 <div class="product__items">
@@ -46,18 +40,21 @@
                 </div>
     
                 <div class="details">
-                    <p class="cat-name">{{ product.category_name | titlecase}}</p>
+                    <p class="cat-name">Wedding Cakes</p>
                     <a [routerLink]="['/shop/product-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
-                    <div class="price-tag">
-                        <p class="new-price">Kes {{ product.price}}</p>
-                        <span>-</span>
-                        <p class="old-price">Kes {{ product.range_price }}</p>
-                    </div>
+                    <br><br>
                     <button (click)="openWhatsApp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
                 </div>
             </div> 
         </div>
     </div>
+</div>
+<div class="disclaimer">
+    <hr>
+    <p class="disc">
+        Please note that all orders require a 50% deposit at the time of
+        booking.
+    </p>
 </div>
 
 <app-enquiry-button></app-enquiry-button>
