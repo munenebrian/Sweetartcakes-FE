@@ -35,6 +35,8 @@ import { BaptismalCakesComponent } from './baptismal-cakes/baptismal-cakes.compo
 import { BaptismalDetailsComponent } from './baptismal-details/baptismal-details.component';
 import { ChristeningCakesComponent } from './christening-cakes/christening-cakes.component';
 import { ChristeningDetailsComponent } from './christening-details/christening-details.component';
+import { BirthdayCakesComponent } from './birthday-cakes/birthday-cakes.component';
+import { BirthdayDetailsComponent } from './birthday-details/birthday-details.component';
 
 
 
@@ -71,7 +73,9 @@ import { ChristeningDetailsComponent } from './christening-details/christening-d
     BaptismalCakesComponent,
     BaptismalDetailsComponent,
     ChristeningCakesComponent,
-    ChristeningDetailsComponent
+    ChristeningDetailsComponent,
+    BirthdayCakesComponent,
+    BirthdayDetailsComponent
   ],
   imports: [
     CommonModule,
