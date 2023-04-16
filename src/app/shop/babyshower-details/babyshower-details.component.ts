@@ -5,11 +5,11 @@ import { Product } from 'src/app/interfaces/product';
 import { OcassionalcakedetailsService } from 'src/app/services/ocassionalcakedetails.service';
 
 @Component({
-  selector: 'app-occasional-cakes-details',
-  templateUrl: './occasional-cakes-details.component.html',
-  styleUrls: ['./occasional-cakes-details.component.css']
+  selector: 'app-babyshower-details',
+  templateUrl: './babyshower-details.component.html',
+  styleUrls: ['./babyshower-details.component.css']
 })
-export class OccasionalCakesDetailsComponent implements OnInit {
+export class BabyshowerDetailsComponent implements OnInit{
 
   singleProduct:Product[] = [];
   products: Product[] = [];
@@ -26,7 +26,7 @@ export class OccasionalCakesDetailsComponent implements OnInit {
       data =>{
         this.id = data['id'];
         console.log(this.id);
-        this.ocassionalcakedetailsService.getOccasionalCakeDetails(this.id).subscribe(
+        this.ocassionalcakedetailsService.getBabyShowerCakeDetails(this.id).subscribe(
           datax =>{
             this.singleProduct = datax;
             console.log(datax)
@@ -37,7 +37,7 @@ export class OccasionalCakesDetailsComponent implements OnInit {
   }
 
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakes/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/babyShowerCakes/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });

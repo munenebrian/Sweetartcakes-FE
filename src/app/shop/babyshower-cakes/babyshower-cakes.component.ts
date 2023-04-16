@@ -3,14 +3,13 @@ import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { Category } from 'src/app/interfaces/category';
 import { Product } from 'src/app/interfaces/product';
-import { CategoriesService } from 'src/app/services/categories.service';
 
 @Component({
-  selector: 'app-occasional-cakes',
-  templateUrl: './occasional-cakes.component.html',
-  styleUrls: ['./occasional-cakes.component.css']
+  selector: 'app-babyshower-cakes',
+  templateUrl: './babyshower-cakes.component.html',
+  styleUrls: ['./babyshower-cakes.component.css']
 })
-export class OccasionalCakesComponent implements OnInit{
+export class BabyshowerCakesComponent implements OnInit {
 
   products: Product[] = [];
   cats: Category[] = [];
@@ -71,7 +70,7 @@ for (var i:any = 0; i < btns.length; i++) {
   }
   
   getData() {
-    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakes/').subscribe(response => {
+    this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/babyShowerCakes/').subscribe(response => {
       this.products  = response;
       console.log(this.products)
     });

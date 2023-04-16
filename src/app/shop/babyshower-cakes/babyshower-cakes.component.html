@@ -11,29 +11,22 @@
         <div class="categories">
             <h3 class="h3">Filter by Categories</h3>
             <hr>
-            <ul class="categoriess" *ngFor="let cat of cats">
-                <li class="cats" >
-                    <a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name }}</a>
-                </li>
-            </ul>
-
             <ul class="categoriess">
                 <li class="cats" >
-                    <a [routerLink]="['/shop/']" class="cattss active" routerLinkActive="active-link">Wedding Cakes</a> 
+                    <a [routerLink]="['/shop/babyshowercakes/']" class="cattss" >Baby Shower Cakes</a>
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/babyshowercakes/']" class="cattss" >Baby Shower Cakes</a>
                 </li>
             </ul>
         </div>
     </div>
     <div class="back">
-        <div id="btnContainer">
-            <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-            <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
-          </div>
         <div class="products">
             <div class="card column"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
                 <div class="product__items">
                     <div class="product__items--thumbnail">
-                        <a [routerLink]="['/shop/occasionalcakes-details/',product.id]" class="product__items--link" >
+                        <a [routerLink]="['/shop/babyshowercakes-details/',product.id]" class="product__items--link" >
                             <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
                             <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
                         </a>
@@ -45,7 +38,7 @@
     
                 <div class="details">
                     <p class="cat-name">{{ product.category_name | titlecase}}</p>
-                    <a [routerLink]="['/shop/occasionalcakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                    <a [routerLink]="['/shop/babyshowercakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
                     <div class="price-tag">
                         <p class="new-price">Kes {{ product.price}}</p>
                     </div>

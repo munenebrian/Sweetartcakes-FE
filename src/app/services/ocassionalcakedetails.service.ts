@@ -12,7 +12,7 @@ export class OcassionalcakedetailsService {
 
   constructor(private http:HttpClient) { }
 
-  getOccasionalCakeDetails(id:number): Observable<Product[]> {
-    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakedetails/' + id);
+  getBabyShowerCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/babyShowerCakesDetails/' + id);
   }
 }
