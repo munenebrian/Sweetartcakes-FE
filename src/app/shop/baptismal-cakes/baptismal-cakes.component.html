@@ -53,7 +53,7 @@
             <div class="card column"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
                 <div class="product__items">
                     <div class="product__items--thumbnail">
-                        <a [routerLink]="['/shop/anniversarycakes-details/',product.id]" class="product__items--link" >
+                        <a [routerLink]="['/shop/baptismalcakes-details/',product.id]" class="product__items--link" >
                             <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
                             <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
                         </a>
@@ -65,7 +65,7 @@
     
                 <div class="details">
                     <p class="cat-name">{{ product.category_name | titlecase}}</p>
-                    <a [routerLink]="['/shop/anniversarycakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                    <a [routerLink]="['/shop/baptismalcakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
                     <div class="price-tag">
                         <p class="new-price">Kes {{ product.price}}</p>
                     </div>

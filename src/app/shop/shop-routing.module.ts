@@ -28,6 +28,8 @@ import { CorporateDetailsComponent } from './corporate-details/corporate-details
 import { CorporateCakesComponent } from './corporate-cakes/corporate-cakes.component';
 import { AnniversaryDetailsComponent } from './anniversary-details/anniversary-details.component';
 import { AnniversaryCakesComponent } from './anniversary-cakes/anniversary-cakes.component';
+import { BaptismalDetailsComponent } from './baptismal-details/baptismal-details.component';
+import { BaptismalCakesComponent } from './baptismal-cakes/baptismal-cakes.component';
 
 const routes: Routes = [
   {
@@ -61,6 +63,8 @@ const routes: Routes = [
         { path: 'corporatecakes-details/:id', component: CorporateDetailsComponent },
         { path: 'anniversarycakes', component: AnniversaryCakesComponent },
         { path: 'anniversarycakes-details/:id', component: AnniversaryDetailsComponent },
+        { path: 'baptismalcakes', component: BaptismalCakesComponent },
+        { path: 'baptismalcakes-details/:id', component: BaptismalDetailsComponent },
       ],
   }
 ];

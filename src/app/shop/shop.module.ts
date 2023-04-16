@@ -31,6 +31,8 @@ import { CorporateCakesComponent } from './corporate-cakes/corporate-cakes.compo
 import { CorporateDetailsComponent } from './corporate-details/corporate-details.component';
 import { AnniversaryCakesComponent } from './anniversary-cakes/anniversary-cakes.component';
 import { AnniversaryDetailsComponent } from './anniversary-details/anniversary-details.component';
+import { BaptismalCakesComponent } from './baptismal-cakes/baptismal-cakes.component';
+import { BaptismalDetailsComponent } from './baptismal-details/baptismal-details.component';
 
 
 
@@ -63,7 +65,9 @@ import { AnniversaryDetailsComponent } from './anniversary-details/anniversary-d
     CorporateCakesComponent,
     CorporateDetailsComponent,
     AnniversaryCakesComponent,
-    AnniversaryDetailsComponent
+    AnniversaryDetailsComponent,
+    BaptismalCakesComponent,
+    BaptismalDetailsComponent
   ],
   imports: [
     CommonModule,
