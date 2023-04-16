@@ -27,6 +27,8 @@ import { GraduationCakesComponent } from './graduation-cakes/graduation-cakes.co
 import { GraduationDetailsComponent } from './graduation-details/graduation-details.component';
 import { ValentinesCakesComponent } from './valentines-cakes/valentines-cakes.component';
 import { ValentinesDetailsComponent } from './valentines-details/valentines-details.component';
+import { CorporateCakesComponent } from './corporate-cakes/corporate-cakes.component';
+import { CorporateDetailsComponent } from './corporate-details/corporate-details.component';
 
 
 
@@ -55,7 +57,9 @@ import { ValentinesDetailsComponent } from './valentines-details/valentines-deta
     GraduationCakesComponent,
     GraduationDetailsComponent,
     ValentinesCakesComponent,
-    ValentinesDetailsComponent
+    ValentinesDetailsComponent,
+    CorporateCakesComponent,
+    CorporateDetailsComponent
   ],
   imports: [
     CommonModule,
