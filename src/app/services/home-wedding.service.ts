@@ -12,25 +12,25 @@ export class HomeWeddingService {
 
   getFiveWeddingCakes() {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/weddingcakes/').pipe(
-      map(products => this.getRandomProducts(products, 5))
+      map(products => this.getRandomProducts(products, 4))
     );
   }
 
   getFiveCorporateCakes() {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/coporateCakes/').pipe(
-      map(products => this.getRandomProducts(products, 5))
+      map(products => this.getRandomProducts(products, 4))
     );
   }
 
   getFiveAnniversaryCakes() {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/anniversaryCakes/').pipe(
-      map(products => this.getRandomProducts(products, 5))
+      map(products => this.getRandomProducts(products, 4))
     );
   }
 
   getFiveBirthdayCakes() {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/birthdaycakes/').pipe(
-      map(products => this.getRandomProducts(products, 5))
+      map(products => this.getRandomProducts(products, 4))
     );
   }
 
