@@ -7,12 +7,20 @@ import { HomeRoutingModule } from './home-routing.module';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { InstagramContentComponent } from '../shared/instagram-content/instagram-content.component';
 import { NavbarComponent } from '../shared/navbar/navbar.component';
+import { HomeWeddingComponent } from './home-wedding/home-wedding.component';
+import { HomeBirthdayComponent } from './home-birthday/home-birthday.component';
+import { HomeCorporateComponent } from './home-corporate/home-corporate.component';
+import { HomeAnniversaryComponent } from './home-anniversary/home-anniversary.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     IndexComponent,
+    HomeWeddingComponent,
+    HomeBirthdayComponent,
+    HomeCorporateComponent,
+    HomeAnniversaryComponent,
   ],
   imports: [
     CommonModule,

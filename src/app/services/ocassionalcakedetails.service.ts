@@ -12,7 +12,55 @@ export class OcassionalcakedetailsService {
 
   constructor(private http:HttpClient) { }
 
-  getOccasionalCakeDetails(id:number): Observable<Product[]> {
-    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/occassionalcakedetails/' + id);
+  getBabyShowerCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/babyShowerCakesDetails/' + id);
+  }
+
+  getBridalShowerCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/bridalShowerCakesDetails/' + id);
+  }
+
+  getChristmasCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/christmasCakesDetails/' + id);
+  }
+
+  getEasterCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/easterCakesDetails/' + id);
+  }
+
+  getFathersDayCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/fathersDayCakesDetails/' + id);
+  }
+
+  getMothersDayCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/mothersDayCakesDetails/' + id);
+  }
+
+  getGraduationCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/graduationCakesDetails/' + id);
+  }
+
+  getValentinesCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/valentinesCakesDetails/' + id);
+  }
+
+  getCorporateCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/coporateCakesDetails/' + id);
+  }
+
+  getAnniversaryCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/anniversaryCakesDetails/' + id);
+  }
+
+  getBaptismalCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/baptismalCakesDetails/' + id);
+  }
+
+  getChristeningCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/christeningCakesDetails/' + id);
+  }
+
+  getBirthdayCakeDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/birthdaycakedetails/' + id);
   }
 }

@@ -15,4 +15,12 @@ export class ProductdetailsService {
   getProductDetails(id:number): Observable<Product[]> {
     return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/weddingcakedetails/' + id);
   }
+
+  getEngagementDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/engagementCakesDetails/' + id);
+  }
+
+  getRuracioDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://sweetartcakes-be-production.up.railway.app/ruracioCakesDetails/' + id);
+  }
 }
