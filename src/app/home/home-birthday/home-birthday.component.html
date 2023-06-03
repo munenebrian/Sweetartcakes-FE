@@ -1,0 +1,21 @@
+<div class="container-full">
+    <div class="topper">
+        <div class="left">
+            <p class="reta">Birthday <span style="color: coral;">Cakes</span></p>
+          </div>
+        <div class="right">
+            <a routerLink="/shop" class="btn reeta">More Cakes <i class="fa-solid fa-angles-right"></i></a>
+        </div>
+    </div>
+    <div class="bottom">
+      <div class="car one" *ngFor="let prod of topDeals; let i = index">
+        <a [routerLink]="['/shop/birthdaycakes-details/',prod.id]"><img class="car-img-top" src="{{prod.image}}" alt="Car image cap"></a>
+        <div class="car-body">
+          <p class="date"> Birthday Cake</p>
+          <a [routerLink]="['/shop/birthdaycakes-details/',prod.id]"><p class="car-title">{{prod.name | uppercase}}</p></a>
+          <br><br>
+            <button (click)="openWhatsApp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>        
+        </div>
+      </div>
+    </div>
+   </div>

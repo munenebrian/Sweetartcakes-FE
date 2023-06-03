@@ -1,5 +1,9 @@
 <header>
     <div class="container">
+      <div class="loggos" >
+        <a class="loggo" routerLink="/home">SweetArt<span> Luxury Cakes</span></a> <br>
+      </div>
+
       <div class="flexa text-center">
         <div class="menu-icon" [class.menu-icon-Class]="menu_icon_var" (click)="openMenu()">
           <span></span>
@@ -19,8 +23,21 @@
             </div>
             <div class="right">
                 <li><a class="nav-link" routerLink="/gallery" routerLinkActive="active-link" ariaCurrentWhenActive="page">Gallery</a></li>
+<<<<<<< HEAD
                 <li><a class="nav-link" routerLink="/shop" routerLinkActive="active-link" ariaCurrentWhenActive="page">Shop</a></li>
                 <!-- <li><a class="nav-link" routerLink="/blogs" routerLinkActive="active-link" ariaCurrentWhenActive="page">Blogs</a></li> -->
+=======
+                <li class="dropdown dropright li">
+                  <a routerLinkActive="active-link" ariaCurrentWhenActive="page" class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Shop
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item nav-link" routerLink="/shop">Weddings</a>
+                    <a class="dropdown-item nav-link" routerLink="/shop/babyshowercakes">Celebration</a>
+                  </div>
+                </li>
+                <li><a class="nav-link" routerLink="/blogs" routerLinkActive="active-link" ariaCurrentWhenActive="page">Blogs</a></li>
+>>>>>>> 2d6492fdcd0cf3faff3f6bd737c2c93ba33e26e6
                 <li><a class="nav-link" routerLink="/enquire" routerLinkActive="active-link" ariaCurrentWhenActive="page">Enquire</a></li>
             </div>
           </ul>

@@ -1,0 +1,63 @@
+<div class="cont">
+    <app-navbar2></app-navbar2>
+    <div class="contt">
+        <div class="experience-text">
+            <p>Shop</p>
+        </div> 
+    </div>
+  
+<div class="product-page medical">
+    <div class="category-section">
+        <div class="categories">
+            <h3 class="h3">Filter by Categories</h3>
+            <hr>
+            <ul class="categoriess">
+                <li class="cats" >
+                    <a [routerLink]="['/shop/']" class="cattss active" routerLinkActive="active-link">Wedding Cakes</a> 
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/engagementcakes/']" class="cattss" routerLinkActive="active-link">Engagement Cakes</a> 
+                </li>
+                <li class="cats" >
+                    <a [routerLink]="['/shop/ruraciocakes/']" class="cattss" routerLinkActive="active-link">Ruracio Cakes</a> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="back">
+        <div class="products">
+            <div class="card column"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
+                <div class="product__items">
+                    <div class="product__items--thumbnail">
+                        <a [routerLink]="['/shop/engagementcakes-details/',product.id]" class="product__items--link" >
+                            <img class="product__items--img product__primary--img" src="{{ product.image }}" alt="product-img">
+                            <img class="product__items--img product__secondary--img" src="{{ product.image2 }}" alt="product-img">
+                        </a>
+                        <div class="product__badge">
+                            <span class="product__badge--items sale">Sale</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="details">
+                    <p class="cat-name">Engagement Cake</p>
+                    <a [routerLink]="['/shop/engagementcakes-details/',product.id]" class="product-name">{{ product.name | titlecase}}</a>
+                    <br><br>
+                    <button (click)="openWhatsApp(i)"  class="whatsapp btn"><i class="fa-brands fa-whatsapp"></i> Buy Via Whatsapp</button>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<div class="disclaimer">
+    <hr>
+    <p class="disc">
+        Please note that all orders require a 50% deposit at the time of
+        booking.
+    </p>
+</div>
+
+<app-enquiry-button></app-enquiry-button>
+<app-instagram-content></app-instagram-content>
+</div>
+<app-footer></app-footer>

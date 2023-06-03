@@ -49,7 +49,9 @@
 
 .row{
     margin-right: 10px;
+    width: 40%;
 }
+
 
 .one, .two{
     border-right: 1px solid #d8c5c2;
@@ -100,6 +102,9 @@
 }
 
 @media only screen and (max-width:500px) {
+    .row{
+        width: 100%;
+    }
 
     .flavv{
         border: 15px solid #fff;
