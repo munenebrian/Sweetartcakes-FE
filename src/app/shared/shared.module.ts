@@ -31,6 +31,7 @@ import { CallToActionComponent } from './call-to-action/call-to-action.component
     BaseLayoutComponent,
     NavbarComponent,
     InstagramContentComponent,
+    CallToActionComponent,
     FooterComponent,
     EnquiryButtonComponent,
     Navbar2Component
