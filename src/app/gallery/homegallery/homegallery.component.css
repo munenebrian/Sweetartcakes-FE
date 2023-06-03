@@ -63,11 +63,21 @@
 
 .flavours{
     text-align: center;
+    margin: 2% 0;
 }
 
 .flavours a{
     background-color: #fff;
-    padding: 20px 0;
+    padding: 20px 40px;
+    font-size: 22px;
+    font-weight: 400;
+    border: 1px solid #000;
+}
+
+.flavours a:hover{
+    background-color: transparent;
+    color: #8E3200;
+    border: 1px solid #8E3200;
 }
 
 @media only screen and (max-width: 850px) {
