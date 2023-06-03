@@ -8,6 +8,7 @@ import { InstagramContentComponent } from './instagram-content/instagram-content
 import { FooterComponent } from './footer/footer.component';
 import { EnquiryButtonComponent } from './enquiry-button/enquiry-button.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
+import { CallToActionComponent } from './call-to-action/call-to-action.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { Navbar2Component } from './navbar2/navbar2.component';
     InstagramContentComponent,
     FooterComponent,
     EnquiryButtonComponent,
-    Navbar2Component
+    Navbar2Component,
+    CallToActionComponent
   ],
   imports: [
     CommonModule,
