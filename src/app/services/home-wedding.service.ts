@@ -45,7 +45,7 @@ export class HomeWeddingService {
         randomProducts.push(product);
       }
     }
-  
+      
     return randomProducts;
   }
 }
