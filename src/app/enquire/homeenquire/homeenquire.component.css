@@ -45,6 +45,14 @@
     width: 50%;
 }
 
+.tab .tablinks{
+    font-size: 15px;
+    font-family: 'Add light';
+    letter-spacing: 2.5px;
+    line-height: 24px;
+    color: #8E3200;
+    font-weight: 500;
+}
 label{
     color: #8E3200;
     font-weight: 800;
