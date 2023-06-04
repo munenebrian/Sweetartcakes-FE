@@ -42,6 +42,7 @@ header{
   transition: .5s ease-in-out;
 }
 
+
 .nav-link{
   color: rgb(77, 33, 4); 
   text-decoration: none;
@@ -132,6 +133,8 @@ header{
     right: 0;
     transition: .4s ease-in-out;
   }
+
+
 }
 
 @media only screen and (max-width: 500px) {

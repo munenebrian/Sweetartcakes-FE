@@ -1,6 +1,6 @@
 .container-full{
     margin: 20px 25px;
-    padding: 20px 0;
+    padding: 50px 0;
     display: block;
   }
 
@@ -53,16 +53,22 @@
 
   .reta{
     padding: 5px 0;
-    font-size: 25px;
-    font-weight: 500;
-    color: #333;
+    font-size: 27px;
+    font-family: 'Add';
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #8E3200;
   }
   
   .reeta{
     padding: 10px 20px;
-    font-size: 20px;
-    line-height: 150%;
-    color: coral;
+    font-size: 27px;
+    font-family: 'Add';
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #8E3200;
     border: 0;
     text-transform: capitalize;
   }
@@ -80,15 +86,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1440px!important;
+    width: 100%;
+    /* max-width: 1440px!important; */
     margin: 20px 0;
     padding: 0;
   }
 
   .car-title{
     font-size: 18px;
-    font-weight: 500;
-    color: coral;
+    font-family: 'Add';
+    letter-spacing: 4px;
+    line-height: 24px;
+    color: #8E3200;
+    font-weight: 700;
   }
 
     .price-tag{
@@ -108,11 +118,14 @@
     }
 
     .whatsapp{
-        background-color: coral;
-        padding: 3% 6%;
-        color: #fff;
-        font-size: 13px;
-        font-weight: 400;
+      background-color: #A64B2A;
+      padding: 3% 6%;
+      color: #fff;
+      font-size: 14px;
+      font-family: 'Add light';
+      letter-spacing: 4px;
+      line-height: 24px;
+      font-weight: 400;
     }
     .whatsapp:hover{
         background-color: transparent;
@@ -124,6 +137,12 @@
 
   .date{
     font-size: 13px;
+    font-family: 'Add light';
+    letter-spacing: 4px;
+    line-height: 24px;
+    color: #8E3200;
+    font-weight: 500;
+    font-style: italic;
   }
  
 
