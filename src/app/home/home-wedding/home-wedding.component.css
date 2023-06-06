@@ -159,12 +159,12 @@
 
     .bottom{
       display: block;
-      margin: 20px 20px;
+      margin-left: 18%;
       padding: 20px 0;
     }
 
     .car{
-      width: 100%;
+      width: 60%;
       margin: 10px 0;
     }
   
@@ -228,8 +228,8 @@
     }
 
     .one{
-      width: 95%;
-      margin: 10px 10px;
+      width: 70%;
+      margin-left: 15%;
     }
 
     .whatsapp{
