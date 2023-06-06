@@ -42,6 +42,7 @@ header{
   transition: .5s ease-in-out;
 }
 
+
 .nav-link{
   color: rgb(77, 33, 4); 
   text-decoration: none;
@@ -63,6 +64,7 @@ header{
 .active-link{
   color: #FFC93C;
 }
+
 @media only screen and (max-width: 850px) {
 
   header{
@@ -101,6 +103,7 @@ header{
     top: 10px;
     float: right;
     margin-right: 5%;
+    z-index: 99;
   }
 
   .menu-icon span{
@@ -132,6 +135,8 @@ header{
     right: 0;
     transition: .4s ease-in-out;
   }
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -176,6 +181,7 @@ header{
     top: 10px;
     float: right;
     margin-right: 5%;
+    z-index: 99;
   }
 
   .menu-icon span{

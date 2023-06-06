@@ -1,130 +1,149 @@
 .container-full{
-    margin: 20px 25px;
-    padding: 20px 0;
-    display: block;
+  margin: 20px 25px;
+  padding: 50px 0;
+  display: block;
+}
+
+.car {
+  display: inline-block;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 25%);
+}
+
+.car:hover{
+  transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
+  transform: translateX(5px);
+}
+
+.one{
+  width: 18%;
+  margin: 0 20px;
+  background: rgba(128,128,128, .2);
+}
+
+.car-body{
+  padding: 20px 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  height: 30vh;
+  width: 100%;
+}
+
+.topper{
+  margin: 0 40px;
+  border-bottom: 1px solid #999;
+}
+
+.right{
+  text-align: right;
+  width: 100%;
+  padding:12px 0;
+}
+
+.left{
+  float: left;
+  width: 30%;
+  display: block;
+  padding: 12px 0;
+}
+
+.reta{
+  padding: 5px 0;
+  font-size: 27px;
+  font-family: 'Add';
+  letter-spacing: 4px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #8E3200;
+}
+
+.reeta{
+  padding: 10px 20px;
+  font-size: 27px;
+  font-family: 'Add';
+  letter-spacing: 4px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #8E3200;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.reeta:hover{
+  padding: 10px 20px;
+  font-size: 20px;
+  line-height: 150%;
+  background-color: coral;
+  color: #fff;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  /* max-width: 1440px!important; */
+  margin: 20px 0;
+  padding: 0;
+}
+
+.car-title{
+  font-size: 18px;
+  font-family: 'Add';
+  letter-spacing: 4px;
+  line-height: 24px;
+  color: #8E3200;
+  font-weight: 700;
+}
+
+  .price-tag{
+  display: flex;
+  margin-top: 5%;
   }
 
-  .car {
-    display: inline-block;
-    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 25%);
+  .new-price{
+      margin-right: 10%;
+      font-size: 15px;
   }
 
-  .car:hover{
-    transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
-    transform: translateX(5px);
+  .old-price{
+      margin-left: 10%;
+      text-decoration: line-through;
+      font-size: 15px;
   }
 
-  .one{
-    width: 18%;
-    margin: 0 5px;
-    background: rgba(128,128,128, .2);
-  }
-
-  .car-body{
-    padding: 20px 20px;
-  }
-
-  a{
-    text-decoration: none;
-  }
-
-  img{
-    height: 30vh;
-    width: 100%;
-  }
-
-  .topper{
-    margin: 0 40px;
-    border-bottom: 1px solid #999;
-  }
-
-  .right{
-    text-align: right;
-    width: 100%;
-    padding:12px 0;
-  }
-
-  .left{
-    float: left;
-    width: 30%;
-    display: block;
-    padding: 12px 0;
-  }
-
-  .reta{
-    padding: 5px 0;
-    font-size: 25px;
-    font-weight: 500;
-    color: #333;
-  }
-  
-  .reeta{
-    padding: 10px 20px;
-    font-size: 20px;
-    line-height: 150%;
-    color: coral;
-    border: 0;
-    text-transform: capitalize;
-  }
-
-  .reeta:hover{
-    padding: 10px 20px;
-    font-size: 20px;
-    line-height: 150%;
-    background-color: coral;
+  .whatsapp{
+    background-color: #A64B2A;
+    padding: 3% 6%;
     color: #fff;
+    font-size: 14px;
+    font-family: 'Add light';
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .whatsapp:hover{
+      background-color: transparent;
+      border: 1px solid coral;
+      padding: 3% 6%;
+      color: coral;
+      font-weight: 400;
   }
 
-  .bottom{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1440px!important;
-    margin: 20px 0;
-    padding: 0;
-  }
-
-  .car-title{
-    font-size: 18px;
-    font-weight: 500;
-    color: coral;
-  }
-
-    .price-tag{
-    display: flex;
-    margin-top: 5%;
-    }
-
-    .new-price{
-        margin-right: 10%;
-        font-size: 15px;
-    }
-
-    .old-price{
-        margin-left: 10%;
-        text-decoration: line-through;
-        font-size: 15px;
-    }
-
-    .whatsapp{
-        background-color: coral;
-        padding: 3% 6%;
-        color: #fff;
-        font-size: 13px;
-        font-weight: 400;
-    }
-    .whatsapp:hover{
-        background-color: transparent;
-        border: 1px solid coral;
-        padding: 3% 6%;
-        color: coral;
-        font-weight: 400;
-    }
-
-  .date{
-    font-size: 13px;
-  }
+.date{
+  font-size: 13px;
+  font-family: 'Add light';
+  letter-spacing: 4px;
+  line-height: 24px;
+  color: #8E3200;
+  font-weight: 500;
+  font-style: italic;
+}
  
 
   @media only screen and (max-width: 850px) {
@@ -139,12 +158,12 @@
 
     .bottom{
       display: block;
-      margin: 20px 20px;
+      margin-left: 18%;
       padding: 20px 0;
     }
 
     .car{
-      width: 100%;
+      width: 60%;
       margin: 10px 0;
     }
   
@@ -155,8 +174,8 @@
     }
 
     .whatsapp{
-        margin-left: 30%;
-        font-size: x-large;
+        margin-left: 0;
+        font-size: 12px;
     }
   }
   
@@ -208,13 +227,13 @@
     }
 
     .one{
-      width: 95%;
-      margin: 10px 10px;
+      width: 70%;
+      margin-left: 15%;
     }
 
     .whatsapp{
         margin-left: 0;
-        font-size: large;
+        font-size: 10px;
     }
   }
   

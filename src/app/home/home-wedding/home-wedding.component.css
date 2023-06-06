@@ -1,6 +1,6 @@
 .container-full{
     margin: 20px 25px;
-    padding: 20px 0;
+    padding: 100px 0;
     display: block;
   }
 
@@ -16,7 +16,7 @@
 
   .one{
     width: 18%;
-    margin: 0 5px;
+    margin: 0 20px;
     background: rgba(128,128,128, .2);
   }
 
@@ -53,16 +53,22 @@
 
   .reta{
     padding: 5px 0;
-    font-size: 25px;
-    font-weight: 500;
-    color: #333;
+    font-size: 27px;
+    font-family: 'Add';
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #8E3200;
   }
   
   .reeta{
     padding: 10px 20px;
-    font-size: 20px;
-    line-height: 150%;
-    color: coral;
+    font-size: 27px;
+    font-family: 'Add';
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #8E3200;
     border: 0;
     text-transform: capitalize;
   }
@@ -80,15 +86,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1440px!important;
-    margin: 20px 0;
+    /* max-width: 1440px!important; */
+    width: 100%;
+    margin: 15px 0;
     padding: 0;
   }
 
   .car-title{
     font-size: 18px;
-    font-weight: 500;
-    color: coral;
+    font-family: 'Add';
+    letter-spacing: 4px;
+    line-height: 24px;
+    color: #8E3200;
+    font-weight: 700;
   }
 
     .price-tag{
@@ -108,10 +118,13 @@
     }
 
     .whatsapp{
-        background-color: coral;
+        background-color: #A64B2A;
         padding: 3% 6%;
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
+        font-family: 'Add light';
+        letter-spacing: 4px;
+        line-height: 24px;
         font-weight: 400;
     }
     .whatsapp:hover{
@@ -124,6 +137,13 @@
 
   .date{
     font-size: 13px;
+    font-family: 'Add light';
+    letter-spacing: 4px;
+    line-height: 24px;
+    color: #8E3200;
+    font-weight: 500;
+    font-style: italic;
+
   }
  
 
@@ -139,12 +159,12 @@
 
     .bottom{
       display: block;
-      margin: 20px 20px;
+      margin-left: 18%;
       padding: 20px 0;
     }
 
     .car{
-      width: 100%;
+      width: 60%;
       margin: 10px 0;
     }
   
@@ -155,8 +175,8 @@
     }
 
     .whatsapp{
-        margin-left: 30%;
-        font-size: x-large;
+        margin-left: 0;
+        font-size: 12px;
     }
   }
   
@@ -208,13 +228,13 @@
     }
 
     .one{
-      width: 95%;
-      margin: 10px 10px;
+      width: 70%;
+      margin-left: 15%;
     }
 
     .whatsapp{
         margin-left: 0;
-        font-size: large;
+        font-size: 10px;
     }
   }
   
