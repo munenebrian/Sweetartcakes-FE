@@ -191,6 +191,7 @@
   vertical-align: middle;
   height: 80vh;
   width: 100%;
+  z-index: -99;
 }
 
 /* Slideshow container */
@@ -242,6 +243,8 @@
 
 /* Fading animation */
 .fade {
+  background-color: rgb(255,235,193, .5);
+  z-index: 999;
   animation-name: fade;
   animation-duration: 6.5s;
 }

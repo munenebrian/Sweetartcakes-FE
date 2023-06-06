@@ -23,7 +23,7 @@
 }
 
 .related{
-    height: 60vh;
+    height: 100vh;
     background-color: #fff;
     padding: 20px 40px;
 }
@@ -730,7 +730,7 @@ a:focus, a:active {
     }
     .whatsapp{
         margin-left: 0;
-        font-size: large;
+        font-size: 10px;
     }
     .product-page{
         margin-bottom: 10%;
