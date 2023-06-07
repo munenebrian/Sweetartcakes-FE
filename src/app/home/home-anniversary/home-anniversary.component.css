@@ -75,9 +75,9 @@ img{
 
 .reeta:hover{
   padding: 10px 20px;
-  font-size: 20px;
-  line-height: 150%;
-  background-color: coral;
+  font-size: 27px;
+  line-height: 24px;
+  background-color: #8E3200;
   color: #fff;
 }
 
@@ -185,12 +185,14 @@ img{
         padding: 20px 0;
       }
 
-    .topper{
+   .topper{
         border: 0;
+        margin: 0 5px;
         display: flex;
         box-shadow: none;
         margin-bottom: 0;
     }
+
 
     .right{
       width: 50%;
@@ -208,20 +210,20 @@ img{
 
     .reta{
         padding: 5px 0;
-        font-size: 18px;
+        font-size: 12px;
         color: #333;
       }
 
     .reeta{
         text-align: center;
         padding: 5px 15px;
-        font-size: 18px;
+        font-size: 12px;
         width: 100%;
       }
   
     .reeta:hover{
         padding: 5px 15px;
-        font-size: 20px;
+        font-size: 12px;
         background-color: coral;
         color: #fff;
     }
