@@ -561,8 +561,8 @@ a:focus, a:active {
         font-size: x-large;
     }
     .whatsapp{
-        margin-left: 30%;
-        font-size: x-large;
+        margin-left: 0;
+        font-size: 12px;
     }
     
     .paginate{
@@ -682,7 +682,7 @@ a:focus, a:active {
     }
     .whatsapp{
         margin-left: 0;
-        font-size: large;
+        font-size: 10px;
     }
     
     .paginate{

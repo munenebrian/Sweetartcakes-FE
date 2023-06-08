@@ -103,6 +103,7 @@ header{
     top: 10px;
     float: right;
     margin-right: 5%;
+    z-index: 99;
   }
 
   .menu-icon span{
@@ -180,6 +181,7 @@ header{
     top: 10px;
     float: right;
     margin-right: 5%;
+    z-index: 99;
   }
 
   .menu-icon span{

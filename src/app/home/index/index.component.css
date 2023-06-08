@@ -13,7 +13,7 @@
   margin-bottom: 0px;
 }
 .rgba{
-  margin-top: -40%;
+  margin-top: -42.2%;
 }
 
 .home-prods{
@@ -26,7 +26,7 @@
 
 .top-logo-image img {
   padding-bottom: 5px;
-  margin-top: 150px;
+  margin-top: 50px;
   width: 30%;
   height: 30%;
 }
@@ -53,10 +53,6 @@
 
 .top-text p{
   font-size: x-large;
-}
-
-.topper{
-  /* margin-top: 20%; */
 }
 
 .layout{
@@ -117,19 +113,8 @@
   display: block;
 }
 
-/* .header-ps{
-  background-color: #fff;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  margin-top: 0px;
-} */
-
 .carousel{
-  /* display: flex; */
   width: 100%;
-  /* background-color: #FFEBC1; */
-  margin-top: 0;
-
 }
 
 .images, .text{
@@ -139,12 +124,10 @@
 .images{
   position: relative;
   top: 0;
-  /* left: 10%; */
 }
 
 .text{
   align-items: left;
-  margin: 7% 5%;
 }
 
 .param{
@@ -191,6 +174,7 @@
   vertical-align: middle;
   height: 80vh;
   width: 100%;
+  z-index: -99;
 }
 
 /* Slideshow container */
@@ -211,21 +195,24 @@
 }
 
 .slideimg{
-    width:100%;
-    height: 100vh;
-  }
+  width:100%;
+  height: 100vh;
+}
 
 .para{
   width: 100%;
+  height: 80vh;
   align-items: center;
   padding-bottom: 5%;
   padding-top: 2%;
-  /* padding-left: 10%; */
   position: relative;
-  border-radius: 15px ;
+  background: rgba(228, 224, 224, 0.5);
 }
 
 /* The dots/bullets/indicators */
+.dots{
+  display: none;
+}
 .dot {
   display: none;
   height: 15px;
@@ -242,6 +229,8 @@
 
 /* Fading animation */
 .fade {
+  background-color: rgb(255,235,193, .5);
+  z-index: 999;
   animation-name: fade;
   animation-duration: 6.5s;
 }
@@ -308,38 +297,41 @@
   }
 
   .rgba{
-    background: rgba(255, 255, 255, .6);
-    padding: 0;
-    margin: 0;
-    height: 70vh;
+    margin-top: -52.6%;
+    width: 100% !important;
   }
   
   .top-logo-image{
-    margin-top: 20%;
-    padding-left: 0;
-    padding: 3% 0;
+    padding-left: 30%;
   }
-
+  
   .top-logo-image img {
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-left: 30%;
-    width: 40%;
-    height: 40%;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
   }
+  
   .top-text{
-    color: #000;
+    font-family:"Add light italic";
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    line-height: 32.4px;
+    color: #83371c;
     justify-content: center;
     text-align: center;
   }
+  
   .top-text h2{
     font-size: 30px;
     padding-bottom: 10px;
   }
+  
   .p{
     font-size: 25px;
     padding-bottom: 40px;
   }
+  
   .top-text p{
     font-size: x-large;
   }
@@ -412,51 +404,25 @@
   
   .exquisite{
     display: block;
-  }
-  
-  .header-ps{
-    background-color: #fff;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-top: 0px;
-  }
-  
-  .ex-cakes{
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .expect{
-    margin-top: 3%;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-top: 2%;
+    z-index: -99;
   }
   
   .carousel{
     display: flex;
     width: 100%;
-    background-color:#FFEBC1;;
-    margin-top: 0;
     padding-bottom: 10%;
   }
   
   .images, .text{
-    width: 50%;
+    width: 100%;
   }
   
   .images{
     position: relative;
     top: 0;
-    left: 1%;
+    left: 0;
   }
   
   .text{
@@ -487,18 +453,15 @@
     text-align: center;
   }
   
-  /* .mySlides {display: none;} */
   .fade>img {
     vertical-align: middle;
     height: 38vh;
-    width: 140%;
-    border: 16px solid #fff;
-    margin-top: -30%;
+    width: 100%;
   }
   
   /* Slideshow container */
   .slideshow-container {
-    max-width: 60%;
+    max-width: 100%;
     position: relative;
     margin: auto;
   }
@@ -518,12 +481,12 @@
     }
   
   .para{
-    width: 40%;
+    width: 100%;
+    height: 38vh;
     padding-bottom: 5%;
     padding-top: 2%;
     padding-left: 10%;
     position: relative;
-    border-radius: 15px ;
     background: rgba(228, 224, 224, 0.5);
   }
   
@@ -596,14 +559,12 @@
   }
 
   .rgba{
-    background: rgba(255, 255, 255, .6);
-    padding: 0;
-    margin: 0;
-    height: 70vh;
+    margin-top: -82.3%;
+    width: 100% !important;
   }
   
   .top-logo-image{
-    margin-top: 40%;
+    margin-top: 10%;
     padding-left: 0;
     padding: 3% 0;
   }
@@ -612,8 +573,8 @@
     padding-bottom: 0;
     margin-top: 0;
     margin-left: 20%;
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
   }
   .top-text{
     color: #000;
@@ -714,149 +675,116 @@
     padding-top: 10px;
   }
   
-  /* CAROUSEL PART  */
+ /* CAROUSEL PART  */
   
-  .exquisite{
-    display: block;
+ .exquisite{
+  display: block;
+  width: 100%;
+  margin-top: 2%;
+  z-index: -99;
+}
+
+.carousel{
+  display: flex;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.images, .text{
+  width: 100%;
+}
+
+.images{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.text{
+  align-items: left;
+  margin: 7% 5%;
+}
+
+.param{
+  color: #686868;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+  background-color: #a5a6a7;
+  width: 55%;
+  margin-top: 20%;
+}
+
+.btnn{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  font-style: italic;
+  text-align: center;
+}
+
+.fade>img {
+  vertical-align: middle;
+  height: 38vh;
+  width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.background {
+  width: 10px;
+  font-size: 15px;
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+}
+
+.slideimg{
+    width:100%;
+    height: 100vh;
   }
-  
-  .header-ps{
-    background-color: #fff;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-top: 0px;
-  }
-  
-  .ex-cakes{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 18px;
-    padding: 12px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .expect{
-    margin-top: 3%;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .carousel{
-    display: grid;
-    width: 100%;
-    margin-top: 30px;
-    padding-bottom: 10%;
-  }
-  
-  .images, .text{
-    width: 100%;
-  }
-  
-  .images{
-    /* position: relative;
-    top: 0;
-    left: 1%; */
-    display: none;
-  }
-  
-  .text{
-    text-align: justify;
-    margin: 7% 5%;
-    padding-right: 40px;
-  }
-  
-  .param{
-    color: #686868;
-    font-size: 15px;
-    padding: 10px 10px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 10px;
-  }
-  
-  .button{
-    background-color: #a5a6a7;
-    margin-top: 20%;
-    margin-left: 75px;
-  }
-  
-  .btnn{
-    padding: 20px 10px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: capitalize;
-    font-style: italic;
-    text-align: center;
-  }
-  
-  /* .mySlides {display: none;} */
-  .fade>img {
-    vertical-align: middle;
-    height: 38vh;
-    width: 100%;
-    border: 16px solid #fff;
-    margin-top: -30%;
-  }
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 60%;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Caption text */
-  .background {
-    width: 10px;
-    font-size: 15px;
-    position: absolute;
-    left: 30%;
-    bottom: 30%;
-  }
-  
-  .slideimg{
-      width:100%;
-      height: 100vh;
-    }
-  
-  .para{
-    width: 40%;
-    padding-bottom: 5%;
-    padding-top: 2%;
-    padding-left: 10%;
-    position: relative;
-    border-radius: 15px ;
-    background: rgba(228, 224, 224, 0.5);
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    display: none;
-    height: 15px;
-    width: 15px;
-    margin: 0 1px;
-    background-color: #fff;
-    border-radius: 50%;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active {
-    background-color: rgba(166, 162, 162, 0.8);
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 6.5s;
-  }
+
+.para{
+  width: 100%;
+  height: 38vh;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-left: 10%;
+  position: relative;
+  background: rgba(228, 224, 224, 0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  display: none;
+  height: 15px;
+  width: 15px;
+  margin: 0 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgba(166, 162, 162, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
     
   .more-info-images{
     display: grid;
