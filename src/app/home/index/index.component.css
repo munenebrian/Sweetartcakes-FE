@@ -13,7 +13,7 @@
   margin-bottom: 0px;
 }
 .rgba{
-  margin-top: -42.2%;
+  margin-top: -35%;
 }
 
 .home-prods{
@@ -206,7 +206,7 @@
   padding-bottom: 5%;
   padding-top: 2%;
   position: relative;
-  background: rgba(228, 224, 224, 0.5);
+  /* background: rgba(228, 224, 224, 0.5); */
 }
 
 /* The dots/bullets/indicators */
@@ -289,6 +289,7 @@
   .rgba{
     margin-top: -51%;
     width: 100% !important;
+    
   }
 }
 
