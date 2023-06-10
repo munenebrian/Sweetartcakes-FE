@@ -93,9 +93,9 @@
   }
 
   .car-title{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Add';
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     line-height: 24px;
     color: #8E3200;
     font-weight: 700;
@@ -119,21 +119,21 @@
 
     .whatsapp{
       background-color: #A64B2A;
-      padding: 3% 6%;
+      /* padding: 3% 6%; */
       color: #fff;
       font-size: 14px;
       font-family: 'Add light';
       letter-spacing: 4px;
       line-height: 24px;
       font-weight: 400;
-    }
-    .whatsapp:hover{
-        background-color: transparent;
-        border: 1px solid coral;
-        padding: 3% 6%;
-        color: coral;
-        font-weight: 400;
-    }
+  }
+  .whatsapp:hover{
+      background-color: transparent;
+      border: 1px solid coral;
+      /* padding: 3% 6%; */
+      color: coral;
+      font-weight: 400;
+  }
 
   .date{
     font-size: 13px;

@@ -284,6 +284,14 @@
 
 
 /* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 1080px) {
+  .rgba{
+    margin-top: -51%;
+    width: 100% !important;
+  }
+}
+
 @media only screen and (max-width: 850px) {
   .top-background-section{
     height: 70vh;

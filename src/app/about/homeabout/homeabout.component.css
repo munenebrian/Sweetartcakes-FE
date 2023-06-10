@@ -403,6 +403,7 @@
     .sec2-image{
         display: none;
     }
+
     .sec2-texts{
         text-align: justify;
         font-family: 'add light';
@@ -561,6 +562,7 @@
     
     .eas{
         width: 100%;
+        margin-top: 0;
     }
     
     .eas img{

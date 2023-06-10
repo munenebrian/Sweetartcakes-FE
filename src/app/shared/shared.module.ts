@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { EnquiryButtonComponent } from './enquiry-button/enquiry-button.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { InstaContentComponent } from './insta-content/insta-content.component';
+import { CallToActionComponent } from './call-to-action/call-to-action.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { InstaContentComponent } from './insta-content/insta-content.component';
     FooterComponent,
     EnquiryButtonComponent,
     Navbar2Component,
-    InstaContentComponent
+    InstaContentComponent,
+    CallToActionComponent
   ],
   imports: [
     CommonModule,
@@ -31,10 +33,12 @@ import { InstaContentComponent } from './insta-content/insta-content.component';
     BaseLayoutComponent,
     NavbarComponent,
     InstagramContentComponent,
+    CallToActionComponent,
     FooterComponent,
     EnquiryButtonComponent,
     Navbar2Component,
-    InstaContentComponent
+    InstaContentComponent,
+    CallToActionComponent
   ]
 })
 export class SharedModule { }
