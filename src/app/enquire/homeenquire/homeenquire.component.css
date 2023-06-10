@@ -92,6 +92,7 @@ input, select{
     letter-spacing: 1.28px;
     font-style: italic;
     line-height: 28.8px;
+    padding-left: 2%;
 }
 
 input::placeholder{
@@ -102,6 +103,8 @@ input::placeholder{
     font-style: italic ;
     font-family: "add light";
 }
+
+
 
 textarea{
     width: 100%;
