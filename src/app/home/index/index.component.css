@@ -12,12 +12,24 @@
   justify-content: center;
   margin-bottom: 0px;
 }
+
+.home-prods{
+  background: rgb(255,255,255, .8);
+  padding: 5% 0;
+}
+
 .rgba{
   margin-top: -35%;
 }
 
-.home-prods{
-  background: rgb(255,255,255, .8);
+.para{
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  position: relative;
+  /* background: rgba(228, 224, 224, 0.5); */
 }
 
 .top-logo-image{
@@ -26,7 +38,6 @@
 
 .top-logo-image img {
   padding-bottom: 5px;
-  margin-top: 50px;
   width: 30%;
   height: 30%;
 }
@@ -197,16 +208,6 @@
 .slideimg{
   width:100%;
   height: 100vh;
-}
-
-.para{
-  width: 100%;
-  height: 80vh;
-  align-items: center;
-  padding-bottom: 5%;
-  padding-top: 2%;
-  position: relative;
-  /* background: rgba(228, 224, 224, 0.5); */
 }
 
 /* The dots/bullets/indicators */
