@@ -236,7 +236,6 @@
   animation-duration: 6.5s;
 }
 
-
 @keyframes fade {
   from {opacity: .9} 
   to {opacity: 1}
