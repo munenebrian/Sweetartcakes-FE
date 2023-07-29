@@ -253,6 +253,7 @@
 
 .column {
     float: left;
+    height: 60vh;
     width: 30%;
     padding: 10px;
     margin-left: 3%;
@@ -444,7 +445,6 @@ a:focus, a:active {
 
     .column {
         float: none;
-        display: flex;
         width: 90%;
         padding: 10px;
         margin: 3% 5%;
@@ -563,7 +563,6 @@ a:focus, a:active {
 
     .column {
         float: none;
-        display: flex;
         width: 90%;
         padding: 10px;
         margin: 3% 5%;
