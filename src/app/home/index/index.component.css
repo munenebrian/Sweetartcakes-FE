@@ -186,6 +186,7 @@
   height: 80vh;
   width: 100%;
   z-index: -99;
+  object-fit: cover;
 }
 
 /* Slideshow container */
@@ -693,7 +694,7 @@
 }
 
 .carousel{
-  display: flex;
+  display: none;
   width: 100%;
   padding-bottom: 10%;
 }
