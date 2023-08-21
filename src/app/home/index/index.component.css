@@ -183,9 +183,9 @@
 
 .fade>img {
   vertical-align: middle;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
-  z-index: -99;
+  z-index: 999;
   object-fit: cover;
 }
 
@@ -194,7 +194,6 @@
   max-width: 100%;
   position: relative;
   margin: auto;
-
 }
 
 /* Caption text */
